@@ -1,0 +1,1061 @@
+PDE,Operators,Scenario,Initial condition,True parameters,Recovered / metric,R2,Median abs parameter error (%),Good segments,Total segments,PSD-invisible,Status
+R+Diff,Diff,S1,Random smooth,R=0.65; D=750,R=0.65; D=750,1.0,3.80354437404607e-13,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S1,One central cluster,R=0.65; D=750,R=0.6517; D=751.39,0.9999909452556689,0.22339411389335043,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S1,Many clusters,R=0.65; D=750,R=0.65; D=750,1.0,3.974476346895582e-09,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S1,Clusters + singles,R=0.65; D=750,R=0.65; D=750,1.0,6.867304445898835e-13,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S2,Random smooth,R=0.65; D=750,R=0.65; D=750,1.0,2.2374808558640488e-13,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S2,One central cluster,R=0.65; D=750,R=0.65147; D=751.19,0.9999936840641572,0.1923110423991411,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S2,Many clusters,R=0.65; D=750,R=0.65; D=750,1.0,2.4518214376146904e-09,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S2,Clusters + singles,R=0.65; D=750,R=0.65; D=750,1.0,4.690538555853262e-13,,,,known-time PSD-symbol recovery
+R+Diff,Diff,S3,Random smooth,R=0.65; D=750,D/(R)=1153.8,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff,Diff,S3,One central cluster,R=0.65; D=750,D/(R)=1153.1,0.9999936840641572,,,,,unknown-time ratio / shape recovery
+R+Diff,Diff,S3,Many clusters,R=0.65; D=750,D/(R)=1153.8,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff,Diff,S3,Clusters + singles,R=0.65; D=750,D/(R)=1153.8,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff,Diff,S4,Random smooth,R=0.65; D=750,shape coefficients=[-3055.5497     6.3204],0.9875700275016784,,,,,single-snapshot shape diagnostic only
+R+Diff,Diff,S4,One central cluster,R=0.65; D=750,shape coefficients=[-2543.0603   -32.3085],0.5134565267774223,,,,,single-snapshot shape diagnostic only
+R+Diff,Diff,S4,Many clusters,R=0.65; D=750,shape coefficients=[-3.9244e+03 -7.5632e-01],0.9515683468577433,,,,,single-snapshot shape diagnostic only
+R+Diff,Diff,S4,Clusters + singles,R=0.65; D=750,shape coefficients=[-2.5347e+03  2.1207e+00],0.9943955645975301,,,,,single-snapshot shape diagnostic only
+R+Diff,Diff,S5,Random smooth,R=0.65; D=750,median accepted-segment metric=-195.26,0.8709313373597097,,3.0,8.0,,segmented regional shape diagnostic
+R+Diff,Diff,S5,One central cluster,R=0.65; D=750,median accepted-segment metric=-141.33,0.8501702663876005,,4.0,8.0,,segmented regional shape diagnostic
+R+Diff,Diff,S5,Many clusters,R=0.65; D=750,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Diff,Diff,S5,Clusters + singles,R=0.65; D=750,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Adv,Adv,S1,Random smooth,R=0.65; c=120,R=0.65,,3.0744637605004333e-13,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S1,One central cluster,R=0.65; c=120,R=0.65,,0.0001970999803027404,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S1,Many clusters,R=0.65; c=120,R=0.65,,1.0675221390626505e-11,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S1,Clusters + singles,R=0.65; c=120,R=0.65,,1.1956247957501686e-13,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S2,Random smooth,R=0.65; c=120,R=0.65,,3.4160708450004814e-13,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S2,One central cluster,R=0.65; c=120,R=0.65,,0.0005940927399771512,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S2,Many clusters,R=0.65; c=120,R=0.65,,1.2536980001151768e-11,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S2,Clusters + singles,R=0.65; c=120,R=0.65,,2.049642507000289e-13,,,c,known-time PSD-symbol recovery
+R+Adv,Adv,S3,Random smooth,R=0.65; c=120,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv,Adv,S3,One central cluster,R=0.65; c=120,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv,Adv,S3,Many clusters,R=0.65; c=120,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv,Adv,S3,Clusters + singles,R=0.65; c=120,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv,Adv,S4,Random smooth,R=0.65; c=120,shape coefficients=[-2.5678],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv,Adv,S4,One central cluster,R=0.65; c=120,shape coefficients=[-41.0884],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv,Adv,S4,Many clusters,R=0.65; c=120,shape coefficients=[-19.725],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv,Adv,S4,Clusters + singles,R=0.65; c=120,shape coefficients=[-2.2774],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv,Adv,S5,Random smooth,R=0.65; c=120,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Adv,Adv,S5,One central cluster,R=0.65; c=120,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Adv,Adv,S5,Many clusters,R=0.65; c=120,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Adv,Adv,S5,Clusters + singles,R=0.65; c=120,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Hyper,Hyper,S1,Random smooth,R=0.65; nu=2e+05,R=0.65; nu=2e+05,1.0,4.621804149652374e-11,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S1,One central cluster,R=0.65; nu=2e+05,R=0.63157; nu=1.9599e+05,0.9959479298294349,2.4212169245501403,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S1,Many clusters,R=0.65; nu=2e+05,R=0.65; nu=2e+05,1.0,1.321306280579812e-07,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S1,Clusters + singles,R=0.65; nu=2e+05,R=0.65; nu=2e+05,1.0,5.254547702931561e-11,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S2,Random smooth,R=0.65; nu=2e+05,R=0.65; nu=2e+05,1.0,1.705415104862158e-11,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S2,One central cluster,R=0.65; nu=2e+05,R=0.63741; nu=1.9721e+05,0.9983345719377149,1.6659139755924457,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S2,Many clusters,R=0.65; nu=2e+05,R=0.65; nu=2e+05,1.0,6.902570395521497e-08,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S2,Clusters + singles,R=0.65; nu=2e+05,R=0.65; nu=2e+05,1.0,3.1297185697754824e-11,,,,known-time PSD-symbol recovery
+R+Hyper,Hyper,S3,Random smooth,R=0.65; nu=2e+05,nu/(R)=3.0769e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper,Hyper,S3,One central cluster,R=0.65; nu=2e+05,nu/(R)=2.8381e+05,0.9984500765383785,,,,,unknown-time ratio / shape recovery
+R+Hyper,Hyper,S3,Many clusters,R=0.65; nu=2e+05,nu/(R)=3.0769e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper,Hyper,S3,Clusters + singles,R=0.65; nu=2e+05,nu/(R)=3.0769e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper,Hyper,S4,Random smooth,R=0.65; nu=2e+05,shape coefficients=[ 1.8437e+05 -7.9782e+03  1.2692e+01],0.9459511987016209,,,,,single-snapshot shape diagnostic only
+R+Hyper,Hyper,S4,One central cluster,R=0.65; nu=2e+05,shape coefficients=[ 3.4829e+05 -9.3205e+03 -1.6499e+01],0.7996351035355218,,,,,single-snapshot shape diagnostic only
+R+Hyper,Hyper,S4,Many clusters,R=0.65; nu=2e+05,shape coefficients=[ 2.7851e+05 -9.4899e+03  8.2743e+00],0.963079609219498,,,,,single-snapshot shape diagnostic only
+R+Hyper,Hyper,S4,Clusters + singles,R=0.65; nu=2e+05,shape coefficients=[ 1.9183e+05 -7.9826e+03  1.0168e+01],0.9510353138252022,,,,,single-snapshot shape diagnostic only
+R+Hyper,Hyper,S5,Random smooth,R=0.65; nu=2e+05,median accepted-segment metric=-639.8,0.9254919940355798,,7.0,8.0,,segmented regional shape diagnostic
+R+Hyper,Hyper,S5,One central cluster,R=0.65; nu=2e+05,median accepted-segment metric=-383.84,0.950973272505754,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper,Hyper,S5,Many clusters,R=0.65; nu=2e+05,median accepted-segment metric=-871.39,0.8356884345622266,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper,Hyper,S5,Clusters + singles,R=0.65; nu=2e+05,median accepted-segment metric=-929.4,0.8868242460680127,,5.0,8.0,,segmented regional shape diagnostic
+R+SH,SH,S1,Random smooth,R=1.25; ell=22,R=1.25; ell=22,1.0,4.844609562000683e-14,,,,known-time PSD-symbol recovery
+R+SH,SH,S1,One central cluster,R=1.25; ell=22,R=1.2501; ell=22.001,0.9999999130248995,0.005069846244105265,,,,known-time PSD-symbol recovery
+R+SH,SH,S1,Many clusters,R=1.25; ell=22,R=1.25; ell=22,1.0,3.219662920111494e-10,,,,known-time PSD-symbol recovery
+R+SH,SH,S1,Clusters + singles,R=1.25; ell=22,R=1.25; ell=22,1.0,1.808654236480255e-13,,,,known-time PSD-symbol recovery
+R+SH,SH,S2,Random smooth,R=1.25; ell=22,R=1.25; ell=22,1.0,5.975018459800843e-14,,,,known-time PSD-symbol recovery
+R+SH,SH,S2,One central cluster,R=1.25; ell=22,R=1.2501; ell=22.001,0.9999999179829443,0.004706935775068321,,,,known-time PSD-symbol recovery
+R+SH,SH,S2,Many clusters,R=1.25; ell=22,R=1.25; ell=22,1.0,2.517541730640005e-10,,,,known-time PSD-symbol recovery
+R+SH,SH,S2,Clusters + singles,R=1.25; ell=22,R=1.25; ell=22,1.0,1.647167251080232e-13,,,,known-time PSD-symbol recovery
+R+SH,SH,S3,Random smooth,R=1.25; ell=22,ell=22; 2*dt=2.5; R=1.25,1.0,,,,,unknown-time ratio / shape recovery
+R+SH,SH,S3,One central cluster,R=1.25; ell=22,ell=22; 2*dt=2.5008; R=1.2498,0.9999999369832347,,,,,unknown-time ratio / shape recovery
+R+SH,SH,S3,Many clusters,R=1.25; ell=22,ell=22; 2*dt=2.5; R=1.25,1.0,,,,,unknown-time ratio / shape recovery
+R+SH,SH,S3,Clusters + singles,R=1.25; ell=22,ell=22; 2*dt=2.5; R=1.25,1.0,,,,,unknown-time ratio / shape recovery
+R+SH,SH,S4,Random smooth,R=1.25; ell=22,shape coefficients=[ 7.4022e+04 -5.8346e+03  1.1360e+01],0.9119379014659081,,,,,single-snapshot shape diagnostic only
+R+SH,SH,S4,One central cluster,R=1.25; ell=22,shape coefficients=[ 3.2294e+05 -9.0699e+03 -1.2906e+01],0.8691171139543047,,,,,single-snapshot shape diagnostic only
+R+SH,SH,S4,Many clusters,R=1.25; ell=22,shape coefficients=[ 1.9945e+05 -8.1036e+03  9.5023e+00],0.9382959223387017,,,,,single-snapshot shape diagnostic only
+R+SH,SH,S4,Clusters + singles,R=1.25; ell=22,shape coefficients=[ 7.9275e+04 -5.8749e+03  1.0305e+01],0.9175974037591696,,,,,single-snapshot shape diagnostic only
+R+SH,SH,S5,Random smooth,R=1.25; ell=22,median accepted-segment metric=-887.8,0.9161705893940975,,5.0,8.0,,segmented regional shape diagnostic
+R+SH,SH,S5,One central cluster,R=1.25; ell=22,median accepted-segment metric=-374.77,0.9540374214168462,,8.0,8.0,,segmented regional shape diagnostic
+R+SH,SH,S5,Many clusters,R=1.25; ell=22,median accepted-segment metric=-1091,0.8874969834879982,,6.0,8.0,,segmented regional shape diagnostic
+R+SH,SH,S5,Clusters + singles,R=1.25; ell=22,median accepted-segment metric=-909.89,0.9566388576207372,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff,FracDiff,S1,Random smooth,R=0.65; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,8.541885147923704e-11,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S1,One central cluster,R=0.65; Df=350; alpha=1.5,R=0.68906; Df=311.51; alpha=1.4574,0.9921963649348364,6.008936438222073,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S1,Many clusters,R=0.65; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,1.5913639636813477e-07,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S1,Clusters + singles,R=0.65; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,6.0091614224282755e-12,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S2,Random smooth,R=0.65; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,2.5603450983278608e-11,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S2,One central cluster,R=0.65; Df=350; alpha=1.5,R=0.67294; Df=326.66; alpha=1.4748,0.9964747181774462,3.528969037142299,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S2,Many clusters,R=0.65; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,6.555093220365157e-08,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S2,Clusters + singles,R=0.65; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,1.050441784837648e-11,,,,known-time PSD-symbol recovery
+R+FracDiff,FracDiff,S3,Random smooth,R=0.65; Df=350; alpha=1.5,alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff,FracDiff,S3,One central cluster,R=0.65; Df=350; alpha=1.5,alpha=1.4748; Df/c0=485.43,0.9964747181774462,,,,,unknown-time ratio / shape recovery
+R+FracDiff,FracDiff,S3,Many clusters,R=0.65; Df=350; alpha=1.5,alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff,FracDiff,S3,Clusters + singles,R=0.65; Df=350; alpha=1.5,alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff,FracDiff,S4,Random smooth,R=0.65; Df=350; alpha=1.5,shape coefficients=[-1.1225e+06  4.2241e+04 -3.8082e+03  3.7259e+00],0.9971672488680496,,,,,single-snapshot shape diagnostic only
+R+FracDiff,FracDiff,S4,One central cluster,R=0.65; Df=350; alpha=1.5,shape coefficients=[-4.4785e+07  1.7112e+06 -1.9243e+04 -9.1661e+00],0.880591339540155,,,,,single-snapshot shape diagnostic only
+R+FracDiff,FracDiff,S4,Many clusters,R=0.65; Df=350; alpha=1.5,shape coefficients=[ 7.4098e+06 -2.1778e+04 -6.1723e+03  3.4008e+00],0.9941932521365077,,,,,single-snapshot shape diagnostic only
+R+FracDiff,FracDiff,S4,Clusters + singles,R=0.65; Df=350; alpha=1.5,shape coefficients=[-3.1877e+06  1.4945e+05 -4.6914e+03  3.3365e+00],0.9957940596484868,,,,,single-snapshot shape diagnostic only
+R+FracDiff,FracDiff,S5,Random smooth,R=0.65; Df=350; alpha=1.5,median accepted-segment metric=-1321.6,0.9716975471756265,,7.0,8.0,,segmented regional shape diagnostic
+R+FracDiff,FracDiff,S5,One central cluster,R=0.65; Df=350; alpha=1.5,median accepted-segment metric=-767.56,0.9780939349817164,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff,FracDiff,S5,Many clusters,R=0.65; Df=350; alpha=1.5,median accepted-segment metric=-1654,0.9369799916400323,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff,FracDiff,S5,Clusters + singles,R=0.65; Df=350; alpha=1.5,median accepted-segment metric=-1613.4,0.9288952758870225,,8.0,8.0,,segmented regional shape diagnostic
+R+Disp,Disp,S1,Random smooth,R=0.65; beta3=80000,R=0.65,,2.732856676000385e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S1,One central cluster,R=0.65; beta3=80000,R=0.65,,0.0007135723719772139,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S1,Many clusters,R=0.65; beta3=80000,R=0.65,,1.5662684824327207e-11,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S1,Clusters + singles,R=0.65; beta3=80000,R=0.65,,4.953302725250698e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S2,Random smooth,R=0.65; beta3=80000,R=0.65,,3.2452673027504573e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S2,One central cluster,R=0.65; beta3=80000,R=0.65,,0.00039123374063498005,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S2,Many clusters,R=0.65; beta3=80000,R=0.65,,1.6789988203177366e-11,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S2,Clusters + singles,R=0.65; beta3=80000,R=0.65,,4.782499183000674e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp,Disp,S3,Random smooth,R=0.65; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp,Disp,S3,One central cluster,R=0.65; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp,Disp,S3,Many clusters,R=0.65; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp,Disp,S3,Clusters + singles,R=0.65; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp,Disp,S4,Random smooth,R=0.65; beta3=80000,shape coefficients=[-2.5678],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp,Disp,S4,One central cluster,R=0.65; beta3=80000,shape coefficients=[-41.0884],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp,Disp,S4,Many clusters,R=0.65; beta3=80000,shape coefficients=[-19.7279],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp,Disp,S4,Clusters + singles,R=0.65; beta3=80000,shape coefficients=[-2.2774],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp,Disp,S5,Random smooth,R=0.65; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp,Disp,S5,One central cluster,R=0.65; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp,Disp,S5,Many clusters,R=0.65; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp,Disp,S5,Clusters + singles,R=0.65; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Sixth,Sixth,S1,Random smooth,R=0.65; mu6=4e+07,R=0.65; mu6=4e+07,1.0,8.619899894641164e-10,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S1,One central cluster,R=0.65; mu6=4e+07,R=0.58169; mu6=3.6234e+07,0.9705248388382334,9.96222100876312,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S1,Many clusters,R=0.65; mu6=4e+07,R=0.65; mu6=4e+07,0.9999999999999999,7.369066521752861e-07,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S1,Clusters + singles,R=0.65; mu6=4e+07,R=0.65; mu6=4e+07,1.0,4.787187563911525e-10,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S2,Random smooth,R=0.65; mu6=4e+07,R=0.65; mu6=4e+07,1.0,3.5589545232229424e-10,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S2,One central cluster,R=0.65; mu6=4e+07,R=0.60161; mu6=3.763e+07,0.9687313036830614,6.684720964770596,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S2,Many clusters,R=0.65; mu6=4e+07,R=0.65; mu6=4e+07,0.9999999999999999,6.134982256698698e-07,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S2,Clusters + singles,R=0.65; mu6=4e+07,R=0.65; mu6=4e+07,1.0,1.4589074689516005e-10,,,,known-time PSD-symbol recovery
+R+Sixth,Sixth,S3,Random smooth,R=0.65; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Sixth,Sixth,S3,One central cluster,R=0.65; mu6=4e+07,mu6/(R)=1.3947e+07,0.9736508357388326,,,,,unknown-time ratio / shape recovery
+R+Sixth,Sixth,S3,Many clusters,R=0.65; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Sixth,Sixth,S3,Clusters + singles,R=0.65; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Sixth,Sixth,S4,Random smooth,R=0.65; mu6=4e+07,shape coefficients=[ 1.9736e+07 -3.3401e+05 -5.1533e+03  9.3542e+00],0.9371146344922784,,,,,single-snapshot shape diagnostic only
+R+Sixth,Sixth,S4,One central cluster,R=0.65; mu6=4e+07,shape coefficients=[-3.9721e+07  1.5679e+06 -1.8598e+04 -5.2617e+00],0.9359643952954294,,,,,single-snapshot shape diagnostic only
+R+Sixth,Sixth,S4,Many clusters,R=0.65; mu6=4e+07,shape coefficients=[ 4.8645e+06  1.6722e+05 -9.1201e+03  7.9212e+00],0.9427012243982842,,,,,single-snapshot shape diagnostic only
+R+Sixth,Sixth,S4,Clusters + singles,R=0.65; mu6=4e+07,shape coefficients=[ 1.6597e+07 -2.3796e+05 -5.7329e+03  7.6360e+00],0.9423964242327043,,,,,single-snapshot shape diagnostic only
+R+Sixth,Sixth,S5,Random smooth,R=0.65; mu6=4e+07,median accepted-segment metric=-1410.6,0.95557717492651,,5.0,8.0,,segmented regional shape diagnostic
+R+Sixth,Sixth,S5,One central cluster,R=0.65; mu6=4e+07,median accepted-segment metric=-658.95,0.9856832922147021,,8.0,8.0,,segmented regional shape diagnostic
+R+Sixth,Sixth,S5,Many clusters,R=0.65; mu6=4e+07,median accepted-segment metric=-1785.4,0.9431215970950415,,8.0,8.0,,segmented regional shape diagnostic
+R+Sixth,Sixth,S5,Clusters + singles,R=0.65; mu6=4e+07,median accepted-segment metric=-1928,0.956240045076513,,7.0,8.0,,segmented regional shape diagnostic
+R+Loss,Loss,S1,Random smooth,R=0.65; eta=0.2,R_eff=0.45,,7.031412489292658e-13,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S1,One central cluster,R=0.65; eta=0.2,R_eff=0.44999,,0.003234232928028824,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S1,Many clusters,R=0.65; eta=0.2,R_eff=0.45,,9.726787276854844e-11,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S1,Clusters + singles,R=0.65; eta=0.2,R_eff=0.45,,9.74529099393193e-13,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S2,Random smooth,R=0.65; eta=0.2,R_eff=0.45,,7.154770603139898e-13,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S2,One central cluster,R=0.65; eta=0.2,R_eff=0.44999,,0.003259680593016413,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S2,Many clusters,R=0.65; eta=0.2,R_eff=0.45,,9.213617523250327e-11,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S2,Clusters + singles,R=0.65; eta=0.2,R_eff=0.45,,9.86864910777917e-13,,,,known-time PSD-symbol recovery
+R+Loss,Loss,S3,Random smooth,R=0.65; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,,unknown-time ratio / shape recovery
+R+Loss,Loss,S3,One central cluster,R=0.65; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,,unknown-time ratio / shape recovery
+R+Loss,Loss,S3,Many clusters,R=0.65; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,,unknown-time ratio / shape recovery
+R+Loss,Loss,S3,Clusters + singles,R=0.65; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,,unknown-time ratio / shape recovery
+R+Loss,Loss,S4,Random smooth,R=0.65; eta=0.2,shape coefficients=[-2.5678],0.0,,,,,single-snapshot shape diagnostic only
+R+Loss,Loss,S4,One central cluster,R=0.65; eta=0.2,shape coefficients=[-41.0884],0.0,,,,,single-snapshot shape diagnostic only
+R+Loss,Loss,S4,Many clusters,R=0.65; eta=0.2,shape coefficients=[-19.7295],0.0,,,,,single-snapshot shape diagnostic only
+R+Loss,Loss,S4,Clusters + singles,R=0.65; eta=0.2,shape coefficients=[-2.2774],0.0,,,,,single-snapshot shape diagnostic only
+R+Loss,Loss,S5,Random smooth,R=0.65; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Loss,Loss,S5,One central cluster,R=0.65; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Loss,Loss,S5,Many clusters,R=0.65; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Loss,Loss,S5,Clusters + singles,R=0.65; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Nonlocal,Nonlocal,S1,Random smooth,R=0.65; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.105288700071267e-13,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S1,One central cluster,R=0.65; chi=0.8; sigma=45,R=0.64995; chi=0.80013; sigma=44.986,0.9999997469666152,0.01600657983766296,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S1,Many clusters,R=0.65; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,2.0337898032352086e-10,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S1,Clusters + singles,R=0.65; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,4.163336342344337e-13,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S2,Random smooth,R=0.65; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.2631870857957337e-13,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S2,One central cluster,R=0.65; chi=0.8; sigma=45,R=0.64995; chi=0.8001; sigma=44.988,0.9999998099432337,0.012684075488864077,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S2,Many clusters,R=0.65; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.9777235404916382e-10,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S2,Clusters + singles,R=0.65; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,4.270088556250602e-13,,,,known-time PSD-symbol recovery
+R+Nonlocal,Nonlocal,S3,Random smooth,R=0.65; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Nonlocal,Nonlocal,S3,One central cluster,R=0.65; chi=0.8; sigma=45,sigma=44.988; chi/c0=1.231,0.9999998099432337,,,,,unknown-time ratio / shape recovery
+R+Nonlocal,Nonlocal,S3,Many clusters,R=0.65; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Nonlocal,Nonlocal,S3,Clusters + singles,R=0.65; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Nonlocal,Nonlocal,S4,Random smooth,R=0.65; chi=0.8; sigma=45,shape coefficients=[-2.7873e+06  4.1198e+04 -8.0572e+02  3.2747e+00],0.9795549154973112,,,,,single-snapshot shape diagnostic only
+R+Nonlocal,Nonlocal,S4,One central cluster,R=0.65; chi=0.8; sigma=45,shape coefficients=[-3.6488e+07  1.3668e+06 -1.4947e+04 -9.0470e+00],0.8093642442213398,,,,,single-snapshot shape diagnostic only
+R+Nonlocal,Nonlocal,S4,Many clusters,R=0.65; chi=0.8; sigma=45,shape coefficients=[ 3.4240e+05 -2.1016e+04 -2.6703e+03  1.3172e+00],0.9933777632125683,,,,,single-snapshot shape diagnostic only
+R+Nonlocal,Nonlocal,S4,Clusters + singles,R=0.65; chi=0.8; sigma=45,shape coefficients=[-1.7592e+06  7.0267e+04 -1.2177e+03  1.7415e+00],0.875099832697137,,,,,single-snapshot shape diagnostic only
+R+Nonlocal,Nonlocal,S5,Random smooth,R=0.65; chi=0.8; sigma=45,median accepted-segment metric=-496.39,0.8877409866311519,,5.0,8.0,,segmented regional shape diagnostic
+R+Nonlocal,Nonlocal,S5,One central cluster,R=0.65; chi=0.8; sigma=45,median accepted-segment metric=-675.19,0.9846640168010022,,8.0,8.0,,segmented regional shape diagnostic
+R+Nonlocal,Nonlocal,S5,Many clusters,R=0.65; chi=0.8; sigma=45,median accepted-segment metric=-1785.4,0.9395479761257862,,8.0,8.0,,segmented regional shape diagnostic
+R+Nonlocal,Nonlocal,S5,Clusters + singles,R=0.65; chi=0.8; sigma=45,median accepted-segment metric=-1869.4,0.9605050314813017,,6.0,8.0,,segmented regional shape diagnostic
+R+Diff+Adv,Diff + Adv,S1,Random smooth,R=0.65; D=750; c=120,R=0.65; D=750,1.0,1.1721222283365652e-12,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S1,One central cluster,R=0.65; D=750; c=120,R=0.6504; D=750.3,0.9999988511765519,0.050896572057694475,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S1,Many clusters,R=0.65; D=750; c=120,R=0.65; D=750,1.0,8.07079217132958e-10,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S1,Clusters + singles,R=0.65; D=750; c=120,R=0.65; D=750,1.0,2.6837108034436447e-13,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S2,Random smooth,R=0.65; D=750; c=120,R=0.65; D=750,1.0,1.0141175648524763e-13,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S2,One central cluster,R=0.65; D=750; c=120,R=0.64934; D=749.44,0.9999973500742108,0.08806015292764996,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S2,Many clusters,R=0.65; D=750; c=120,R=0.65; D=750,1.0,1.4905111993648928e-09,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S2,Clusters + singles,R=0.65; D=750; c=120,R=0.65; D=750,1.0,1.524934025208215e-12,,,c,known-time PSD-symbol recovery
+R+Diff+Adv,Diff + Adv,S3,Random smooth,R=0.65; D=750; c=120,D/(R)=1153.8,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv,Diff + Adv,S3,One central cluster,R=0.65; D=750; c=120,D/(R)=1154.2,0.9999973500742108,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv,Diff + Adv,S3,Many clusters,R=0.65; D=750; c=120,D/(R)=1153.8,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv,Diff + Adv,S3,Clusters + singles,R=0.65; D=750; c=120,D/(R)=1153.8,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv,Diff + Adv,S4,Random smooth,R=0.65; D=750; c=120,shape coefficients=[-3052.3207     6.3057],0.9879019273884508,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv,Diff + Adv,S4,One central cluster,R=0.65; D=750; c=120,shape coefficients=[-2545.4006   -32.3031],0.5139999536905113,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv,Diff + Adv,S4,Many clusters,R=0.65; D=750; c=120,shape coefficients=[-3.9224e+03 -7.6678e-01],0.9510610801489259,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv,Diff + Adv,S4,Clusters + singles,R=0.65; D=750; c=120,shape coefficients=[-2.5347e+03  2.1207e+00],0.9943955820314796,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv,Diff + Adv,S5,Random smooth,R=0.65; D=750; c=120,median accepted-segment metric=-173.37,0.8029799323095419,,1.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv,Diff + Adv,S5,One central cluster,R=0.65; D=750; c=120,median accepted-segment metric=-156.63,0.8415106592451906,,5.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv,Diff + Adv,S5,Many clusters,R=0.65; D=750; c=120,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv,Diff + Adv,S5,Clusters + singles,R=0.65; D=750; c=120,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Hyper,Diff + Hyper,S1,Random smooth,R=0.65; D=750; nu=2e+05,R=0.65; D=750; nu=2e+05,1.0,8.958920079749078e-08,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S1,One central cluster,R=0.65; D=750; nu=2e+05,R=0.96024; D=1507.9; nu=5.2242e-09,0.9526457342005257,99.99999999999737,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S1,Many clusters,R=0.65; D=750; nu=2e+05,R=0.65; D=750; nu=2e+05,0.9999999999999277,9.294451135792769e-05,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S1,Clusters + singles,R=0.65; D=750; nu=2e+05,R=0.65; D=750; nu=2e+05,1.0,6.088116788305342e-08,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S2,Random smooth,R=0.65; D=750; nu=2e+05,R=0.65; D=750; nu=2e+05,1.0,3.915600245818495e-09,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S2,One central cluster,R=0.65; D=750; nu=2e+05,R=0.94813; D=1439.9; nu=23457,0.969122000056428,88.27162721541417,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S2,Many clusters,R=0.65; D=750; nu=2e+05,R=0.65; D=750; nu=2e+05,0.9999999999999979,1.706311700399965e-05,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S2,Clusters + singles,R=0.65; D=750; nu=2e+05,R=0.65; D=750; nu=2e+05,1.0,1.7913072952069343e-08,,,,known-time PSD-symbol recovery
+R+Diff+Hyper,Diff + Hyper,S3,Random smooth,R=0.65; D=750; nu=2e+05,D/(R)=1153.8; nu/(R)=3.0769e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper,Diff + Hyper,S3,One central cluster,R=0.65; D=750; nu=2e+05,D/(R)=1518.6; nu/(R)=24740,0.9691220000564281,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper,Diff + Hyper,S3,Many clusters,R=0.65; D=750; nu=2e+05,D/(R)=1153.8; nu/(R)=3.0769e+05,0.9999999999999979,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper,Diff + Hyper,S3,Clusters + singles,R=0.65; D=750; nu=2e+05,D/(R)=1153.8; nu/(R)=3.0769e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper,Diff + Hyper,S4,Random smooth,R=0.65; D=750; nu=2e+05,shape coefficients=[ 2.8072e+05 -9.7129e+03  1.1753e+01],0.9635163288377498,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper,Diff + Hyper,S4,One central cluster,R=0.65; D=750; nu=2e+05,shape coefficients=[ 3.5198e+05 -9.2159e+03 -1.9387e+01],0.7341951633347333,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper,Diff + Hyper,S4,Many clusters,R=0.65; D=750; nu=2e+05,shape coefficients=[ 3.3945e+05 -1.0520e+04  6.7650e+00],0.9657902488455702,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper,Diff + Hyper,S4,Clusters + singles,R=0.65; D=750; nu=2e+05,shape coefficients=[ 2.8286e+05 -9.6204e+03  9.3243e+00],0.970547808522583,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper,Diff + Hyper,S5,Random smooth,R=0.65; D=750; nu=2e+05,median accepted-segment metric=-630.75,0.9480758217184622,,8.0,8.0,,segmented regional shape diagnostic
+R+Diff+Hyper,Diff + Hyper,S5,One central cluster,R=0.65; D=750; nu=2e+05,median accepted-segment metric=-389.66,0.9489414113513954,,8.0,8.0,,segmented regional shape diagnostic
+R+Diff+Hyper,Diff + Hyper,S5,Many clusters,R=0.65; D=750; nu=2e+05,median accepted-segment metric=-805.97,0.8470564966154331,,6.0,8.0,,segmented regional shape diagnostic
+R+Diff+Hyper,Diff + Hyper,S5,Clusters + singles,R=0.65; D=750; nu=2e+05,median accepted-segment metric=-850.48,0.8609901818829897,,5.0,8.0,,segmented regional shape diagnostic
+R+Diff+SH,Diff + SH,S1,Random smooth,R=1.25; D=750; ell=22,c0=0.25; c2=218; c4=-2.3426e+05,1.0,6.423750420481156e-11,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S1,One central cluster,R=1.25; D=750; ell=22,c0=0.27514; c2=165.03; c4=-2.2204e+05,0.9961534126165351,10.054207071571053,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S1,Many clusters,R=1.25; D=750; ell=22,c0=0.25; c2=218; c4=-2.3426e+05,1.0,5.720373286166591e-07,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S1,Clusters + singles,R=1.25; D=750; ell=22,c0=0.25; c2=218; c4=-2.3426e+05,1.0,3.109845714277526e-10,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S2,Random smooth,R=1.25; D=750; ell=22,c0=0.25; c2=218; c4=-2.3426e+05,1.0,5.5644377994212846e-11,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S2,One central cluster,R=1.25; D=750; ell=22,c0=0.26264; c2=191.48; c4=-2.2818e+05,0.9990677160636933,5.0573218970558775,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S2,Many clusters,R=1.25; D=750; ell=22,c0=0.25; c2=218; c4=-2.3426e+05,1.0,2.768681284237573e-07,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S2,Clusters + singles,R=1.25; D=750; ell=22,c0=0.25; c2=218; c4=-2.3426e+05,1.0,1.709743457922741e-11,,,,known-time PSD-symbol recovery
+R+Diff+SH,Diff + SH,S3,Random smooth,R=1.25; D=750; ell=22,net_k2/c0=872; net_k4/c0=-9.3702e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+SH,Diff + SH,S3,One central cluster,R=1.25; D=750; ell=22,net_k2/c0=729.05; net_k4/c0=-8.6878e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9990677160636933,,,,,unknown-time ratio / shape recovery
+R+Diff+SH,Diff + SH,S3,Many clusters,R=1.25; D=750; ell=22,net_k2/c0=872; net_k4/c0=-9.3702e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+SH,Diff + SH,S3,Clusters + singles,R=1.25; D=750; ell=22,net_k2/c0=872; net_k4/c0=-9.3702e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+SH,Diff + SH,S4,Random smooth,R=1.25; D=750; ell=22,shape coefficients=[ 1.9470e+05 -8.2074e+03  1.3120e+01],0.941295298584473,,,,,single-snapshot shape diagnostic only
+R+Diff+SH,Diff + SH,S4,One central cluster,R=1.25; D=750; ell=22,shape coefficients=[ 3.4981e+05 -9.3790e+03 -1.5959e+01],0.8091969195117067,,,,,single-snapshot shape diagnostic only
+R+Diff+SH,Diff + SH,S4,Many clusters,R=1.25; D=750; ell=22,shape coefficients=[ 2.8091e+05 -9.5518e+03  8.5144e+00],0.9595453911456622,,,,,single-snapshot shape diagnostic only
+R+Diff+SH,Diff + SH,S4,Clusters + singles,R=1.25; D=750; ell=22,shape coefficients=[ 2.0164e+05 -8.1961e+03  1.0611e+01],0.946504434731762,,,,,single-snapshot shape diagnostic only
+R+Diff+SH,Diff + SH,S5,Random smooth,R=1.25; D=750; ell=22,median accepted-segment metric=-708.97,0.9063850936741391,,6.0,8.0,,segmented regional shape diagnostic
+R+Diff+SH,Diff + SH,S5,One central cluster,R=1.25; D=750; ell=22,median accepted-segment metric=-381.87,0.9516515246461557,,8.0,8.0,,segmented regional shape diagnostic
+R+Diff+SH,Diff + SH,S5,Many clusters,R=1.25; D=750; ell=22,median accepted-segment metric=-865.88,0.8416163025533645,,7.0,8.0,,segmented regional shape diagnostic
+R+Diff+SH,Diff + SH,S5,Clusters + singles,R=1.25; D=750; ell=22,median accepted-segment metric=-1001.4,0.8929542816745711,,5.0,8.0,,segmented regional shape diagnostic
+R+Diff+FracDiff,Diff + FracDiff,S1,Random smooth,R=0.65; D=750; Df=350; alpha=1.5,R=0.65; D=750; Df=350; alpha=1.5,1.0,8.906789878674696e-07,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S1,One central cluster,R=0.65; D=750; Df=350; alpha=1.5,R=1.4752; D=7.4511e-13; Df=134.81; alpha=1.0233,0.9574817300850986,80.74082906454808,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S1,Many clusters,R=0.65; D=750; Df=350; alpha=1.5,R=0.65; D=750; Df=350; alpha=1.5,0.999999999999996,0.00036925105626324967,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S1,Clusters + singles,R=0.65; D=750; Df=350; alpha=1.5,R=0.65; D=750; Df=350; alpha=1.5,1.0,6.251925324699906e-07,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S2,Random smooth,R=0.65; D=750; Df=350; alpha=1.5,R=0.65; D=750; Df=350; alpha=1.5,1.0,4.6490133573939826e-07,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S2,One central cluster,R=0.65; D=750; Df=350; alpha=1.5,R=1.3842; D=7.4543e-17; Df=163.82; alpha=1.0872,0.9570025274518795,76.59664857487556,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S2,Many clusters,R=0.65; D=750; Df=350; alpha=1.5,R=0.65; D=750; Df=350; alpha=1.5,0.9999999999999983,0.00020730151709530038,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S2,Clusters + singles,R=0.65; D=750; Df=350; alpha=1.5,R=0.65; D=750; Df=350; alpha=1.5,1.0,4.2423418851929754e-08,,,,known-time PSD-symbol recovery
+R+Diff+FracDiff,Diff + FracDiff,S3,Random smooth,R=0.65; D=750; Df=350; alpha=1.5,D/c0=1153.8; alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+FracDiff,Diff + FracDiff,S3,One central cluster,R=0.65; D=750; Df=350; alpha=1.5,D/c0=-4.8309e+06; alpha=1.9996; Df/c0=4.827e+06,0.9715460464195999,,,,,unknown-time ratio / shape recovery
+R+Diff+FracDiff,Diff + FracDiff,S3,Many clusters,R=0.65; D=750; Df=350; alpha=1.5,D/c0=1153.9; alpha=1.5; Df/c0=538.46,0.9999999999999983,,,,,unknown-time ratio / shape recovery
+R+Diff+FracDiff,Diff + FracDiff,S3,Clusters + singles,R=0.65; D=750; Df=350; alpha=1.5,D/c0=1153.8; alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+FracDiff,Diff + FracDiff,S4,Random smooth,R=0.65; D=750; Df=350; alpha=1.5,shape coefficients=[-3.9431e+03 -2.5717e+00],0.9195301104995923,,,,,single-snapshot shape diagnostic only
+R+Diff+FracDiff,Diff + FracDiff,S4,One central cluster,R=0.65; D=750; Df=350; alpha=1.5,shape coefficients=[-2179.8764   -38.856 ],0.3698962355685863,,,,,single-snapshot shape diagnostic only
+R+Diff+FracDiff,Diff + FracDiff,S4,Many clusters,R=0.65; D=750; Df=350; alpha=1.5,shape coefficients=[-3808.8996    -9.2708],0.8059366044839328,,,,,single-snapshot shape diagnostic only
+R+Diff+FracDiff,Diff + FracDiff,S4,Clusters + singles,R=0.65; D=750; Df=350; alpha=1.5,shape coefficients=[-3.8885e+03 -3.5482e+00],0.91726079008337,,,,,single-snapshot shape diagnostic only
+R+Diff+FracDiff,Diff + FracDiff,S5,Random smooth,R=0.65; D=750; Df=350; alpha=1.5,median accepted-segment metric=-152.91,0.8482153602281655,,2.0,8.0,,segmented regional shape diagnostic
+R+Diff+FracDiff,Diff + FracDiff,S5,One central cluster,R=0.65; D=750; Df=350; alpha=1.5,median accepted-segment metric=-160.14,0.8028513409512241,,2.0,8.0,,segmented regional shape diagnostic
+R+Diff+FracDiff,Diff + FracDiff,S5,Many clusters,R=0.65; D=750; Df=350; alpha=1.5,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Diff+FracDiff,Diff + FracDiff,S5,Clusters + singles,R=0.65; D=750; Df=350; alpha=1.5,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Diff+Disp,Diff + Disp,S1,Random smooth,R=0.65; D=750; beta3=80000,R=0.65; D=750,1.0,5.028000807728042e-14,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S1,One central cluster,R=0.65; D=750; beta3=80000,R=0.65092; D=750.77,0.9999976660320915,0.12224358693114015,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S1,Many clusters,R=0.65; D=750; beta3=80000,R=0.65; D=750,1.0,5.134279235381911e-10,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S1,Clusters + singles,R=0.65; D=750; beta3=80000,R=0.65; D=750,1.0,6.522417933387586e-13,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S2,Random smooth,R=0.65; D=750; beta3=80000,R=0.65; D=750,1.0,1.2384122217740813e-12,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S2,One central cluster,R=0.65; D=750; beta3=80000,R=0.64978; D=749.86,0.999998958957253,0.02575554317035334,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S2,Many clusters,R=0.65; D=750; beta3=80000,R=0.65; D=750,1.0,7.762894236261439e-10,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S2,Clusters + singles,R=0.65; D=750; beta3=80000,R=0.65; D=750,1.0,1.1055042920979292e-12,,,beta3,known-time PSD-symbol recovery
+R+Diff+Disp,Diff + Disp,S3,Random smooth,R=0.65; D=750; beta3=80000,D/(R)=1153.8,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Diff+Disp,Diff + Disp,S3,One central cluster,R=0.65; D=750; beta3=80000,D/(R)=1154,0.999998958957253,,,,beta3,unknown-time ratio / shape recovery
+R+Diff+Disp,Diff + Disp,S3,Many clusters,R=0.65; D=750; beta3=80000,D/(R)=1153.8,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Diff+Disp,Diff + Disp,S3,Clusters + singles,R=0.65; D=750; beta3=80000,D/(R)=1153.8,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Diff+Disp,Diff + Disp,S4,Random smooth,R=0.65; D=750; beta3=80000,shape coefficients=[-3055.0184     6.3181],0.9876059844156801,,,,beta3,single-snapshot shape diagnostic only
+R+Diff+Disp,Diff + Disp,S4,One central cluster,R=0.65; D=750; beta3=80000,shape coefficients=[-2541.8253   -32.3009],0.5134830624781174,,,,beta3,single-snapshot shape diagnostic only
+R+Diff+Disp,Diff + Disp,S4,Many clusters,R=0.65; D=750; beta3=80000,shape coefficients=[-3.9196e+03 -7.7356e-01],0.951202897015515,,,,beta3,single-snapshot shape diagnostic only
+R+Diff+Disp,Diff + Disp,S4,Clusters + singles,R=0.65; D=750; beta3=80000,shape coefficients=[-2.5347e+03  2.1207e+00],0.994395548143086,,,,beta3,single-snapshot shape diagnostic only
+R+Diff+Disp,Diff + Disp,S5,Random smooth,R=0.65; D=750; beta3=80000,median accepted-segment metric=-255.41,0.8813232356080472,,1.0,8.0,beta3,segmented regional shape diagnostic
+R+Diff+Disp,Diff + Disp,S5,One central cluster,R=0.65; D=750; beta3=80000,median accepted-segment metric=-141.38,0.8516477987815436,,4.0,8.0,beta3,segmented regional shape diagnostic
+R+Diff+Disp,Diff + Disp,S5,Many clusters,R=0.65; D=750; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Diff+Disp,Diff + Disp,S5,Clusters + singles,R=0.65; D=750; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Diff+Sixth,Diff + Sixth,S1,Random smooth,R=0.65; D=750; mu6=4e+07,R=0.65; D=750; mu6=4e+07,1.0,6.766450648380366e-07,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S1,One central cluster,R=0.65; D=750; mu6=4e+07,R=1.0183; D=1354.1; mu6=2.0556e+06,0.9482522743916375,80.54518856202476,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S1,Many clusters,R=0.65; D=750; mu6=4e+07,R=0.65; D=750; mu6=4e+07,0.9999999999997067,0.00013586295338730754,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S1,Clusters + singles,R=0.65; D=750; mu6=4e+07,R=0.65; D=750; mu6=4e+07,1.0,7.252061739563942e-08,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S2,Random smooth,R=0.65; D=750; mu6=4e+07,R=0.65; D=750; mu6=4e+07,1.0,7.931639629532583e-08,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S2,One central cluster,R=0.65; D=750; mu6=4e+07,R=0.96569; D=1265.4; mu6=8.1753e+06,0.9631897999389036,68.72369981068138,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S2,Many clusters,R=0.65; D=750; mu6=4e+07,R=0.65; D=750; mu6=4e+07,0.9999999999996894,0.0001334109284925944,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S2,Clusters + singles,R=0.65; D=750; mu6=4e+07,R=0.65; D=750; mu6=4e+07,1.0,6.204146891832351e-08,,,,known-time PSD-symbol recovery
+R+Diff+Sixth,Diff + Sixth,S3,Random smooth,R=0.65; D=750; mu6=4e+07,D/(R)=1153.8; mu6/(R)=6.1538e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Sixth,Diff + Sixth,S3,One central cluster,R=0.65; D=750; mu6=4e+07,D/(R)=-1175.2; mu6/(R)=-2.0686e+08,0.9846046039102335,,,,,unknown-time ratio / shape recovery
+R+Diff+Sixth,Diff + Sixth,S3,Many clusters,R=0.65; D=750; mu6=4e+07,D/(R)=1153.8; mu6/(R)=6.1538e+07,0.9999999999997635,,,,,unknown-time ratio / shape recovery
+R+Diff+Sixth,Diff + Sixth,S3,Clusters + singles,R=0.65; D=750; mu6=4e+07,D/(R)=1153.8; mu6/(R)=6.1538e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Sixth,Diff + Sixth,S4,Random smooth,R=0.65; D=750; mu6=4e+07,shape coefficients=[ 6.3943e+06  1.2335e+05 -9.0178e+03  1.1091e+01],0.9473634329914301,,,,,single-snapshot shape diagnostic only
+R+Diff+Sixth,Diff + Sixth,S4,One central cluster,R=0.65; D=750; mu6=4e+07,shape coefficients=[-4.5388e+07  1.7459e+06 -1.9814e+04 -6.6522e+00],0.9103557364962281,,,,,single-snapshot shape diagnostic only
+R+Diff+Sixth,Diff + Sixth,S4,Many clusters,R=0.65; D=750; mu6=4e+07,shape coefficients=[-6.3515e+06  5.4870e+05 -1.2294e+04  9.0450e+00],0.9534967771135119,,,,,single-snapshot shape diagnostic only
+R+Diff+Sixth,Diff + Sixth,S4,Clusters + singles,R=0.65; D=750; mu6=4e+07,shape coefficients=[ 3.6311e+06  2.1138e+05 -9.5812e+03  9.3661e+00],0.9521491197380612,,,,,single-snapshot shape diagnostic only
+R+Diff+Sixth,Diff + Sixth,S5,Random smooth,R=0.65; D=750; mu6=4e+07,median accepted-segment metric=-1173,0.9771824494409322,,8.0,8.0,,segmented regional shape diagnostic
+R+Diff+Sixth,Diff + Sixth,S5,One central cluster,R=0.65; D=750; mu6=4e+07,median accepted-segment metric=-672.22,0.9848533316326942,,8.0,8.0,,segmented regional shape diagnostic
+R+Diff+Sixth,Diff + Sixth,S5,Many clusters,R=0.65; D=750; mu6=4e+07,median accepted-segment metric=-1810.1,0.9325355287145789,,8.0,8.0,,segmented regional shape diagnostic
+R+Diff+Sixth,Diff + Sixth,S5,Clusters + singles,R=0.65; D=750; mu6=4e+07,median accepted-segment metric=-1730.4,0.9383301740714344,,7.0,8.0,,segmented regional shape diagnostic
+R+Diff+Loss,Diff + Loss,S1,Random smooth,R=0.65; D=750; eta=0.2,D=750; R_eff=0.45,1.0,2.0832816953012904e-12,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S1,One central cluster,R=0.65; D=750; eta=0.2,D=751.99; R_eff=0.45235,0.9999874344843047,0.39389790309128414,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S1,Many clusters,R=0.65; D=750; eta=0.2,D=750; R_eff=0.45,1.0,5.1837834568068e-09,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S1,Clusters + singles,R=0.65; D=750; eta=0.2,D=750; R_eff=0.45,1.0,2.272868313310836e-12,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S2,Random smooth,R=0.65; D=750; eta=0.2,D=750; R_eff=0.45,1.0,1.5829510541859944e-12,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S2,One central cluster,R=0.65; D=750; eta=0.2,D=751.47; R_eff=0.45175,0.9999929160402855,0.29243886495482235,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S2,Many clusters,R=0.65; D=750; eta=0.2,D=750; R_eff=0.45,1.0,3.762377333139789e-09,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S2,Clusters + singles,R=0.65; D=750; eta=0.2,D=750; R_eff=0.45,1.0,1.3499325114531126e-12,,,,known-time PSD-symbol recovery
+R+Diff+Loss,Diff + Loss,S3,Random smooth,R=0.65; D=750; eta=0.2,D/(R-eta)=1666.7,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Loss,Diff + Loss,S3,One central cluster,R=0.65; D=750; eta=0.2,D/(R-eta)=1663.5,0.9999929160402855,,,,,unknown-time ratio / shape recovery
+R+Diff+Loss,Diff + Loss,S3,Many clusters,R=0.65; D=750; eta=0.2,D/(R-eta)=1666.7,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Loss,Diff + Loss,S3,Clusters + singles,R=0.65; D=750; eta=0.2,D/(R-eta)=1666.7,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Loss,Diff + Loss,S4,Random smooth,R=0.65; D=750; eta=0.2,shape coefficients=[-3052.4311     6.3064],0.9878612585549645,,,,,single-snapshot shape diagnostic only
+R+Diff+Loss,Diff + Loss,S4,One central cluster,R=0.65; D=750; eta=0.2,shape coefficients=[-2543.268    -32.3067],0.5135986054235364,,,,,single-snapshot shape diagnostic only
+R+Diff+Loss,Diff + Loss,S4,Many clusters,R=0.65; D=750; eta=0.2,shape coefficients=[-3.9263e+03 -7.4941e-01],0.9516834260724188,,,,,single-snapshot shape diagnostic only
+R+Diff+Loss,Diff + Loss,S4,Clusters + singles,R=0.65; D=750; eta=0.2,shape coefficients=[-2.5347e+03  2.1207e+00],0.9943955931157085,,,,,single-snapshot shape diagnostic only
+R+Diff+Loss,Diff + Loss,S5,Random smooth,R=0.65; D=750; eta=0.2,median accepted-segment metric=-195.26,0.8709313373597093,,3.0,8.0,,segmented regional shape diagnostic
+R+Diff+Loss,Diff + Loss,S5,One central cluster,R=0.65; D=750; eta=0.2,median accepted-segment metric=-141.33,0.8501702663539649,,4.0,8.0,,segmented regional shape diagnostic
+R+Diff+Loss,Diff + Loss,S5,Many clusters,R=0.65; D=750; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Diff+Loss,Diff + Loss,S5,Clusters + singles,R=0.65; D=750; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Diff+Nonlocal,Diff + Nonlocal,S1,Random smooth,R=0.65; D=750; chi=0.8; sigma=45,R=0.65; D=750; chi=0.8; sigma=45,1.0,4.317289242155513e-11,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S1,One central cluster,R=0.65; D=750; chi=0.8; sigma=45,R=0.65149; D=756.21; chi=0.77579; sigma=45.9,0.9999919991164903,1.41433079552028,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S1,Many clusters,R=0.65; D=750; chi=0.8; sigma=45,R=0.65; D=750; chi=0.8; sigma=45,1.0,2.2400238700962898e-08,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S1,Clusters + singles,R=0.65; D=750; chi=0.8; sigma=45,R=0.65; D=750; chi=0.8; sigma=45,1.0,3.647894825715209e-11,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S2,Random smooth,R=0.65; D=750; chi=0.8; sigma=45,R=0.65; D=750; chi=0.8; sigma=45,1.0,3.0060694674223974e-11,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S2,One central cluster,R=0.65; D=750; chi=0.8; sigma=45,R=0.6503; D=751.71; chi=0.79366; sigma=45.21,0.9999978451691991,0.3472624224132937,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S2,Many clusters,R=0.65; D=750; chi=0.8; sigma=45,R=0.65; D=750; chi=0.8; sigma=45,1.0,3.2564202001594824e-09,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S2,Clusters + singles,R=0.65; D=750; chi=0.8; sigma=45,R=0.65; D=750; chi=0.8; sigma=45,1.0,3.24945403917809e-11,,,,known-time PSD-symbol recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S3,Random smooth,R=0.65; D=750; chi=0.8; sigma=45,D/c0=1153.8; sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S3,One central cluster,R=0.65; D=750; chi=0.8; sigma=45,D/c0=1155.9; sigma=45.21; chi/c0=1.2204,0.9999978451691991,,,,,unknown-time ratio / shape recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S3,Many clusters,R=0.65; D=750; chi=0.8; sigma=45,D/c0=1153.8; sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S3,Clusters + singles,R=0.65; D=750; chi=0.8; sigma=45,D/c0=1153.8; sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Nonlocal,Diff + Nonlocal,S4,Random smooth,R=0.65; D=750; chi=0.8; sigma=45,shape coefficients=[-3100.1885     5.3001],0.9918121924603999,,,,,single-snapshot shape diagnostic only
+R+Diff+Nonlocal,Diff + Nonlocal,S4,One central cluster,R=0.65; D=750; chi=0.8; sigma=45,shape coefficients=[-2460.0975   -33.8674],0.48036672016036774,,,,,single-snapshot shape diagnostic only
+R+Diff+Nonlocal,Diff + Nonlocal,S4,Many clusters,R=0.65; D=750; chi=0.8; sigma=45,shape coefficients=[-3.9030e+03 -1.5452e+00],0.9459823946065699,,,,,single-snapshot shape diagnostic only
+R+Diff+Nonlocal,Diff + Nonlocal,S4,Clusters + singles,R=0.65; D=750; chi=0.8; sigma=45,shape coefficients=[-2.5941e+03  1.5367e+00],0.992860911809924,,,,,single-snapshot shape diagnostic only
+R+Diff+Nonlocal,Diff + Nonlocal,S5,Random smooth,R=0.65; D=750; chi=0.8; sigma=45,median accepted-segment metric=-134.7,0.924622473915838,,1.0,8.0,,segmented regional shape diagnostic
+R+Diff+Nonlocal,Diff + Nonlocal,S5,One central cluster,R=0.65; D=750; chi=0.8; sigma=45,median accepted-segment metric=-144.85,0.8419316858262381,,4.0,8.0,,segmented regional shape diagnostic
+R+Diff+Nonlocal,Diff + Nonlocal,S5,Many clusters,R=0.65; D=750; chi=0.8; sigma=45,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Diff+Nonlocal,Diff + Nonlocal,S5,Clusters + singles,R=0.65; D=750; chi=0.8; sigma=45,median accepted-segment metric=nan,,,0.0,8.0,,segmented regional shape diagnostic
+R+Adv+Hyper,Adv + Hyper,S1,Random smooth,R=0.65; c=120; nu=2e+05,R=0.65; nu=2e+05,1.0,7.830097705261954e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S1,One central cluster,R=0.65; c=120; nu=2e+05,R=0.62957; nu=1.9529e+05,0.9970619908152265,2.749402970245437,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S1,Many clusters,R=0.65; c=120; nu=2e+05,R=0.65; nu=2e+05,1.0,6.639472432276796e-08,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S1,Clusters + singles,R=0.65; c=120; nu=2e+05,R=0.65; nu=2e+05,1.0,3.4564843295251755e-12,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S2,Random smooth,R=0.65; c=120; nu=2e+05,R=0.65; nu=2e+05,1.0,8.014261801201008e-12,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S2,One central cluster,R=0.65; c=120; nu=2e+05,R=0.63021; nu=1.954e+05,0.9973076157821504,2.6722507556292125,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S2,Many clusters,R=0.65; c=120; nu=2e+05,R=0.65; nu=2e+05,1.0,4.70639766371269e-08,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S2,Clusters + singles,R=0.65; c=120; nu=2e+05,R=0.65; nu=2e+05,1.0,5.731735086556001e-12,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper,Adv + Hyper,S3,Random smooth,R=0.65; c=120; nu=2e+05,nu/(R)=3.0769e+05,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper,Adv + Hyper,S3,One central cluster,R=0.65; c=120; nu=2e+05,nu/(R)=2.7154e+05,0.9975809434822399,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper,Adv + Hyper,S3,Many clusters,R=0.65; c=120; nu=2e+05,nu/(R)=3.0769e+05,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper,Adv + Hyper,S3,Clusters + singles,R=0.65; c=120; nu=2e+05,nu/(R)=3.0769e+05,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper,Adv + Hyper,S4,Random smooth,R=0.65; c=120; nu=2e+05,shape coefficients=[ 1.8404e+05 -7.9701e+03  1.2679e+01],0.9461992042130997,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper,Adv + Hyper,S4,One central cluster,R=0.65; c=120; nu=2e+05,shape coefficients=[ 3.4892e+05 -9.3329e+03 -1.6498e+01],0.7995364665771656,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper,Adv + Hyper,S4,Many clusters,R=0.65; c=120; nu=2e+05,shape coefficients=[ 2.7813e+05 -9.4850e+03  8.2713e+00],0.9634182816861891,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper,Adv + Hyper,S4,Clusters + singles,R=0.65; c=120; nu=2e+05,shape coefficients=[ 1.9231e+05 -7.9901e+03  1.0177e+01],0.9506743926661753,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper,Adv + Hyper,S5,Random smooth,R=0.65; c=120; nu=2e+05,median accepted-segment metric=-728.11,0.9472203354153261,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Hyper,Adv + Hyper,S5,One central cluster,R=0.65; c=120; nu=2e+05,median accepted-segment metric=-395.53,0.9516791217499275,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Hyper,Adv + Hyper,S5,Many clusters,R=0.65; c=120; nu=2e+05,median accepted-segment metric=-797.08,0.8530273701394305,,7.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Hyper,Adv + Hyper,S5,Clusters + singles,R=0.65; c=120; nu=2e+05,median accepted-segment metric=-932.07,0.8867450693609052,,6.0,8.0,c,segmented regional shape diagnostic
+R+Adv+SH,Adv + SH,S1,Random smooth,R=1.25; c=120; ell=22,R=1.25; ell=22,1.0,7.024683864900991e-14,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S1,One central cluster,R=1.25; c=120; ell=22,R=1.25; ell=22,0.9999998718270396,0.0020649199009017205,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S1,Many clusters,R=1.25; c=120; ell=22,R=1.25; ell=22,1.0,2.3081334823225255e-11,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S1,Clusters + singles,R=1.25; c=120; ell=22,R=1.25; ell=22,1.0,8.397323240801184e-14,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S2,Random smooth,R=1.25; c=120; ell=22,R=1.25; ell=22,1.0,7.993605777301127e-14,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S2,One central cluster,R=1.25; c=120; ell=22,R=1.2499; ell=21.999,0.9999995920237585,0.005244488467884329,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S2,Many clusters,R=1.25; c=120; ell=22,R=1.25; ell=22,1.0,2.424727085781342e-11,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S2,Clusters + singles,R=1.25; c=120; ell=22,R=1.25; ell=22,1.0,3.310483200700467e-14,,,c,known-time PSD-symbol recovery
+R+Adv+SH,Adv + SH,S3,Random smooth,R=1.25; c=120; ell=22,ell=22; 2*dt=2.5; R=1.25,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+SH,Adv + SH,S3,One central cluster,R=1.25; c=120; ell=22,ell=22; 2*dt=2.499; R=1.2503,0.9999996230951687,,,,c,unknown-time ratio / shape recovery
+R+Adv+SH,Adv + SH,S3,Many clusters,R=1.25; c=120; ell=22,ell=22; 2*dt=2.5; R=1.25,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+SH,Adv + SH,S3,Clusters + singles,R=1.25; c=120; ell=22,ell=22; 2*dt=2.5; R=1.25,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+SH,Adv + SH,S4,Random smooth,R=1.25; c=120; ell=22,shape coefficients=[ 7.4092e+04 -5.8358e+03  1.1363e+01],0.9119179417590718,,,,c,single-snapshot shape diagnostic only
+R+Adv+SH,Adv + SH,S4,One central cluster,R=1.25; c=120; ell=22,shape coefficients=[ 3.2399e+05 -9.0906e+03 -1.2879e+01],0.8695912349327197,,,,c,single-snapshot shape diagnostic only
+R+Adv+SH,Adv + SH,S4,Many clusters,R=1.25; c=120; ell=22,shape coefficients=[ 2.0009e+05 -8.1175e+03  9.5224e+00],0.9378151687178444,,,,c,single-snapshot shape diagnostic only
+R+Adv+SH,Adv + SH,S4,Clusters + singles,R=1.25; c=120; ell=22,shape coefficients=[ 8.0017e+04 -5.8847e+03  1.0318e+01],0.9171117188616861,,,,c,single-snapshot shape diagnostic only
+R+Adv+SH,Adv + SH,S5,Random smooth,R=1.25; c=120; ell=22,median accepted-segment metric=-516.58,0.9700297596980583,,6.0,8.0,c,segmented regional shape diagnostic
+R+Adv+SH,Adv + SH,S5,One central cluster,R=1.25; c=120; ell=22,median accepted-segment metric=-374.89,0.955000033541018,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+SH,Adv + SH,S5,Many clusters,R=1.25; c=120; ell=22,median accepted-segment metric=-1126.1,0.8927288407700014,,6.0,8.0,c,segmented regional shape diagnostic
+R+Adv+SH,Adv + SH,S5,Clusters + singles,R=1.25; c=120; ell=22,median accepted-segment metric=-847.53,0.9384317602979663,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+FracDiff,Adv + FracDiff,S1,Random smooth,R=0.65; c=120; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,4.362322469065615e-11,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S1,One central cluster,R=0.65; c=120; Df=350; alpha=1.5,R=0.69936; Df=299.6; alpha=1.4438,0.9966042195673478,7.593905446842302,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S1,Many clusters,R=0.65; c=120; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,1.309607806814046e-07,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S1,Clusters + singles,R=0.65; c=120; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,1.311771204480185e-11,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S2,Random smooth,R=0.65; c=120; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,1.5269836677152152e-11,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S2,One central cluster,R=0.65; c=120; Df=350; alpha=1.5,R=0.69812; Df=300.27; alpha=1.4447,0.9974622855666211,7.403798913380866,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S2,Many clusters,R=0.65; c=120; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,4.595196018569298e-09,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S2,Clusters + singles,R=0.65; c=120; Df=350; alpha=1.5,R=0.65; Df=350; alpha=1.5,1.0,3.096668220992937e-11,,,c,known-time PSD-symbol recovery
+R+Adv+FracDiff,Adv + FracDiff,S3,Random smooth,R=0.65; c=120; Df=350; alpha=1.5,alpha=1.5; Df/c0=538.46,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+FracDiff,Adv + FracDiff,S3,One central cluster,R=0.65; c=120; Df=350; alpha=1.5,alpha=1.4447; Df/c0=430.1,0.9974622855666202,,,,c,unknown-time ratio / shape recovery
+R+Adv+FracDiff,Adv + FracDiff,S3,Many clusters,R=0.65; c=120; Df=350; alpha=1.5,alpha=1.5; Df/c0=538.46,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+FracDiff,Adv + FracDiff,S3,Clusters + singles,R=0.65; c=120; Df=350; alpha=1.5,alpha=1.5; Df/c0=538.46,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+FracDiff,Adv + FracDiff,S4,Random smooth,R=0.65; c=120; Df=350; alpha=1.5,shape coefficients=[-1.1697e+06  4.3039e+04 -3.8109e+03  3.7268e+00],0.9970892240399166,,,,c,single-snapshot shape diagnostic only
+R+Adv+FracDiff,Adv + FracDiff,S4,One central cluster,R=0.65; c=120; Df=350; alpha=1.5,shape coefficients=[-4.4834e+07  1.7151e+06 -1.9301e+04 -9.1097e+00],0.8822041595747605,,,,c,single-snapshot shape diagnostic only
+R+Adv+FracDiff,Adv + FracDiff,S4,Many clusters,R=0.65; c=120; Df=350; alpha=1.5,shape coefficients=[ 6.9042e+06 -8.2605e+03 -6.2475e+03  3.4571e+00],0.9940941227610707,,,,c,single-snapshot shape diagnostic only
+R+Adv+FracDiff,Adv + FracDiff,S4,Clusters + singles,R=0.65; c=120; Df=350; alpha=1.5,shape coefficients=[-3.1993e+06  1.4974e+05 -4.6932e+03  3.3380e+00],0.9957954676592603,,,,c,single-snapshot shape diagnostic only
+R+Adv+FracDiff,Adv + FracDiff,S5,Random smooth,R=0.65; c=120; Df=350; alpha=1.5,median accepted-segment metric=-1067.6,0.9548350885243446,,6.0,8.0,c,segmented regional shape diagnostic
+R+Adv+FracDiff,Adv + FracDiff,S5,One central cluster,R=0.65; c=120; Df=350; alpha=1.5,median accepted-segment metric=-772.56,0.9774610050840331,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+FracDiff,Adv + FracDiff,S5,Many clusters,R=0.65; c=120; Df=350; alpha=1.5,median accepted-segment metric=-1841,0.9392382020585786,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+FracDiff,Adv + FracDiff,S5,Clusters + singles,R=0.65; c=120; Df=350; alpha=1.5,median accepted-segment metric=-1926.6,0.9485555644389476,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Disp,Adv + Disp,S1,Random smooth,R=0.65; c=120; beta3=80000,R=0.65,,3.0744637605004333e-13,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S1,One central cluster,R=0.65; c=120; beta3=80000,R=0.65,,0.00023340961268043694,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S1,Many clusters,R=0.65; c=120; beta3=80000,R=0.65,,1.8788389647502648e-12,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S1,Clusters + singles,R=0.65; c=120; beta3=80000,R=0.65,,8.540177112501203e-14,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S2,Random smooth,R=0.65; c=120; beta3=80000,R=0.65,,3.4160708450004814e-13,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S2,One central cluster,R=0.65; c=120; beta3=80000,R=0.65,,0.000576460170692145,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S2,Many clusters,R=0.65; c=120; beta3=80000,R=0.65,,2.937820926700414e-12,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S2,Clusters + singles,R=0.65; c=120; beta3=80000,R=0.65,,1.0248212535001445e-13,,,c; beta3,known-time PSD-symbol recovery
+R+Adv+Disp,Adv + Disp,S3,Random smooth,R=0.65; c=120; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,c; beta3,unknown-time ratio / shape recovery
+R+Adv+Disp,Adv + Disp,S3,One central cluster,R=0.65; c=120; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,c; beta3,unknown-time ratio / shape recovery
+R+Adv+Disp,Adv + Disp,S3,Many clusters,R=0.65; c=120; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,c; beta3,unknown-time ratio / shape recovery
+R+Adv+Disp,Adv + Disp,S3,Clusters + singles,R=0.65; c=120; beta3=80000,note: constant-only real symbol; time scale not identifiable,0.0,,,,c; beta3,unknown-time ratio / shape recovery
+R+Adv+Disp,Adv + Disp,S4,Random smooth,R=0.65; c=120; beta3=80000,shape coefficients=[-2.5678],0.0,,,,c; beta3,single-snapshot shape diagnostic only
+R+Adv+Disp,Adv + Disp,S4,One central cluster,R=0.65; c=120; beta3=80000,shape coefficients=[-41.0883],0.0,,,,c; beta3,single-snapshot shape diagnostic only
+R+Adv+Disp,Adv + Disp,S4,Many clusters,R=0.65; c=120; beta3=80000,shape coefficients=[-19.7277],0.0,,,,c; beta3,single-snapshot shape diagnostic only
+R+Adv+Disp,Adv + Disp,S4,Clusters + singles,R=0.65; c=120; beta3=80000,shape coefficients=[-2.2774],0.0,,,,c; beta3,single-snapshot shape diagnostic only
+R+Adv+Disp,Adv + Disp,S5,Random smooth,R=0.65; c=120; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,c; beta3,segmented regional shape diagnostic
+R+Adv+Disp,Adv + Disp,S5,One central cluster,R=0.65; c=120; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,c; beta3,segmented regional shape diagnostic
+R+Adv+Disp,Adv + Disp,S5,Many clusters,R=0.65; c=120; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,c; beta3,segmented regional shape diagnostic
+R+Adv+Disp,Adv + Disp,S5,Clusters + singles,R=0.65; c=120; beta3=80000,median accepted-segment metric=nan,,,0.0,8.0,c; beta3,segmented regional shape diagnostic
+R+Adv+Sixth,Adv + Sixth,S1,Random smooth,R=0.65; c=120; mu6=4e+07,R=0.65; mu6=4e+07,1.0,7.935685912431067e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S1,One central cluster,R=0.65; c=120; mu6=4e+07,R=0.58235; mu6=3.6224e+07,0.9721947380601519,9.924512543109817,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S1,Many clusters,R=0.65; c=120; mu6=4e+07,R=0.65; mu6=4e+07,1.0,3.577591887634613e-07,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S1,Clusters + singles,R=0.65; c=120; mu6=4e+07,R=0.65; mu6=4e+07,1.0,7.309197430826176e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S2,Random smooth,R=0.65; c=120; mu6=4e+07,R=0.65; mu6=4e+07,1.0,1.9291428018802367e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S2,One central cluster,R=0.65; c=120; mu6=4e+07,R=0.59465; mu6=3.696e+07,0.9769587306923436,8.057164265355855,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S2,Many clusters,R=0.65; c=120; mu6=4e+07,R=0.65; mu6=4e+07,1.0,1.805040312768824e-07,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S2,Clusters + singles,R=0.65; c=120; mu6=4e+07,R=0.65; mu6=4e+07,1.0,2.99755631352547e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Sixth,Adv + Sixth,S3,Random smooth,R=0.65; c=120; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Sixth,Adv + Sixth,S3,One central cluster,R=0.65; c=120; mu6=4e+07,mu6/(R)=1.1524e+07,0.982548225517016,,,,c,unknown-time ratio / shape recovery
+R+Adv+Sixth,Adv + Sixth,S3,Many clusters,R=0.65; c=120; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Sixth,Adv + Sixth,S3,Clusters + singles,R=0.65; c=120; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Sixth,Adv + Sixth,S4,Random smooth,R=0.65; c=120; mu6=4e+07,shape coefficients=[ 1.9549e+07 -3.2890e+05 -5.1873e+03  9.3851e+00],0.9366422576220599,,,,c,single-snapshot shape diagnostic only
+R+Adv+Sixth,Adv + Sixth,S4,One central cluster,R=0.65; c=120; mu6=4e+07,shape coefficients=[-3.9843e+07  1.5722e+06 -1.8637e+04 -5.2306e+00],0.9363018438044821,,,,c,single-snapshot shape diagnostic only
+R+Adv+Sixth,Adv + Sixth,S4,Many clusters,R=0.65; c=120; mu6=4e+07,shape coefficients=[ 4.8135e+06  1.6922e+05 -9.1437e+03  7.9483e+00],0.9423743117086729,,,,c,single-snapshot shape diagnostic only
+R+Adv+Sixth,Adv + Sixth,S4,Clusters + singles,R=0.65; c=120; mu6=4e+07,shape coefficients=[ 1.6569e+07 -2.3680e+05 -5.7443e+03  7.6483e+00],0.9421184760316924,,,,c,single-snapshot shape diagnostic only
+R+Adv+Sixth,Adv + Sixth,S5,Random smooth,R=0.65; c=120; mu6=4e+07,median accepted-segment metric=-984.05,0.9880184478663112,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Sixth,Adv + Sixth,S5,One central cluster,R=0.65; c=120; mu6=4e+07,median accepted-segment metric=-668.55,0.986226401877349,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Sixth,Adv + Sixth,S5,Many clusters,R=0.65; c=120; mu6=4e+07,median accepted-segment metric=-1790.8,0.943759298358642,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Sixth,Adv + Sixth,S5,Clusters + singles,R=0.65; c=120; mu6=4e+07,median accepted-segment metric=-1892.8,0.9520140577240048,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Loss,Adv + Loss,S1,Random smooth,R=0.65; c=120; eta=0.2,R_eff=0.45,,7.031412489292658e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S1,One central cluster,R=0.65; c=120; eta=0.2,R_eff=0.45,,0.0007700525009991645,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S1,Many clusters,R=0.65; c=120; eta=0.2,R_eff=0.45,,2.120525977034049e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S1,Clusters + singles,R=0.65; c=120; eta=0.2,R_eff=0.45,,4.564250212347866e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S2,Random smooth,R=0.65; c=120; eta=0.2,R_eff=0.45,,7.154770603139898e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S2,One central cluster,R=0.65; c=120; eta=0.2,R_eff=0.44999,,0.0016404825857494229,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S2,Many clusters,R=0.65; c=120; eta=0.2,R_eff=0.45,,2.182205033957669e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S2,Clusters + singles,R=0.65; c=120; eta=0.2,R_eff=0.45,,4.564250212347866e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Loss,Adv + Loss,S3,Random smooth,R=0.65; c=120; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Loss,Adv + Loss,S3,One central cluster,R=0.65; c=120; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Loss,Adv + Loss,S3,Many clusters,R=0.65; c=120; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Loss,Adv + Loss,S3,Clusters + singles,R=0.65; c=120; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Loss,Adv + Loss,S4,Random smooth,R=0.65; c=120; eta=0.2,shape coefficients=[-2.5678],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv+Loss,Adv + Loss,S4,One central cluster,R=0.65; c=120; eta=0.2,shape coefficients=[-41.0883],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv+Loss,Adv + Loss,S4,Many clusters,R=0.65; c=120; eta=0.2,shape coefficients=[-19.7287],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv+Loss,Adv + Loss,S4,Clusters + singles,R=0.65; c=120; eta=0.2,shape coefficients=[-2.2774],0.0,,,,c,single-snapshot shape diagnostic only
+R+Adv+Loss,Adv + Loss,S5,Random smooth,R=0.65; c=120; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Loss,Adv + Loss,S5,One central cluster,R=0.65; c=120; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Loss,Adv + Loss,S5,Many clusters,R=0.65; c=120; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Loss,Adv + Loss,S5,Clusters + singles,R=0.65; c=120; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Nonlocal,Adv + Nonlocal,S1,Random smooth,R=0.65; c=120; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,9.71445146547012e-14,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S1,One central cluster,R=0.65; c=120; chi=0.8; sigma=45,R=0.65001; chi=0.8; sigma=45.001,0.9999999567276046,0.0008393558698851841,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S1,Many clusters,R=0.65; c=120; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,2.42861286636753e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S1,Clusters + singles,R=0.65; c=120; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,3.0531133177191805e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S2,Random smooth,R=0.65; c=120; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.2631870857957337e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S2,One central cluster,R=0.65; c=120; chi=0.8; sigma=45,R=0.65001; chi=0.79999; sigma=45.002,0.999999939473058,0.0014646832941500598,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S2,Many clusters,R=0.65; c=120; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,5.523359547510154e-12,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S2,Clusters + singles,R=0.65; c=120; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,2.636779683484747e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S3,Random smooth,R=0.65; c=120; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S3,One central cluster,R=0.65; c=120; chi=0.8; sigma=45,sigma=45.002; chi/c0=1.2307,0.999999939473058,,,,c,unknown-time ratio / shape recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S3,Many clusters,R=0.65; c=120; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S3,Clusters + singles,R=0.65; c=120; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Nonlocal,Adv + Nonlocal,S4,Random smooth,R=0.65; c=120; chi=0.8; sigma=45,shape coefficients=[-2.7873e+06  4.1198e+04 -8.0572e+02  3.2747e+00],0.9795549155003787,,,,c,single-snapshot shape diagnostic only
+R+Adv+Nonlocal,Adv + Nonlocal,S4,One central cluster,R=0.65; c=120; chi=0.8; sigma=45,shape coefficients=[-3.6488e+07  1.3668e+06 -1.4947e+04 -9.0471e+00],0.8093566872341174,,,,c,single-snapshot shape diagnostic only
+R+Adv+Nonlocal,Adv + Nonlocal,S4,Many clusters,R=0.65; c=120; chi=0.8; sigma=45,shape coefficients=[ 4.1037e+05 -2.2780e+04 -2.6594e+03  1.3074e+00],0.9934022009584075,,,,c,single-snapshot shape diagnostic only
+R+Adv+Nonlocal,Adv + Nonlocal,S4,Clusters + singles,R=0.65; c=120; chi=0.8; sigma=45,shape coefficients=[-1.7592e+06  7.0267e+04 -1.2177e+03  1.7415e+00],0.8750998326971402,,,,c,single-snapshot shape diagnostic only
+R+Adv+Nonlocal,Adv + Nonlocal,S5,Random smooth,R=0.65; c=120; chi=0.8; sigma=45,median accepted-segment metric=-735.56,0.9422458694142376,,6.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Nonlocal,Adv + Nonlocal,S5,One central cluster,R=0.65; c=120; chi=0.8; sigma=45,median accepted-segment metric=-721.27,0.9851321388203146,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Nonlocal,Adv + Nonlocal,S5,Many clusters,R=0.65; c=120; chi=0.8; sigma=45,median accepted-segment metric=-1792.2,0.9321715752443145,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Nonlocal,Adv + Nonlocal,S5,Clusters + singles,R=0.65; c=120; chi=0.8; sigma=45,median accepted-segment metric=-1680.8,0.9630987854192614,,7.0,8.0,c,segmented regional shape diagnostic
+R+Hyper+SH,Hyper + SH,S1,Random smooth,R=1.25; nu=2e+05; ell=22,c0=0.25; c2=968; c4=-4.3426e+05,1.0,2.906648292120119e-09,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S1,One central cluster,R=1.25; nu=2e+05; ell=22,c0=0.44356; c2=532.82; c4=-3.2601e+05,0.9617857138130735,44.95627545682535,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S1,Many clusters,R=1.25; nu=2e+05; ell=22,c0=0.25; c2=968; c4=-4.3426e+05,0.9999999999999926,2.0321094167165714e-05,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S1,Clusters + singles,R=1.25; nu=2e+05; ell=22,c0=0.25; c2=968; c4=-4.3426e+05,1.0,9.330624060349083e-09,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S2,Random smooth,R=1.25; nu=2e+05; ell=22,c0=0.25; c2=968; c4=-4.3426e+05,1.0,8.522989476712474e-10,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S2,One central cluster,R=1.25; nu=2e+05; ell=22,c0=0.39697; c2=643.5; c4=-3.5516e+05,0.9691529489150079,33.522986774392244,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S2,Many clusters,R=1.25; nu=2e+05; ell=22,c0=0.25; c2=968; c4=-4.3426e+05,0.9999999999999996,4.854497862280286e-06,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S2,Clusters + singles,R=1.25; nu=2e+05; ell=22,c0=0.25; c2=968; c4=-4.3426e+05,1.0,4.41288144685124e-10,,,,known-time PSD-symbol recovery
+R+Hyper+SH,Hyper + SH,S3,Random smooth,R=1.25; nu=2e+05; ell=22,net_k2/c0=3872; net_k4/c0=-1.737e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+SH,Hyper + SH,S3,One central cluster,R=1.25; nu=2e+05; ell=22,net_k2/c0=1621; net_k4/c0=-8.9468e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9691529489150079,,,,,unknown-time ratio / shape recovery
+R+Hyper+SH,Hyper + SH,S3,Many clusters,R=1.25; nu=2e+05; ell=22,net_k2/c0=3872; net_k4/c0=-1.737e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9999999999999996,,,,,unknown-time ratio / shape recovery
+R+Hyper+SH,Hyper + SH,S3,Clusters + singles,R=1.25; nu=2e+05; ell=22,net_k2/c0=3872; net_k4/c0=-1.737e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+SH,Hyper + SH,S4,Random smooth,R=1.25; nu=2e+05; ell=22,shape coefficients=[ 2.8279e+05 -9.9071e+03  1.3972e+01],0.9310304109188735,,,,,single-snapshot shape diagnostic only
+R+Hyper+SH,Hyper + SH,S4,One central cluster,R=1.25; nu=2e+05; ell=22,shape coefficients=[ 3.5852e+05 -9.5933e+03 -1.5011e+01],0.8170167783135347,,,,,single-snapshot shape diagnostic only
+R+Hyper+SH,Hyper + SH,S4,Many clusters,R=1.25; nu=2e+05; ell=22,shape coefficients=[ 3.2925e+05 -1.0465e+04  8.7817e+00],0.9439057712427384,,,,,single-snapshot shape diagnostic only
+R+Hyper+SH,Hyper + SH,S4,Clusters + singles,R=1.25; nu=2e+05; ell=22,shape coefficients=[ 2.8324e+05 -9.7793e+03  1.1580e+01],0.9400134451541007,,,,,single-snapshot shape diagnostic only
+R+Hyper+SH,Hyper + SH,S5,Random smooth,R=1.25; nu=2e+05; ell=22,median accepted-segment metric=-765.15,0.8880973992555278,,5.0,8.0,,segmented regional shape diagnostic
+R+Hyper+SH,Hyper + SH,S5,One central cluster,R=1.25; nu=2e+05; ell=22,median accepted-segment metric=-373.78,0.9543711553427768,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+SH,Hyper + SH,S5,Many clusters,R=1.25; nu=2e+05; ell=22,median accepted-segment metric=-885.9,0.8614469912998797,,6.0,8.0,,segmented regional shape diagnostic
+R+Hyper+SH,Hyper + SH,S5,Clusters + singles,R=1.25; nu=2e+05; ell=22,median accepted-segment metric=-1078.5,0.9126467017057034,,6.0,8.0,,segmented regional shape diagnostic
+R+Hyper+FracDiff,Hyper + FracDiff,S1,Random smooth,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=0.65; nu=2e+05; Df=350; alpha=1.5,1.0,3.5792443521316386e-06,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S1,One central cluster,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=1.3043; nu=1.1304e-11; Df=191.06; alpha=1.1732,0.9286789043948901,72.70622135791383,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S1,Many clusters,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=0.64999; nu=2e+05; Df=350.02; alpha=1.5,0.9999999999937704,0.001708199880001409,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S1,Clusters + singles,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=0.65; nu=2e+05; Df=350; alpha=1.5,1.0,3.392287364668789e-06,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S2,Random smooth,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=0.65; nu=2e+05; Df=350; alpha=1.5,1.0,1.3908959753360743e-06,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S2,One central cluster,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=1.1191; nu=3.6141e-12; Df=315.75; alpha=1.3423,0.9479998454578876,41.341989994802155,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S2,Many clusters,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=0.64999; nu=2e+05; Df=350.02; alpha=1.5,0.9999999999951038,0.00148525753640831,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S2,Clusters + singles,R=0.65; nu=2e+05; Df=350; alpha=1.5,R=0.65; nu=2e+05; Df=350; alpha=1.5,1.0,2.0130065586152148e-07,,,,known-time PSD-symbol recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S3,Random smooth,R=0.65; nu=2e+05; Df=350; alpha=1.5,nu/c0=3.0769e+05; alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S3,One central cluster,R=0.65; nu=2e+05; Df=350; alpha=1.5,nu/c0=-5.6952e+09; alpha=3.9987; Df/c0=5.678e+09,0.9902252843768283,,,,,unknown-time ratio / shape recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S3,Many clusters,R=0.65; nu=2e+05; Df=350; alpha=1.5,nu/c0=3.0769e+05; alpha=1.5; Df/c0=538.5,0.9999999999951038,,,,,unknown-time ratio / shape recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S3,Clusters + singles,R=0.65; nu=2e+05; Df=350; alpha=1.5,nu/c0=3.0769e+05; alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+FracDiff,Hyper + FracDiff,S4,Random smooth,R=0.65; nu=2e+05; Df=350; alpha=1.5,shape coefficients=[ 3.1503e+05 -1.0183e+04  9.2628e+00],0.9730308622400364,,,,,single-snapshot shape diagnostic only
+R+Hyper+FracDiff,Hyper + FracDiff,S4,One central cluster,R=0.65; nu=2e+05; Df=350; alpha=1.5,shape coefficients=[ 3.4272e+05 -8.8694e+03 -2.2432e+01],0.6775034334788731,,,,,single-snapshot shape diagnostic only
+R+Hyper+FracDiff,Hyper + FracDiff,S4,Many clusters,R=0.65; nu=2e+05; Df=350; alpha=1.5,shape coefficients=[ 3.6313e+05 -1.0845e+04  5.4646e+00],0.9662270551389556,,,,,single-snapshot shape diagnostic only
+R+Hyper+FracDiff,Hyper + FracDiff,S4,Clusters + singles,R=0.65; nu=2e+05; Df=350; alpha=1.5,shape coefficients=[ 3.1786e+05 -1.0156e+04  7.9456e+00],0.978573748512605,,,,,single-snapshot shape diagnostic only
+R+Hyper+FracDiff,Hyper + FracDiff,S5,Random smooth,R=0.65; nu=2e+05; Df=350; alpha=1.5,median accepted-segment metric=-677.71,0.9025677410625925,,6.0,8.0,,segmented regional shape diagnostic
+R+Hyper+FracDiff,Hyper + FracDiff,S5,One central cluster,R=0.65; nu=2e+05; Df=350; alpha=1.5,median accepted-segment metric=-429.71,0.9336331071420829,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+FracDiff,Hyper + FracDiff,S5,Many clusters,R=0.65; nu=2e+05; Df=350; alpha=1.5,median accepted-segment metric=-784.54,0.8471499828863606,,7.0,8.0,,segmented regional shape diagnostic
+R+Hyper+FracDiff,Hyper + FracDiff,S5,Clusters + singles,R=0.65; nu=2e+05; Df=350; alpha=1.5,median accepted-segment metric=-842.31,0.8397410829496296,,7.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Disp,Hyper + Disp,S1,Random smooth,R=0.65; nu=2e+05; beta3=80000,R=0.65; nu=2e+05,1.0,1.7639011892137763e-11,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S1,One central cluster,R=0.65; nu=2e+05; beta3=80000,R=0.64378; nu=1.9867e+05,0.9996804965451599,0.8111622442542024,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S1,Many clusters,R=0.65; nu=2e+05; beta3=80000,R=0.65; nu=2e+05,1.0,1.120816756875561e-08,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S1,Clusters + singles,R=0.65; nu=2e+05; beta3=80000,R=0.65; nu=2e+05,1.0,5.98987690217165e-12,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S2,Random smooth,R=0.65; nu=2e+05; beta3=80000,R=0.65; nu=2e+05,1.0,4.075520748231681e-11,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S2,One central cluster,R=0.65; nu=2e+05; beta3=80000,R=0.64243; nu=1.9832e+05,0.9996819579025049,1.0034632167073463,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S2,Many clusters,R=0.65; nu=2e+05; beta3=80000,R=0.65; nu=2e+05,1.0,4.5228189204766956e-08,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S2,Clusters + singles,R=0.65; nu=2e+05; beta3=80000,R=0.65; nu=2e+05,1.0,1.2092578699069305e-11,,,beta3,known-time PSD-symbol recovery
+R+Hyper+Disp,Hyper + Disp,S3,Random smooth,R=0.65; nu=2e+05; beta3=80000,nu/(R)=3.0769e+05,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Hyper+Disp,Hyper + Disp,S3,One central cluster,R=0.65; nu=2e+05; beta3=80000,nu/(R)=2.9337e+05,0.9997221186972535,,,,beta3,unknown-time ratio / shape recovery
+R+Hyper+Disp,Hyper + Disp,S3,Many clusters,R=0.65; nu=2e+05; beta3=80000,nu/(R)=3.0769e+05,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Hyper+Disp,Hyper + Disp,S3,Clusters + singles,R=0.65; nu=2e+05; beta3=80000,nu/(R)=3.0769e+05,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Hyper+Disp,Hyper + Disp,S4,Random smooth,R=0.65; nu=2e+05; beta3=80000,shape coefficients=[ 1.8428e+05 -7.9678e+03  1.2668e+01],0.9460060303256337,,,,beta3,single-snapshot shape diagnostic only
+R+Hyper+Disp,Hyper + Disp,S4,One central cluster,R=0.65; nu=2e+05; beta3=80000,shape coefficients=[ 3.4989e+05 -9.3502e+03 -1.6478e+01],0.8000462822278378,,,,beta3,single-snapshot shape diagnostic only
+R+Hyper+Disp,Hyper + Disp,S4,Many clusters,R=0.65; nu=2e+05; beta3=80000,shape coefficients=[ 2.7780e+05 -9.4799e+03  8.2638e+00],0.9634785894061944,,,,beta3,single-snapshot shape diagnostic only
+R+Hyper+Disp,Hyper + Disp,S4,Clusters + singles,R=0.65; nu=2e+05; beta3=80000,shape coefficients=[ 1.9160e+05 -7.9729e+03  1.0150e+01],0.9512368201825094,,,,beta3,single-snapshot shape diagnostic only
+R+Hyper+Disp,Hyper + Disp,S5,Random smooth,R=0.65; nu=2e+05; beta3=80000,median accepted-segment metric=-893.35,0.9239737392687393,,7.0,8.0,beta3,segmented regional shape diagnostic
+R+Hyper+Disp,Hyper + Disp,S5,One central cluster,R=0.65; nu=2e+05; beta3=80000,median accepted-segment metric=-391.58,0.9398894096216956,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+Hyper+Disp,Hyper + Disp,S5,Many clusters,R=0.65; nu=2e+05; beta3=80000,median accepted-segment metric=-856.62,0.8522964562366323,,7.0,8.0,beta3,segmented regional shape diagnostic
+R+Hyper+Disp,Hyper + Disp,S5,Clusters + singles,R=0.65; nu=2e+05; beta3=80000,median accepted-segment metric=-985.41,0.8704132256339658,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+Hyper+Sixth,Hyper + Sixth,S1,Random smooth,R=0.65; nu=2e+05; mu6=4e+07,R=0.65; nu=2e+05; mu6=4e+07,0.9999999999999996,1.3493058766471222e-05,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S1,One central cluster,R=0.65; nu=2e+05; mu6=4e+07,R=0.39047; nu=2.5787e+05; mu6=0.8178,0.8743877303733549,39.92799516806602,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S1,Many clusters,R=0.65; nu=2e+05; mu6=4e+07,R=0.65016; nu=2.0019e+05; mu6=3.9959e+07,0.9999999811962889,0.09291003830361297,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S1,Clusters + singles,R=0.65; nu=2e+05; mu6=4e+07,R=0.65; nu=2e+05; mu6=4e+07,1.0,3.957650973461569e-06,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S2,Random smooth,R=0.65; nu=2e+05; mu6=4e+07,R=0.65; nu=2e+05; mu6=4e+07,0.9999999999999999,5.74179542309139e-06,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S2,One central cluster,R=0.65; nu=2e+05; mu6=4e+07,R=0.4877; nu=2.8402e+05; mu6=5.3419e-10,0.9356408093288971,42.00930203719911,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S2,Many clusters,R=0.65; nu=2e+05; mu6=4e+07,R=0.65001; nu=2.0001e+05; mu6=3.9998e+07,0.9999999999305822,0.005587677375602652,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S2,Clusters + singles,R=0.65; nu=2e+05; mu6=4e+07,R=0.65; nu=2e+05; mu6=4e+07,0.9999999999999998,1.0176160809351131e-05,,,,known-time PSD-symbol recovery
+R+Hyper+Sixth,Hyper + Sixth,S3,Random smooth,R=0.65; nu=2e+05; mu6=4e+07,nu/(R)=3.0769e+05; mu6/(R)=6.1538e+07,0.9999999999999999,,,,,unknown-time ratio / shape recovery
+R+Hyper+Sixth,Hyper + Sixth,S3,One central cluster,R=0.65; nu=2e+05; mu6=4e+07,nu/(R)=3.8882e+06; mu6/(R)=-3.9286e+08,0.9850913395957132,,,,,unknown-time ratio / shape recovery
+R+Hyper+Sixth,Hyper + Sixth,S3,Many clusters,R=0.65; nu=2e+05; mu6=4e+07,nu/(R)=3.0776e+05; mu6/(R)=6.1532e+07,0.9999999999408453,,,,,unknown-time ratio / shape recovery
+R+Hyper+Sixth,Hyper + Sixth,S3,Clusters + singles,R=0.65; nu=2e+05; mu6=4e+07,nu/(R)=3.0769e+05; mu6/(R)=6.1538e+07,0.9999999999999998,,,,,unknown-time ratio / shape recovery
+R+Hyper+Sixth,Hyper + Sixth,S4,Random smooth,R=0.65; nu=2e+05; mu6=4e+07,shape coefficients=[ 1.4638e+06  3.0704e+05 -1.0776e+04  1.2739e+01],0.9378895380338713,,,,,single-snapshot shape diagnostic only
+R+Hyper+Sixth,Hyper + Sixth,S4,One central cluster,R=0.65; nu=2e+05; mu6=4e+07,shape coefficients=[-4.5319e+07  1.7492e+06 -1.9960e+04 -5.6074e+00],0.9204490835147202,,,,,single-snapshot shape diagnostic only
+R+Hyper+Sixth,Hyper + Sixth,S4,Many clusters,R=0.65; nu=2e+05; mu6=4e+07,shape coefficients=[-9.8136e+06  6.7182e+05 -1.3407e+04  9.8588e+00],0.9454020503609235,,,,,single-snapshot shape diagnostic only
+R+Hyper+Sixth,Hyper + Sixth,S4,Clusters + singles,R=0.65; nu=2e+05; mu6=4e+07,shape coefficients=[-1.5130e+06  3.9585e+05 -1.1269e+04  1.0699e+01],0.9437939344058787,,,,,single-snapshot shape diagnostic only
+R+Hyper+Sixth,Hyper + Sixth,S5,Random smooth,R=0.65; nu=2e+05; mu6=4e+07,median accepted-segment metric=-1157.1,0.9715232720606697,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Sixth,Hyper + Sixth,S5,One central cluster,R=0.65; nu=2e+05; mu6=4e+07,median accepted-segment metric=-657.55,0.9857669656206258,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Sixth,Hyper + Sixth,S5,Many clusters,R=0.65; nu=2e+05; mu6=4e+07,median accepted-segment metric=-1805.2,0.9357934037184068,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Sixth,Hyper + Sixth,S5,Clusters + singles,R=0.65; nu=2e+05; mu6=4e+07,median accepted-segment metric=-1882.5,0.9302634430885967,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Loss,Hyper + Loss,S1,Random smooth,R=0.65; nu=2e+05; eta=0.2,nu=2e+05; R_eff=0.45,1.0,3.607992127285797e-11,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S1,One central cluster,R=0.65; nu=2e+05; eta=0.2,nu=1.9517e+05; R_eff=0.42808,0.9954950158656696,3.6429467388276837,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S1,Many clusters,R=0.65; nu=2e+05; eta=0.2,nu=2e+05; R_eff=0.45,1.0,2.0727028896219381e-07,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S1,Clusters + singles,R=0.65; nu=2e+05; eta=0.2,nu=2e+05; R_eff=0.45,1.0,1.1797027710258589e-10,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S2,Random smooth,R=0.65; nu=2e+05; eta=0.2,nu=2e+05; R_eff=0.45,1.0,2.48023093421226e-11,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S2,One central cluster,R=0.65; nu=2e+05; eta=0.2,nu=1.9615e+05; R_eff=0.43331,0.9984903237018339,2.815498604631598,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S2,Many clusters,R=0.65; nu=2e+05; eta=0.2,nu=2e+05; R_eff=0.45,1.0,1.0884568885198102e-07,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S2,Clusters + singles,R=0.65; nu=2e+05; eta=0.2,nu=2e+05; R_eff=0.45,1.0,6.646952341624355e-11,,,,known-time PSD-symbol recovery
+R+Hyper+Loss,Hyper + Loss,S3,Random smooth,R=0.65; nu=2e+05; eta=0.2,nu/(R-eta)=4.4444e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+Loss,Hyper + Loss,S3,One central cluster,R=0.65; nu=2e+05; eta=0.2,nu/(R-eta)=3.9364e+05,0.998684412139679,,,,,unknown-time ratio / shape recovery
+R+Hyper+Loss,Hyper + Loss,S3,Many clusters,R=0.65; nu=2e+05; eta=0.2,nu/(R-eta)=4.4444e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+Loss,Hyper + Loss,S3,Clusters + singles,R=0.65; nu=2e+05; eta=0.2,nu/(R-eta)=4.4444e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+Loss,Hyper + Loss,S4,Random smooth,R=0.65; nu=2e+05; eta=0.2,shape coefficients=[ 1.8466e+05 -7.9787e+03  1.2693e+01],0.9461230271482324,,,,,single-snapshot shape diagnostic only
+R+Hyper+Loss,Hyper + Loss,S4,One central cluster,R=0.65; nu=2e+05; eta=0.2,shape coefficients=[ 3.4886e+05 -9.3309e+03 -1.6489e+01],0.7998543178146256,,,,,single-snapshot shape diagnostic only
+R+Hyper+Loss,Hyper + Loss,S4,Many clusters,R=0.65; nu=2e+05; eta=0.2,shape coefficients=[ 2.7874e+05 -9.4981e+03  8.2882e+00],0.9630194055379493,,,,,single-snapshot shape diagnostic only
+R+Hyper+Loss,Hyper + Loss,S4,Clusters + singles,R=0.65; nu=2e+05; eta=0.2,shape coefficients=[ 1.9175e+05 -7.9804e+03  1.0163e+01],0.9509848553721649,,,,,single-snapshot shape diagnostic only
+R+Hyper+Loss,Hyper + Loss,S5,Random smooth,R=0.65; nu=2e+05; eta=0.2,median accepted-segment metric=-639.8,0.92549199403558,,7.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Loss,Hyper + Loss,S5,One central cluster,R=0.65; nu=2e+05; eta=0.2,median accepted-segment metric=-383.84,0.9509732725057602,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Loss,Hyper + Loss,S5,Many clusters,R=0.65; nu=2e+05; eta=0.2,median accepted-segment metric=-871.39,0.8356884345622266,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Loss,Hyper + Loss,S5,Clusters + singles,R=0.65; nu=2e+05; eta=0.2,median accepted-segment metric=-929.4,0.8868242460680126,,5.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Nonlocal,Hyper + Nonlocal,S1,Random smooth,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.65; nu=2e+05; chi=0.8; sigma=45,1.0,4.491383696070272e-10,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S1,One central cluster,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.61491; nu=1.2692e+05; chi=16; sigma=8.0454,0.9906927945567469,59.3314751852256,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S1,Many clusters,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.65; nu=2e+05; chi=0.8; sigma=45,1.0,1.1822664842453533e-06,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S1,Clusters + singles,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.65; nu=2e+05; chi=0.8; sigma=45,1.0,7.776633559331003e-10,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S2,Random smooth,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.65; nu=2e+05; chi=0.8; sigma=45,1.0,8.791485228698547e-11,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S2,One central cluster,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.59417; nu=1.3736e+05; chi=16; sigma=7.6695,0.9921536955202344,57.13777772039934,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S2,Many clusters,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.65; nu=2e+05; chi=0.8; sigma=45,1.0,1.7763327881503698e-07,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S2,Clusters + singles,R=0.65; nu=2e+05; chi=0.8; sigma=45,R=0.65; nu=2e+05; chi=0.8; sigma=45,1.0,2.0082547047550747e-10,,,,known-time PSD-symbol recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S3,Random smooth,R=0.65; nu=2e+05; chi=0.8; sigma=45,nu/c0=3.0769e+05; sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S3,One central cluster,R=0.65; nu=2e+05; chi=0.8; sigma=45,nu/c0=2.2171e+05; sigma=2.4043; chi/c0=273.52,0.9921565014238999,,,,,unknown-time ratio / shape recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S3,Many clusters,R=0.65; nu=2e+05; chi=0.8; sigma=45,nu/c0=3.0769e+05; sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S3,Clusters + singles,R=0.65; nu=2e+05; chi=0.8; sigma=45,nu/c0=3.0769e+05; sigma=45; chi/c0=1.2308,1.0,,,,,unknown-time ratio / shape recovery
+R+Hyper+Nonlocal,Hyper + Nonlocal,S4,Random smooth,R=0.65; nu=2e+05; chi=0.8; sigma=45,shape coefficients=[ 1.9551e+05 -8.1527e+03  1.2239e+01],0.9522194393046661,,,,,single-snapshot shape diagnostic only
+R+Hyper+Nonlocal,Hyper + Nonlocal,S4,One central cluster,R=0.65; nu=2e+05; chi=0.8; sigma=45,shape coefficients=[ 3.4775e+05 -9.2295e+03 -1.7837e+01],0.7762151230369967,,,,,single-snapshot shape diagnostic only
+R+Hyper+Nonlocal,Hyper + Nonlocal,S4,Many clusters,R=0.65; nu=2e+05; chi=0.8; sigma=45,shape coefficients=[ 2.8573e+05 -9.6022e+03  7.9460e+00],0.9676754402242257,,,,,single-snapshot shape diagnostic only
+R+Hyper+Nonlocal,Hyper + Nonlocal,S4,Clusters + singles,R=0.65; nu=2e+05; chi=0.8; sigma=45,shape coefficients=[ 2.0266e+05 -8.1665e+03  9.9042e+00],0.9565866873665382,,,,,single-snapshot shape diagnostic only
+R+Hyper+Nonlocal,Hyper + Nonlocal,S5,Random smooth,R=0.65; nu=2e+05; chi=0.8; sigma=45,median accepted-segment metric=-661.03,0.9211808884124775,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Nonlocal,Hyper + Nonlocal,S5,One central cluster,R=0.65; nu=2e+05; chi=0.8; sigma=45,median accepted-segment metric=-390.96,0.9484621380440029,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Nonlocal,Hyper + Nonlocal,S5,Many clusters,R=0.65; nu=2e+05; chi=0.8; sigma=45,median accepted-segment metric=-876.32,0.8394297983765888,,8.0,8.0,,segmented regional shape diagnostic
+R+Hyper+Nonlocal,Hyper + Nonlocal,S5,Clusters + singles,R=0.65; nu=2e+05; chi=0.8; sigma=45,median accepted-segment metric=-859.08,0.8729120455289735,,5.0,8.0,,segmented regional shape diagnostic
+R+SH+FracDiff,SH + FracDiff,S1,Random smooth,R=1.25; ell=22; Df=350; alpha=1.5,R=1.25; ell=22; Df=350; alpha=1.5,1.0,8.765492035915184e-09,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S1,One central cluster,R=1.25; ell=22; Df=350; alpha=1.5,R=1.1249; ell=1.5322; Df=2295.5; alpha=2.2087,0.9733954557049305,70.14164673318732,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S1,Many clusters,R=1.25; ell=22; Df=350; alpha=1.5,R=1.25; ell=22; Df=350; alpha=1.5,0.9999999999999998,3.659474681801574e-06,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S1,Clusters + singles,R=1.25; ell=22; Df=350; alpha=1.5,R=1.25; ell=22; Df=350; alpha=1.5,1.0,2.4347042900293063e-09,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S2,Random smooth,R=1.25; ell=22; Df=350; alpha=1.5,R=1.25; ell=22; Df=350; alpha=1.5,1.0,4.850819005734289e-09,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S2,One central cluster,R=1.25; ell=22; Df=350; alpha=1.5,R=1.069; ell=2.3089; Df=3599.5; alpha=2.3661,0.977204837295261,73.62174495916777,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S2,Many clusters,R=1.25; ell=22; Df=350; alpha=1.5,R=1.25; ell=22; Df=350; alpha=1.5,1.0,1.2239861021020224e-06,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S2,Clusters + singles,R=1.25; ell=22; Df=350; alpha=1.5,R=1.25; ell=22; Df=350; alpha=1.5,1.0,1.0280597921785032e-10,,,,known-time PSD-symbol recovery
+R+SH+FracDiff,SH + FracDiff,S3,Random smooth,R=1.25; ell=22; Df=350; alpha=1.5,net_k2/c0=49655; net_k4/c0=1.1081e+07; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9989241312869448,,,,,unknown-time ratio / shape recovery
+R+SH+FracDiff,SH + FracDiff,S3,One central cluster,R=1.25; ell=22; Df=350; alpha=1.5,net_k2/c0=-6731.3; net_k4/c0=-3.2674e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9762740908069963,,,,,unknown-time ratio / shape recovery
+R+SH+FracDiff,SH + FracDiff,S3,Many clusters,R=1.25; ell=22; Df=350; alpha=1.5,net_k2/c0=49655; net_k4/c0=1.1081e+07; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9989241314047096,,,,,unknown-time ratio / shape recovery
+R+SH+FracDiff,SH + FracDiff,S3,Clusters + singles,R=1.25; ell=22; Df=350; alpha=1.5,net_k2/c0=49655; net_k4/c0=1.1081e+07; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9989241312874176,,,,,unknown-time ratio / shape recovery
+R+SH+FracDiff,SH + FracDiff,S4,Random smooth,R=1.25; ell=22; Df=350; alpha=1.5,shape coefficients=[ 2.4467e+05 -9.0250e+03  1.1797e+01],0.9594861859858844,,,,,single-snapshot shape diagnostic only
+R+SH+FracDiff,SH + FracDiff,S4,One central cluster,R=1.25; ell=22; Df=350; alpha=1.5,shape coefficients=[ 3.4739e+05 -9.1281e+03 -1.9464e+01],0.7440690512977604,,,,,single-snapshot shape diagnostic only
+R+SH+FracDiff,SH + FracDiff,S4,Many clusters,R=1.25; ell=22; Df=350; alpha=1.5,shape coefficients=[ 3.1590e+05 -1.0128e+04  7.4821e+00],0.969368228836965,,,,,single-snapshot shape diagnostic only
+R+SH+FracDiff,SH + FracDiff,S4,Clusters + singles,R=1.25; ell=22; Df=350; alpha=1.5,shape coefficients=[ 2.4791e+05 -8.9854e+03  9.7260e+00],0.9654268284599279,,,,,single-snapshot shape diagnostic only
+R+SH+FracDiff,SH + FracDiff,S5,Random smooth,R=1.25; ell=22; Df=350; alpha=1.5,median accepted-segment metric=-628.93,0.9440621627284214,,8.0,8.0,,segmented regional shape diagnostic
+R+SH+FracDiff,SH + FracDiff,S5,One central cluster,R=1.25; ell=22; Df=350; alpha=1.5,median accepted-segment metric=-428.85,0.9340637718778916,,8.0,8.0,,segmented regional shape diagnostic
+R+SH+FracDiff,SH + FracDiff,S5,Many clusters,R=1.25; ell=22; Df=350; alpha=1.5,median accepted-segment metric=-808.22,0.8478121710297405,,6.0,8.0,,segmented regional shape diagnostic
+R+SH+FracDiff,SH + FracDiff,S5,Clusters + singles,R=1.25; ell=22; Df=350; alpha=1.5,median accepted-segment metric=-819.61,0.8531959304966175,,6.0,8.0,,segmented regional shape diagnostic
+R+SH+Disp,SH + Disp,S1,Random smooth,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,1.0,5.3290705182007514e-14,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S1,One central cluster,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,0.9999999984813599,0.00021736744607249068,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S1,Many clusters,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,1.0,1.3813596731117947e-11,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S1,Clusters + singles,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,1.0,1.9297694755302722e-13,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S2,Random smooth,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,1.0,6.863196879500968e-14,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S2,One central cluster,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,0.9999999894977587,0.0008988473752607523,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S2,Many clusters,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,1.0,3.0701098229325325e-11,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S2,Clusters + singles,R=1.25; ell=22; beta3=80000,R=1.25; ell=22,1.0,1.8248029350202572e-13,,,beta3,known-time PSD-symbol recovery
+R+SH+Disp,SH + Disp,S3,Random smooth,R=1.25; ell=22; beta3=80000,ell=22; 2*dt=2.5; R=1.25,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+SH+Disp,SH + Disp,S3,One central cluster,R=1.25; ell=22; beta3=80000,ell=22; 2*dt=2.4998; R=1.25,0.9999999904723834,,,,beta3,unknown-time ratio / shape recovery
+R+SH+Disp,SH + Disp,S3,Many clusters,R=1.25; ell=22; beta3=80000,ell=22; 2*dt=2.5; R=1.25,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+SH+Disp,SH + Disp,S3,Clusters + singles,R=1.25; ell=22; beta3=80000,ell=22; 2*dt=2.5; R=1.25,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+SH+Disp,SH + Disp,S4,Random smooth,R=1.25; ell=22; beta3=80000,shape coefficients=[ 7.4164e+04 -5.8402e+03  1.1373e+01],0.9118240052551978,,,,beta3,single-snapshot shape diagnostic only
+R+SH+Disp,SH + Disp,S4,One central cluster,R=1.25; ell=22; beta3=80000,shape coefficients=[ 3.2393e+05 -9.0887e+03 -1.2883e+01],0.8693675693935127,,,,beta3,single-snapshot shape diagnostic only
+R+SH+Disp,SH + Disp,S4,Many clusters,R=1.25; ell=22; beta3=80000,shape coefficients=[ 2.0004e+05 -8.1151e+03  9.5187e+00],0.9379151148067362,,,,beta3,single-snapshot shape diagnostic only
+R+SH+Disp,SH + Disp,S4,Clusters + singles,R=1.25; ell=22; beta3=80000,shape coefficients=[ 7.9708e+04 -5.8817e+03  1.0314e+01],0.9172396273746324,,,,beta3,single-snapshot shape diagnostic only
+R+SH+Disp,SH + Disp,S5,Random smooth,R=1.25; ell=22; beta3=80000,median accepted-segment metric=-758.44,0.907224561792823,,4.0,8.0,beta3,segmented regional shape diagnostic
+R+SH+Disp,SH + Disp,S5,One central cluster,R=1.25; ell=22; beta3=80000,median accepted-segment metric=-384.01,0.9516505678695903,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+SH+Disp,SH + Disp,S5,Many clusters,R=1.25; ell=22; beta3=80000,median accepted-segment metric=-1013.2,0.8865185500201251,,7.0,8.0,beta3,segmented regional shape diagnostic
+R+SH+Disp,SH + Disp,S5,Clusters + singles,R=1.25; ell=22; beta3=80000,median accepted-segment metric=-845.24,0.9402294223219994,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+SH+Sixth,SH + Sixth,S1,Random smooth,R=1.25; ell=22; mu6=4e+07,R=1.25; ell=22; mu6=4e+07,1.0,4.721876223356958e-08,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S1,One central cluster,R=1.25; ell=22; mu6=4e+07,R=1.0461; ell=26.152; mu6=1.546e-16,0.9566441805136296,18.874358804595285,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S1,Many clusters,R=1.25; ell=22; mu6=4e+07,R=1.25; ell=22; mu6=4e+07,0.9999999999995024,0.00027600964098504414,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S1,Clusters + singles,R=1.25; ell=22; mu6=4e+07,R=1.25; ell=22; mu6=4e+07,1.0,1.696652838425259e-07,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S2,Random smooth,R=1.25; ell=22; mu6=4e+07,R=1.25; ell=22; mu6=4e+07,1.0,1.0791254758466741e-08,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S2,One central cluster,R=1.25; ell=22; mu6=4e+07,R=1.0629; ell=26.275; mu6=0.13549,0.9694655934769659,19.432170533976663,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S2,Many clusters,R=1.25; ell=22; mu6=4e+07,R=1.25; ell=22; mu6=4e+07,0.9999999999999599,7.831204806246268e-05,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S2,Clusters + singles,R=1.25; ell=22; mu6=4e+07,R=1.25; ell=22; mu6=4e+07,1.0,5.968693014582724e-08,,,,known-time PSD-symbol recovery
+R+SH+Sixth,SH + Sixth,S3,Random smooth,R=1.25; ell=22; mu6=4e+07,net_k2/c0=3872; net_k4/c0=-9.3702e+05; net_k6/c0=-1.6e+08; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+SH+Sixth,SH + Sixth,S3,One central cluster,R=1.25; ell=22; mu6=4e+07,net_k2/c0=65147; net_k4/c0=-2.7767e+07; net_k6/c0=1.5363e+09; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9788395460415765,,,,,unknown-time ratio / shape recovery
+R+SH+Sixth,SH + Sixth,S3,Many clusters,R=1.25; ell=22; mu6=4e+07,net_k2/c0=3872; net_k4/c0=-9.3703e+05; net_k6/c0=-1.6e+08; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9999999999999644,,,,,unknown-time ratio / shape recovery
+R+SH+Sixth,SH + Sixth,S3,Clusters + singles,R=1.25; ell=22; mu6=4e+07,net_k2/c0=3872; net_k4/c0=-9.3702e+05; net_k6/c0=-1.6e+08; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+SH+Sixth,SH + Sixth,S4,Random smooth,R=1.25; ell=22; mu6=4e+07,shape coefficients=[ 1.2923e+07 -8.5678e+04 -7.4414e+03  1.0734e+01],0.9219609326392105,,,,,single-snapshot shape diagnostic only
+R+SH+Sixth,SH + Sixth,S4,One central cluster,R=1.25; ell=22; mu6=4e+07,shape coefficients=[-4.0117e+07  1.5893e+06 -1.8945e+04 -3.6806e+00],0.9498051587185034,,,,,single-snapshot shape diagnostic only
+R+SH+Sixth,SH + Sixth,S4,Many clusters,R=1.25; ell=22; mu6=4e+07,shape coefficients=[ 4.3679e+05  3.2990e+05 -1.0652e+04  9.2415e+00],0.9286254310520601,,,,,single-snapshot shape diagnostic only
+R+SH+Sixth,SH + Sixth,S4,Clusters + singles,R=1.25; ell=22; mu6=4e+07,shape coefficients=[ 1.0455e+07 -8.5459e+03 -7.9368e+03  9.5629e+00],0.9286755558249954,,,,,single-snapshot shape diagnostic only
+R+SH+Sixth,SH + Sixth,S5,Random smooth,R=1.25; ell=22; mu6=4e+07,median accepted-segment metric=-1884,0.9406528847452622,,4.0,8.0,,segmented regional shape diagnostic
+R+SH+Sixth,SH + Sixth,S5,One central cluster,R=1.25; ell=22; mu6=4e+07,median accepted-segment metric=-636.49,0.987016094182021,,8.0,8.0,,segmented regional shape diagnostic
+R+SH+Sixth,SH + Sixth,S5,Many clusters,R=1.25; ell=22; mu6=4e+07,median accepted-segment metric=-1994.8,0.9666316547692143,,6.0,8.0,,segmented regional shape diagnostic
+R+SH+Sixth,SH + Sixth,S5,Clusters + singles,R=1.25; ell=22; mu6=4e+07,median accepted-segment metric=-1947.3,0.9790372343001499,,8.0,8.0,,segmented regional shape diagnostic
+R+SH+Loss,SH + Loss,S1,Random smooth,R=1.25; ell=22; eta=0.2,ell=22; R_eff=1.05,1.0,5.6520444890007966e-14,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S1,One central cluster,R=1.25; ell=22; eta=0.2,ell=22.001; R_eff=1.0501,0.9999998275864009,0.006305514644023313,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S1,Many clusters,R=1.25; ell=22; eta=0.2,ell=22; R_eff=1.05,1.0,3.1865765437599636e-10,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S1,Clusters + singles,R=1.25; ell=22; eta=0.2,ell=22; R_eff=1.05,1.0,3.083632435495673e-13,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S2,Random smooth,R=1.25; ell=22; eta=0.2,ell=22; R_eff=1.05,1.0,6.651725827191415e-14,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S2,One central cluster,R=1.25; ell=22; eta=0.2,ell=22.001; R_eff=1.0501,0.9999998943188281,0.005206730870492001,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S2,Many clusters,R=1.25; ell=22; eta=0.2,ell=22; R_eff=1.05,1.0,2.2565845296259037e-10,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S2,Clusters + singles,R=1.25; ell=22; eta=0.2,ell=22; R_eff=1.05,1.0,2.443451886231297e-13,,,,known-time PSD-symbol recovery
+R+SH+Loss,SH + Loss,S3,Random smooth,R=1.25; ell=22; eta=0.2,net_k2/c0=19360; net_k4/c0=-4.6851e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+SH+Loss,SH + Loss,S3,One central cluster,R=1.25; ell=22; eta=0.2,net_k2/c0=19423; net_k4/c0=-4.7006e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9999999145664815,,,,,unknown-time ratio / shape recovery
+R+SH+Loss,SH + Loss,S3,Many clusters,R=1.25; ell=22; eta=0.2,net_k2/c0=19360; net_k4/c0=-4.6851e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+SH+Loss,SH + Loss,S3,Clusters + singles,R=1.25; ell=22; eta=0.2,net_k2/c0=19360; net_k4/c0=-4.6851e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+SH+Loss,SH + Loss,S4,Random smooth,R=1.25; ell=22; eta=0.2,shape coefficients=[ 7.4513e+04 -5.8447e+03  1.1379e+01],0.9116267380864489,,,,,single-snapshot shape diagnostic only
+R+SH+Loss,SH + Loss,S4,One central cluster,R=1.25; ell=22; eta=0.2,shape coefficients=[ 3.2283e+05 -9.0662e+03 -1.2912e+01],0.868870229531274,,,,,single-snapshot shape diagnostic only
+R+SH+Loss,SH + Loss,S4,Many clusters,R=1.25; ell=22; eta=0.2,shape coefficients=[ 2.0043e+05 -8.1218e+03  9.5272e+00],0.9375948328637633,,,,,single-snapshot shape diagnostic only
+R+SH+Loss,SH + Loss,S4,Clusters + singles,R=1.25; ell=22; eta=0.2,shape coefficients=[ 7.9713e+04 -5.8785e+03  1.0307e+01],0.917295277396069,,,,,single-snapshot shape diagnostic only
+R+SH+Loss,SH + Loss,S5,Random smooth,R=1.25; ell=22; eta=0.2,median accepted-segment metric=-887.8,0.9161705893940978,,5.0,8.0,,segmented regional shape diagnostic
+R+SH+Loss,SH + Loss,S5,One central cluster,R=1.25; ell=22; eta=0.2,median accepted-segment metric=-374.77,0.9540374214169919,,8.0,8.0,,segmented regional shape diagnostic
+R+SH+Loss,SH + Loss,S5,Many clusters,R=1.25; ell=22; eta=0.2,median accepted-segment metric=-1091,0.8874969834879982,,6.0,8.0,,segmented regional shape diagnostic
+R+SH+Loss,SH + Loss,S5,Clusters + singles,R=1.25; ell=22; eta=0.2,median accepted-segment metric=-909.89,0.9566388576207367,,8.0,8.0,,segmented regional shape diagnostic
+R+SH+Nonlocal,SH + Nonlocal,S1,Random smooth,R=1.25; ell=22; chi=0.8; sigma=45,R=1.25; ell=22; chi=0.8; sigma=45,1.0,8.787162916493426e-13,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S1,One central cluster,R=1.25; ell=22; chi=0.8; sigma=45,R=1.2503; ell=22.005; chi=0.79856; sigma=45.124,0.9999996093006635,0.10233428231689248,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S1,Many clusters,R=1.25; ell=22; chi=0.8; sigma=45,R=1.25; ell=22; chi=0.8; sigma=45,1.0,5.202820674288233e-09,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S1,Clusters + singles,R=1.25; ell=22; chi=0.8; sigma=45,R=1.25; ell=22; chi=0.8; sigma=45,1.0,2.8746449665106866e-12,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S2,Random smooth,R=1.25; ell=22; chi=0.8; sigma=45,R=1.25; ell=22; chi=0.8; sigma=45,1.0,8.509607160337137e-13,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S2,One central cluster,R=1.25; ell=22; chi=0.8; sigma=45,R=1.2501; ell=22.003; chi=0.79929; sigma=45.061,0.9999998886988501,0.05046136486814757,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S2,Many clusters,R=1.25; ell=22; chi=0.8; sigma=45,R=1.25; ell=22; chi=0.8; sigma=45,1.0,4.097519545886996e-09,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S2,Clusters + singles,R=1.25; ell=22; chi=0.8; sigma=45,R=1.25; ell=22; chi=0.8; sigma=45,1.0,1.954547634852588e-12,,,,known-time PSD-symbol recovery
+R+SH+Nonlocal,SH + Nonlocal,S3,Random smooth,R=1.25; ell=22; chi=0.8; sigma=45,net_k2/c0=4075.7; net_k4/c0=-1.2874e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9960404821967027,,,,,unknown-time ratio / shape recovery
+R+SH+Nonlocal,SH + Nonlocal,S3,One central cluster,R=1.25; ell=22; chi=0.8; sigma=45,net_k2/c0=4083.9; net_k4/c0=-1.2899e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9960196935902016,,,,,unknown-time ratio / shape recovery
+R+SH+Nonlocal,SH + Nonlocal,S3,Many clusters,R=1.25; ell=22; chi=0.8; sigma=45,net_k2/c0=4075.7; net_k4/c0=-1.2874e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9960404821987074,,,,,unknown-time ratio / shape recovery
+R+SH+Nonlocal,SH + Nonlocal,S3,Clusters + singles,R=1.25; ell=22; chi=0.8; sigma=45,net_k2/c0=4075.7; net_k4/c0=-1.2874e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9960404821967015,,,,,unknown-time ratio / shape recovery
+R+SH+Nonlocal,SH + Nonlocal,S4,Random smooth,R=1.25; ell=22; chi=0.8; sigma=45,shape coefficients=[ 8.4887e+04 -6.0650e+03  1.1950e+01],0.9186243764624973,,,,,single-snapshot shape diagnostic only
+R+SH+Nonlocal,SH + Nonlocal,S4,One central cluster,R=1.25; ell=22; chi=0.8; sigma=45,shape coefficients=[ 3.2772e+05 -9.0804e+03 -1.4216e+01],0.8505649258783866,,,,,single-snapshot shape diagnostic only
+R+SH+Nonlocal,SH + Nonlocal,S4,Many clusters,R=1.25; ell=22; chi=0.8; sigma=45,shape coefficients=[ 2.0964e+05 -8.2723e+03  9.2807e+00],0.9446145002558173,,,,,single-snapshot shape diagnostic only
+R+SH+Nonlocal,SH + Nonlocal,S4,Clusters + singles,R=1.25; ell=22; chi=0.8; sigma=45,shape coefficients=[ 9.2115e+04 -6.1033e+03  1.0217e+01],0.9238064433630642,,,,,single-snapshot shape diagnostic only
+R+SH+Nonlocal,SH + Nonlocal,S5,Random smooth,R=1.25; ell=22; chi=0.8; sigma=45,median accepted-segment metric=-837.61,0.9437338894049966,,4.0,8.0,,segmented regional shape diagnostic
+R+SH+Nonlocal,SH + Nonlocal,S5,One central cluster,R=1.25; ell=22; chi=0.8; sigma=45,median accepted-segment metric=-383.74,0.9509887292428213,,8.0,8.0,,segmented regional shape diagnostic
+R+SH+Nonlocal,SH + Nonlocal,S5,Many clusters,R=1.25; ell=22; chi=0.8; sigma=45,median accepted-segment metric=-825.06,0.8599983057439051,,4.0,8.0,,segmented regional shape diagnostic
+R+SH+Nonlocal,SH + Nonlocal,S5,Clusters + singles,R=1.25; ell=22; chi=0.8; sigma=45,median accepted-segment metric=-967.14,0.9339687903500224,,7.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Disp,FracDiff + Disp,S1,Random smooth,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.65; Df=350; alpha=1.5,1.0,2.2103686402575615e-10,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S1,One central cluster,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.67081; Df=328.63; alpha=1.4769,0.9995809229292592,3.201642893809223,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S1,Many clusters,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.65; Df=350; alpha=1.5,1.0,3.763493790114143e-08,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S1,Clusters + singles,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.65; Df=350; alpha=1.5,1.0,1.8293059374977577e-11,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S2,Random smooth,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.65; Df=350; alpha=1.5,1.0,1.4716433200262075e-10,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S2,One central cluster,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.71248; Df=286.99; alpha=1.4284,0.9986041122297434,9.612571068113402,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S2,Many clusters,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.65; Df=350; alpha=1.5,1.0,2.5686102817373396e-08,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S2,Clusters + singles,R=0.65; Df=350; alpha=1.5; beta3=80000,R=0.65; Df=350; alpha=1.5,1.0,4.850820599900684e-11,,,beta3,known-time PSD-symbol recovery
+R+FracDiff+Disp,FracDiff + Disp,S3,Random smooth,R=0.65; Df=350; alpha=1.5; beta3=80000,alpha=1.5; Df/c0=538.46,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+FracDiff+Disp,FracDiff + Disp,S3,One central cluster,R=0.65; Df=350; alpha=1.5; beta3=80000,alpha=1.4284; Df/c0=402.8,0.9986041122297434,,,,beta3,unknown-time ratio / shape recovery
+R+FracDiff+Disp,FracDiff + Disp,S3,Many clusters,R=0.65; Df=350; alpha=1.5; beta3=80000,alpha=1.5; Df/c0=538.46,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+FracDiff+Disp,FracDiff + Disp,S3,Clusters + singles,R=0.65; Df=350; alpha=1.5; beta3=80000,alpha=1.5; Df/c0=538.46,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+FracDiff+Disp,FracDiff + Disp,S4,Random smooth,R=0.65; Df=350; alpha=1.5; beta3=80000,shape coefficients=[-1.1047e+06  4.2224e+04 -3.8105e+03  3.7298e+00],0.9972778169063313,,,,beta3,single-snapshot shape diagnostic only
+R+FracDiff+Disp,FracDiff + Disp,S4,One central cluster,R=0.65; Df=350; alpha=1.5; beta3=80000,shape coefficients=[-4.5087e+07  1.7230e+06 -1.9358e+04 -9.0716e+00],0.882760528354674,,,,beta3,single-snapshot shape diagnostic only
+R+FracDiff+Disp,FracDiff + Disp,S4,Many clusters,R=0.65; Df=350; alpha=1.5; beta3=80000,shape coefficients=[ 6.6592e+06 -3.3379e+02 -6.2982e+03  3.5011e+00],0.9939673660726391,,,,beta3,single-snapshot shape diagnostic only
+R+FracDiff+Disp,FracDiff + Disp,S4,Clusters + singles,R=0.65; Df=350; alpha=1.5; beta3=80000,shape coefficients=[-3.1971e+06  1.4969e+05 -4.6929e+03  3.3378e+00],0.9957953824823008,,,,beta3,single-snapshot shape diagnostic only
+R+FracDiff+Disp,FracDiff + Disp,S5,Random smooth,R=0.65; Df=350; alpha=1.5; beta3=80000,median accepted-segment metric=-1495.6,0.9588260366831078,,5.0,8.0,beta3,segmented regional shape diagnostic
+R+FracDiff+Disp,FracDiff + Disp,S5,One central cluster,R=0.65; Df=350; alpha=1.5; beta3=80000,median accepted-segment metric=-766.27,0.9781380650149111,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+FracDiff+Disp,FracDiff + Disp,S5,Many clusters,R=0.65; Df=350; alpha=1.5; beta3=80000,median accepted-segment metric=-1808,0.9400520732234194,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+FracDiff+Disp,FracDiff + Disp,S5,Clusters + singles,R=0.65; Df=350; alpha=1.5; beta3=80000,median accepted-segment metric=-1739.9,0.9366648897744125,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+FracDiff+Sixth,FracDiff + Sixth,S1,Random smooth,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=0.65; Df=350; alpha=1.5; mu6=4e+07,0.9999999999999996,1.1374851268788051e-05,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S1,One central cluster,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=1.0771; Df=244.44; alpha=1.2934; mu6=6.3352e-09,0.9300554237752094,47.93371478769278,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S1,Many clusters,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=0.64984; Df=350.33; alpha=1.5003; mu6=3.999e+07,0.999999997050038,0.025590013339472174,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S1,Clusters + singles,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=0.65; Df=350; alpha=1.5; mu6=4e+07,1.0,1.79822921747969e-06,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S2,Random smooth,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=0.65; Df=350; alpha=1.5; mu6=4e+07,1.0,2.1740759519303765e-06,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S2,One central cluster,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=0.87274; Df=455.03; alpha=1.5083; mu6=6.3383e-09,0.9634749585773916,32.1385122802114,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S2,Many clusters,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=0.64998; Df=350.04; alpha=1.5; mu6=3.9999e+07,0.9999999999534165,0.0034883503243447736,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S2,Clusters + singles,R=0.65; Df=350; alpha=1.5; mu6=4e+07,R=0.65; Df=350; alpha=1.5; mu6=4e+07,1.0,1.5482831698643797e-06,,,,known-time PSD-symbol recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S3,Random smooth,R=0.65; Df=350; alpha=1.5; mu6=4e+07,mu6/c0=6.1538e+07; alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S3,One central cluster,R=0.65; Df=350; alpha=1.5; mu6=4e+07,mu6/c0=-3.574e+08; alpha=3.0948; Df/c0=3.3051e+05,0.9900649434441141,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S3,Many clusters,R=0.65; Df=350; alpha=1.5; mu6=4e+07,mu6/c0=6.1538e+07; alpha=1.5; Df/c0=538.55,0.9999999999534165,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S3,Clusters + singles,R=0.65; Df=350; alpha=1.5; mu6=4e+07,mu6/c0=6.1538e+07; alpha=1.5; Df/c0=538.46,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Sixth,FracDiff + Sixth,S4,Random smooth,R=0.65; Df=350; alpha=1.5; mu6=4e+07,shape coefficients=[-2.1836e+06  4.0874e+05 -1.1224e+04  1.0720e+01],0.9576037480685331,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Sixth,FracDiff + Sixth,S4,One central cluster,R=0.65; Df=350; alpha=1.5; mu6=4e+07,shape coefficients=[-4.7505e+07  1.8010e+06 -1.9944e+04 -9.2440e+00],0.8718209287822967,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Sixth,FracDiff + Sixth,S4,Many clusters,R=0.65; Df=350; alpha=1.5; mu6=4e+07,shape coefficients=[-1.3405e+07  7.8533e+05 -1.4193e+04  9.6176e+00],0.963608508541468,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Sixth,FracDiff + Sixth,S4,Clusters + singles,R=0.65; Df=350; alpha=1.5; mu6=4e+07,shape coefficients=[-4.0589e+06  4.7024e+05 -1.1663e+04  9.8677e+00],0.9639552778528139,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Sixth,FracDiff + Sixth,S5,Random smooth,R=0.65; Df=350; alpha=1.5; mu6=4e+07,median accepted-segment metric=-1376,0.9727786782999973,,7.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Sixth,FracDiff + Sixth,S5,One central cluster,R=0.65; Df=350; alpha=1.5; mu6=4e+07,median accepted-segment metric=-767.56,0.9780941850571381,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Sixth,FracDiff + Sixth,S5,Many clusters,R=0.65; Df=350; alpha=1.5; mu6=4e+07,median accepted-segment metric=-1647.3,0.9373030115230782,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Sixth,FracDiff + Sixth,S5,Clusters + singles,R=0.65; Df=350; alpha=1.5; mu6=4e+07,median accepted-segment metric=-1613.9,0.9288962758793811,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Loss,FracDiff + Loss,S1,Random smooth,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=350; alpha=1.5; R_eff=0.45,1.0,2.940610717890498e-10,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S1,One central cluster,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=273.3; alpha=1.4104; R_eff=0.53057,0.9942817259428965,17.90545667776343,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S1,Many clusters,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=350; alpha=1.5; R_eff=0.45,1.0,3.970210580048514e-08,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S1,Clusters + singles,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=350; alpha=1.5; R_eff=0.45,1.0,9.756393224178181e-11,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S2,Random smooth,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=350; alpha=1.5; R_eff=0.45,1.0,2.019619039907007e-10,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S2,One central cluster,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=337.09; alpha=1.4854; R_eff=0.46584,0.99708878415958,3.519693339401041,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S2,Many clusters,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=350; alpha=1.5; R_eff=0.45,1.0,6.470885555782186e-08,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S2,Clusters + singles,R=0.65; Df=350; alpha=1.5; eta=0.2,Df=350; alpha=1.5; R_eff=0.45,1.0,7.408888317665212e-11,,,,known-time PSD-symbol recovery
+R+FracDiff+Loss,FracDiff + Loss,S3,Random smooth,R=0.65; Df=350; alpha=1.5; eta=0.2,alpha=1.5; Df/c0=777.78,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Loss,FracDiff + Loss,S3,One central cluster,R=0.65; Df=350; alpha=1.5; eta=0.2,alpha=1.4854; Df/c0=723.61,0.9970887841595799,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Loss,FracDiff + Loss,S3,Many clusters,R=0.65; Df=350; alpha=1.5; eta=0.2,alpha=1.5; Df/c0=777.78,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Loss,FracDiff + Loss,S3,Clusters + singles,R=0.65; Df=350; alpha=1.5; eta=0.2,alpha=1.5; Df/c0=777.78,1.0,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Loss,FracDiff + Loss,S4,Random smooth,R=0.65; Df=350; alpha=1.5; eta=0.2,shape coefficients=[-1.0074e+06  3.9327e+04 -3.7906e+03  3.7105e+00],0.9970083950720418,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Loss,FracDiff + Loss,S4,One central cluster,R=0.65; Df=350; alpha=1.5; eta=0.2,shape coefficients=[-4.4871e+07  1.7149e+06 -1.9280e+04 -9.1375e+00],0.8810911479213104,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Loss,FracDiff + Loss,S4,Many clusters,R=0.65; Df=350; alpha=1.5; eta=0.2,shape coefficients=[ 6.9864e+06 -1.0314e+04 -6.2354e+03  3.4477e+00],0.9941655537018987,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Loss,FracDiff + Loss,S4,Clusters + singles,R=0.65; Df=350; alpha=1.5; eta=0.2,shape coefficients=[-3.1926e+06  1.4956e+05 -4.6921e+03  3.3371e+00],0.9957942084393253,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Loss,FracDiff + Loss,S5,Random smooth,R=0.65; Df=350; alpha=1.5; eta=0.2,median accepted-segment metric=-1321.6,0.971697547175626,,7.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Loss,FracDiff + Loss,S5,One central cluster,R=0.65; Df=350; alpha=1.5; eta=0.2,median accepted-segment metric=-767.56,0.9780939349817239,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Loss,FracDiff + Loss,S5,Many clusters,R=0.65; Df=350; alpha=1.5; eta=0.2,median accepted-segment metric=-1654,0.9369799916400319,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Loss,FracDiff + Loss,S5,Clusters + singles,R=0.65; Df=350; alpha=1.5; eta=0.2,median accepted-segment metric=-1613.4,0.9288952758870221,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S1,Random smooth,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,1.0,3.753228838832001e-09,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S1,One central cluster,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=1.3643; Df=2.3933; alpha=0.2; chi=9.0159; sigma=22.148,0.9921702236224281,99.31619457959086,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S1,Many clusters,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,1.0,1.601669607806697e-06,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S1,Clusters + singles,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,1.0,2.3598139315644014e-10,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S2,Random smooth,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,1.0,1.2787084971124487e-09,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S2,One central cluster,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=1.1246; Df=3.1846; alpha=0.31867; chi=9.4281; sigma=20.926,0.9918548307043947,78.75564531363067,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S2,Many clusters,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,1.0,2.0133905959735584e-06,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S2,Clusters + singles,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,1.0,3.3312611928219365e-10,,,,known-time PSD-symbol recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S3,Random smooth,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,alpha=1.278; Df/c0=324.24; sigma=165.99; chi/c0=-0.30436,0.9999895823551741,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S3,One central cluster,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,alpha=0.96792; Df/c0=111.18; sigma=102.04; chi/c0=-1.1081,0.9908543602678344,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S3,Many clusters,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,alpha=1.278; Df/c0=324.24; sigma=165.99; chi/c0=-0.30436,0.999989582360376,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S3,Clusters + singles,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,alpha=1.278; Df/c0=324.24; sigma=165.99; chi/c0=-0.30436,0.9999895823551755,,,,,unknown-time ratio / shape recovery
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S4,Random smooth,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,shape coefficients=[-1.7220e+06  7.4314e+04 -4.2471e+03  3.2167e+00],0.996411015609284,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S4,One central cluster,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,shape coefficients=[-4.6241e+07  1.7550e+06 -1.9487e+04 -1.0082e+01],0.8662542856726874,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S4,Many clusters,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,shape coefficients=[ 4.7211e+06  7.4049e+04 -7.0096e+03  3.8528e+00],0.9931815829075762,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S4,Clusters + singles,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,shape coefficients=[-4.4605e+06  1.9757e+05 -5.2218e+03  3.3449e+00],0.9953087558018106,,,,,single-snapshot shape diagnostic only
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S5,Random smooth,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,median accepted-segment metric=-1315.8,0.9591034239825,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S5,One central cluster,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,median accepted-segment metric=-768.52,0.9779861058119057,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S5,Many clusters,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,median accepted-segment metric=-1576.4,0.9373109032343102,,8.0,8.0,,segmented regional shape diagnostic
+R+FracDiff+Nonlocal,FracDiff + Nonlocal,S5,Clusters + singles,R=0.65; Df=350; alpha=1.5; chi=0.8; sigma=45,median accepted-segment metric=-1637.2,0.9389002724663202,,8.0,8.0,,segmented regional shape diagnostic
+R+Disp+Sixth,Disp + Sixth,S1,Random smooth,R=0.65; beta3=80000; mu6=4e+07,R=0.65; mu6=4e+07,1.0,2.7066036857639535e-10,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S1,One central cluster,R=0.65; beta3=80000; mu6=4e+07,R=0.60427; mu6=3.7298e+07,0.9930684281705304,6.8956863199630005,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S1,Many clusters,R=0.65; beta3=80000; mu6=4e+07,R=0.65; mu6=4e+07,1.0,3.2317772663143037e-07,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S1,Clusters + singles,R=0.65; beta3=80000; mu6=4e+07,R=0.65; mu6=4e+07,1.0,5.7609728903921325e-11,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S2,Random smooth,R=0.65; beta3=80000; mu6=4e+07,R=0.65; mu6=4e+07,1.0,9.234176762727376e-11,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S2,One central cluster,R=0.65; beta3=80000; mu6=4e+07,R=0.59939; mu6=3.6954e+07,0.9923057803042408,7.700840991517255,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S2,Many clusters,R=0.65; beta3=80000; mu6=4e+07,R=0.65; mu6=4e+07,1.0,8.808857081401828e-08,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S2,Clusters + singles,R=0.65; beta3=80000; mu6=4e+07,R=0.65; mu6=4e+07,1.0,6.747058148011302e-11,,,beta3,known-time PSD-symbol recovery
+R+Disp+Sixth,Disp + Sixth,S3,Random smooth,R=0.65; beta3=80000; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Sixth,Disp + Sixth,S3,One central cluster,R=0.65; beta3=80000; mu6=4e+07,mu6/(R)=2.1385e+07,0.9961961440387919,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Sixth,Disp + Sixth,S3,Many clusters,R=0.65; beta3=80000; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Sixth,Disp + Sixth,S3,Clusters + singles,R=0.65; beta3=80000; mu6=4e+07,mu6/(R)=6.1538e+07,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Sixth,Disp + Sixth,S4,Random smooth,R=0.65; beta3=80000; mu6=4e+07,shape coefficients=[ 1.9354e+07 -3.2418e+05 -5.2018e+03  9.3854e+00],0.9365615816050109,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Sixth,Disp + Sixth,S4,One central cluster,R=0.65; beta3=80000; mu6=4e+07,shape coefficients=[-3.9937e+07  1.5760e+06 -1.8673e+04 -5.2055e+00],0.936385034637932,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Sixth,Disp + Sixth,S4,Many clusters,R=0.65; beta3=80000; mu6=4e+07,shape coefficients=[ 4.8032e+06  1.6961e+05 -9.1480e+03  7.9531e+00],0.942339633248724,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Sixth,Disp + Sixth,S4,Clusters + singles,R=0.65; beta3=80000; mu6=4e+07,shape coefficients=[ 1.6620e+07 -2.3874e+05 -5.7301e+03  7.6348e+00],0.9424112637843481,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Sixth,Disp + Sixth,S5,Random smooth,R=0.65; beta3=80000; mu6=4e+07,median accepted-segment metric=-1507.2,0.9714341470685237,,7.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Sixth,Disp + Sixth,S5,One central cluster,R=0.65; beta3=80000; mu6=4e+07,median accepted-segment metric=-675.46,0.9849156709832168,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Sixth,Disp + Sixth,S5,Many clusters,R=0.65; beta3=80000; mu6=4e+07,median accepted-segment metric=-1871,0.9535480230309965,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Sixth,Disp + Sixth,S5,Clusters + singles,R=0.65; beta3=80000; mu6=4e+07,median accepted-segment metric=-1973.5,0.9545000599726478,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Loss,Disp + Loss,S1,Random smooth,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,6.291263806209221e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S1,One central cluster,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,0.0005758432889906789,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S1,Many clusters,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,6.920390186830142e-12,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S1,Clusters + singles,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,8.881784197001252e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S2,Random smooth,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,6.908054375445418e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S2,One central cluster,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,0.0006730386886823049,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S2,Many clusters,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,2.10572300337238e-11,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S2,Clusters + singles,R=0.65; beta3=80000; eta=0.2,R_eff=0.45,,8.511709855459533e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp+Loss,Disp + Loss,S3,Random smooth,R=0.65; beta3=80000; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Loss,Disp + Loss,S3,One central cluster,R=0.65; beta3=80000; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Loss,Disp + Loss,S3,Many clusters,R=0.65; beta3=80000; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Loss,Disp + Loss,S3,Clusters + singles,R=0.65; beta3=80000; eta=0.2,note: constant-only real symbol; time scale not identifiable,0.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Loss,Disp + Loss,S4,Random smooth,R=0.65; beta3=80000; eta=0.2,shape coefficients=[-2.5678],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Loss,Disp + Loss,S4,One central cluster,R=0.65; beta3=80000; eta=0.2,shape coefficients=[-41.0883],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Loss,Disp + Loss,S4,Many clusters,R=0.65; beta3=80000; eta=0.2,shape coefficients=[-19.7322],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Loss,Disp + Loss,S4,Clusters + singles,R=0.65; beta3=80000; eta=0.2,shape coefficients=[-2.2774],0.0,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Loss,Disp + Loss,S5,Random smooth,R=0.65; beta3=80000; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Loss,Disp + Loss,S5,One central cluster,R=0.65; beta3=80000; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Loss,Disp + Loss,S5,Many clusters,R=0.65; beta3=80000; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Loss,Disp + Loss,S5,Clusters + singles,R=0.65; beta3=80000; eta=0.2,median accepted-segment metric=nan,,,0.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Nonlocal,Disp + Nonlocal,S1,Random smooth,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.578983857244667e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S1,One central cluster,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.64999; chi=0.8; sigma=44.999,0.9999999636803348,0.0012325150147152186,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S1,Many clusters,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,3.2834845953289005e-11,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S1,Clusters + singles,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.057919184353927e-12,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S2,Random smooth,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.8947806286936006e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S2,One central cluster,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.65; chi=0.79997; sigma=45.001,0.999999980668219,0.0028654915043249377,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S2,Many clusters,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,1.0421293457814802e-12,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S2,Clusters + singles,R=0.65; beta3=80000; chi=0.8; sigma=45,R=0.65; chi=0.8; sigma=45,1.0,9.000207986294603e-13,,,beta3,known-time PSD-symbol recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S3,Random smooth,R=0.65; beta3=80000; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S3,One central cluster,R=0.65; beta3=80000; chi=0.8; sigma=45,sigma=45.001; chi/c0=1.2307,0.999999980668219,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S3,Many clusters,R=0.65; beta3=80000; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S3,Clusters + singles,R=0.65; beta3=80000; chi=0.8; sigma=45,sigma=45; chi/c0=1.2308,1.0,,,,beta3,unknown-time ratio / shape recovery
+R+Disp+Nonlocal,Disp + Nonlocal,S4,Random smooth,R=0.65; beta3=80000; chi=0.8; sigma=45,shape coefficients=[-2.7873e+06  4.1198e+04 -8.0572e+02  3.2747e+00],0.9795549154996509,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Nonlocal,Disp + Nonlocal,S4,One central cluster,R=0.65; beta3=80000; chi=0.8; sigma=45,shape coefficients=[-3.6488e+07  1.3668e+06 -1.4947e+04 -9.0471e+00],0.8093567913272991,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Nonlocal,Disp + Nonlocal,S4,Many clusters,R=0.65; beta3=80000; chi=0.8; sigma=45,shape coefficients=[ 4.3259e+05 -2.3371e+04 -2.6557e+03  1.3040e+00],0.9934072771450067,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Nonlocal,Disp + Nonlocal,S4,Clusters + singles,R=0.65; beta3=80000; chi=0.8; sigma=45,shape coefficients=[-1.7592e+06  7.0267e+04 -1.2177e+03  1.7415e+00],0.8750998326971385,,,,beta3,single-snapshot shape diagnostic only
+R+Disp+Nonlocal,Disp + Nonlocal,S5,Random smooth,R=0.65; beta3=80000; chi=0.8; sigma=45,median accepted-segment metric=-608.39,0.9408301769126721,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Nonlocal,Disp + Nonlocal,S5,One central cluster,R=0.65; beta3=80000; chi=0.8; sigma=45,median accepted-segment metric=-688.66,0.9839737971011915,,8.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Nonlocal,Disp + Nonlocal,S5,Many clusters,R=0.65; beta3=80000; chi=0.8; sigma=45,median accepted-segment metric=-1804.2,0.9551890582611515,,7.0,8.0,beta3,segmented regional shape diagnostic
+R+Disp+Nonlocal,Disp + Nonlocal,S5,Clusters + singles,R=0.65; beta3=80000; chi=0.8; sigma=45,median accepted-segment metric=-1647.8,0.9151166737282529,,7.0,8.0,beta3,segmented regional shape diagnostic
+R+Sixth+Loss,Sixth + Loss,S1,Random smooth,R=0.65; mu6=4e+07; eta=0.2,mu6=4e+07; R_eff=0.45,1.0,2.772944533388808e-10,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S1,One central cluster,R=0.65; mu6=4e+07; eta=0.2,mu6=3.6054e+07; R_eff=0.37917,0.9699622308149676,12.802627473360722,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S1,Many clusters,R=0.65; mu6=4e+07; eta=0.2,mu6=4e+07; R_eff=0.45,1.0,5.749922194475863e-07,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S1,Clusters + singles,R=0.65; mu6=4e+07; eta=0.2,mu6=4e+07; R_eff=0.45,1.0,1.0637956092157057e-09,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S2,Random smooth,R=0.65; mu6=4e+07; eta=0.2,mu6=4e+07; R_eff=0.45,1.0,1.762837698827803e-10,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S2,One central cluster,R=0.65; mu6=4e+07; eta=0.2,mu6=3.6937e+07; R_eff=0.39308,0.9760497427471727,10.152687434377977,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S2,Many clusters,R=0.65; mu6=4e+07; eta=0.2,mu6=4e+07; R_eff=0.45,1.0,1.484748957830738e-07,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S2,Clusters + singles,R=0.65; mu6=4e+07; eta=0.2,mu6=4e+07; R_eff=0.45,1.0,1.4039100180853994e-10,,,,known-time PSD-symbol recovery
+R+Sixth+Loss,Sixth + Loss,S3,Random smooth,R=0.65; mu6=4e+07; eta=0.2,mu6/(R-eta)=8.8889e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Sixth+Loss,Sixth + Loss,S3,One central cluster,R=0.65; mu6=4e+07; eta=0.2,mu6/(R-eta)=1.4533e+07,0.9820921978563832,,,,,unknown-time ratio / shape recovery
+R+Sixth+Loss,Sixth + Loss,S3,Many clusters,R=0.65; mu6=4e+07; eta=0.2,mu6/(R-eta)=8.8889e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Sixth+Loss,Sixth + Loss,S3,Clusters + singles,R=0.65; mu6=4e+07; eta=0.2,mu6/(R-eta)=8.8889e+07,1.0,,,,,unknown-time ratio / shape recovery
+R+Sixth+Loss,Sixth + Loss,S4,Random smooth,R=0.65; mu6=4e+07; eta=0.2,shape coefficients=[ 1.9597e+07 -3.3048e+05 -5.1686e+03  9.3628e+00],0.9369999360102403,,,,,single-snapshot shape diagnostic only
+R+Sixth+Loss,Sixth + Loss,S4,One central cluster,R=0.65; mu6=4e+07; eta=0.2,shape coefficients=[-3.9706e+07  1.5675e+06 -1.8596e+04 -5.2637e+00],0.9359392222070071,,,,,single-snapshot shape diagnostic only
+R+Sixth+Loss,Sixth + Loss,S4,Many clusters,R=0.65; mu6=4e+07; eta=0.2,shape coefficients=[ 4.9507e+06  1.6546e+05 -9.1234e+03  7.9341e+00],0.9427199259213083,,,,,single-snapshot shape diagnostic only
+R+Sixth+Loss,Sixth + Loss,S4,Clusters + singles,R=0.65; mu6=4e+07; eta=0.2,shape coefficients=[ 1.6663e+07 -2.3965e+05 -5.7254e+03  7.6312e+00],0.9424310304333704,,,,,single-snapshot shape diagnostic only
+R+Sixth+Loss,Sixth + Loss,S5,Random smooth,R=0.65; mu6=4e+07; eta=0.2,median accepted-segment metric=-1410.6,0.9555771749265096,,5.0,8.0,,segmented regional shape diagnostic
+R+Sixth+Loss,Sixth + Loss,S5,One central cluster,R=0.65; mu6=4e+07; eta=0.2,median accepted-segment metric=-658.95,0.9856832922147128,,8.0,8.0,,segmented regional shape diagnostic
+R+Sixth+Loss,Sixth + Loss,S5,Many clusters,R=0.65; mu6=4e+07; eta=0.2,median accepted-segment metric=-1785.4,0.9431215970950413,,8.0,8.0,,segmented regional shape diagnostic
+R+Sixth+Loss,Sixth + Loss,S5,Clusters + singles,R=0.65; mu6=4e+07; eta=0.2,median accepted-segment metric=-1928,0.9562400450765133,,7.0,8.0,,segmented regional shape diagnostic
+R+Sixth+Nonlocal,Sixth + Nonlocal,S1,Random smooth,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.65; mu6=4e+07; chi=0.8; sigma=45,1.0,3.6700653072507804e-09,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S1,One central cluster,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.65965; mu6=2.2958e+07; chi=16; sigma=7.9932,0.9677038088187031,62.4211702587981,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S1,Many clusters,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.65; mu6=4e+07; chi=0.8; sigma=45,0.9999999999999998,5.353874266719192e-06,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S1,Clusters + singles,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.65; mu6=4e+07; chi=0.8; sigma=45,1.0,3.2127890416511206e-09,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S2,Random smooth,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.65; mu6=4e+07; chi=0.8; sigma=45,1.0,1.9323127422232743e-09,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S2,One central cluster,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.63914; mu6=2.5097e+07; chi=16; sigma=7.7043,0.9705536223190789,60.06780763326006,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S2,Many clusters,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.65; mu6=4e+07; chi=0.8; sigma=45,0.9999999999999999,2.6311891866913227e-06,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S2,Clusters + singles,R=0.65; mu6=4e+07; chi=0.8; sigma=45,R=0.65; mu6=4e+07; chi=0.8; sigma=45,1.0,1.7147077181967063e-09,,,,known-time PSD-symbol recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S3,Random smooth,R=0.65; mu6=4e+07; chi=0.8; sigma=45,mu6/c0=7.0102e+07; sigma=0.12179; chi/c0=68987,0.998904271159519,,,,,unknown-time ratio / shape recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S3,One central cluster,R=0.65; mu6=4e+07; chi=0.8; sigma=45,mu6/c0=3.8087e+07; sigma=0.10994; chi/c0=1.2006e+05,0.9707393955404064,,,,,unknown-time ratio / shape recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S3,Many clusters,R=0.65; mu6=4e+07; chi=0.8; sigma=45,mu6/c0=7.0102e+07; sigma=0.11728; chi/c0=74398,0.9989042704083125,,,,,unknown-time ratio / shape recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S3,Clusters + singles,R=0.65; mu6=4e+07; chi=0.8; sigma=45,mu6/c0=7.0102e+07; sigma=0.12093; chi/c0=69976,0.9989042709745669,,,,,unknown-time ratio / shape recovery
+R+Sixth+Nonlocal,Sixth + Nonlocal,S4,Random smooth,R=0.65; mu6=4e+07; chi=0.8; sigma=45,shape coefficients=[ 1.7031e+07 -2.4393e+05 -5.8694e+03  9.6587e+00],0.9385114984655926,,,,,single-snapshot shape diagnostic only
+R+Sixth+Nonlocal,Sixth + Nonlocal,S4,One central cluster,R=0.65; mu6=4e+07; chi=0.8; sigma=45,shape coefficients=[-4.1143e+07  1.6091e+06 -1.8800e+04 -6.2272e+00],0.925040167067722,,,,,single-snapshot shape diagnostic only
+R+Sixth+Nonlocal,Sixth + Nonlocal,S4,Many clusters,R=0.65; mu6=4e+07; chi=0.8; sigma=45,shape coefficients=[ 2.8588e+06  2.3557e+05 -9.6891e+03  8.1398e+00],0.9467459270172034,,,,,single-snapshot shape diagnostic only
+R+Sixth+Nonlocal,Sixth + Nonlocal,S4,Clusters + singles,R=0.65; mu6=4e+07; chi=0.8; sigma=45,shape coefficients=[ 1.4370e+07 -1.6252e+05 -6.3586e+03  7.8791e+00],0.9454107159584694,,,,,single-snapshot shape diagnostic only
+R+Sixth+Nonlocal,Sixth + Nonlocal,S5,Random smooth,R=0.65; mu6=4e+07; chi=0.8; sigma=45,median accepted-segment metric=-1236.8,0.9488508001232311,,8.0,8.0,,segmented regional shape diagnostic
+R+Sixth+Nonlocal,Sixth + Nonlocal,S5,One central cluster,R=0.65; mu6=4e+07; chi=0.8; sigma=45,median accepted-segment metric=-675.21,0.984662037313099,,8.0,8.0,,segmented regional shape diagnostic
+R+Sixth+Nonlocal,Sixth + Nonlocal,S5,Many clusters,R=0.65; mu6=4e+07; chi=0.8; sigma=45,median accepted-segment metric=-1796.1,0.9369293333449513,,8.0,8.0,,segmented regional shape diagnostic
+R+Sixth+Nonlocal,Sixth + Nonlocal,S5,Clusters + singles,R=0.65; mu6=4e+07; chi=0.8; sigma=45,median accepted-segment metric=-1780.7,0.9404174893791922,,7.0,8.0,,segmented regional shape diagnostic
+R+Loss+Nonlocal,Loss + Nonlocal,S1,Random smooth,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.45; chi=0.8; sigma=45,1.0,1.3877787807814457e-13,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S1,One central cluster,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.44994; chi=0.80013; sigma=44.985,0.9999995959626335,0.015662014710607353,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S1,Many clusters,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.45; chi=0.8; sigma=45,1.0,1.9038937093540653e-10,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S1,Clusters + singles,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.45; chi=0.8; sigma=45,1.0,8.326672684688674e-13,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S2,Random smooth,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.45; chi=0.8; sigma=45,1.0,6.938893903907228e-14,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S2,One central cluster,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.44994; chi=0.80012; sigma=44.986,0.9999996593270798,0.01471182917957281,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S2,Many clusters,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.45; chi=0.8; sigma=45,1.0,1.5365486660812167e-10,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S2,Clusters + singles,R=0.65; eta=0.2; chi=0.8; sigma=45,R_eff=0.45; chi=0.8; sigma=45,1.0,8.049116928532385e-13,,,,known-time PSD-symbol recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S3,Random smooth,R=0.65; eta=0.2; chi=0.8; sigma=45,sigma=45; chi/c0=1.7778,1.0,,,,,unknown-time ratio / shape recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S3,One central cluster,R=0.65; eta=0.2; chi=0.8; sigma=45,sigma=44.986; chi/c0=1.7783,0.9999996593270798,,,,,unknown-time ratio / shape recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S3,Many clusters,R=0.65; eta=0.2; chi=0.8; sigma=45,sigma=45; chi/c0=1.7778,1.0,,,,,unknown-time ratio / shape recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S3,Clusters + singles,R=0.65; eta=0.2; chi=0.8; sigma=45,sigma=45; chi/c0=1.7778,1.0,,,,,unknown-time ratio / shape recovery
+R+Loss+Nonlocal,Loss + Nonlocal,S4,Random smooth,R=0.65; eta=0.2; chi=0.8; sigma=45,shape coefficients=[-2.7873e+06  4.1198e+04 -8.0572e+02  3.2747e+00],0.9795549154988773,,,,,single-snapshot shape diagnostic only
+R+Loss+Nonlocal,Loss + Nonlocal,S4,One central cluster,R=0.65; eta=0.2; chi=0.8; sigma=45,shape coefficients=[-3.6489e+07  1.3668e+06 -1.4947e+04 -9.0469e+00],0.8093678821176684,,,,,single-snapshot shape diagnostic only
+R+Loss+Nonlocal,Loss + Nonlocal,S4,Many clusters,R=0.65; eta=0.2; chi=0.8; sigma=45,shape coefficients=[ 4.6417e+05 -2.4191e+04 -2.6506e+03  1.2994e+00],0.9934153632114027,,,,,single-snapshot shape diagnostic only
+R+Loss+Nonlocal,Loss + Nonlocal,S4,Clusters + singles,R=0.65; eta=0.2; chi=0.8; sigma=45,shape coefficients=[-1.7592e+06  7.0267e+04 -1.2177e+03  1.7415e+00],0.8750998326971372,,,,,single-snapshot shape diagnostic only
+R+Loss+Nonlocal,Loss + Nonlocal,S5,Random smooth,R=0.65; eta=0.2; chi=0.8; sigma=45,median accepted-segment metric=-496.39,0.8877409866311535,,5.0,8.0,,segmented regional shape diagnostic
+R+Loss+Nonlocal,Loss + Nonlocal,S5,One central cluster,R=0.65; eta=0.2; chi=0.8; sigma=45,median accepted-segment metric=-675.19,0.9846640168010046,,8.0,8.0,,segmented regional shape diagnostic
+R+Loss+Nonlocal,Loss + Nonlocal,S5,Many clusters,R=0.65; eta=0.2; chi=0.8; sigma=45,median accepted-segment metric=-1785.4,0.9395479761257857,,8.0,8.0,,segmented regional shape diagnostic
+R+Loss+Nonlocal,Loss + Nonlocal,S5,Clusters + singles,R=0.65; eta=0.2; chi=0.8; sigma=45,median accepted-segment metric=-1869.4,0.960505031481302,,6.0,8.0,,segmented regional shape diagnostic
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S1,Random smooth,R=0.65; D=500; c=120; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.44490331877023e-09,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S1,One central cluster,R=0.65; D=500; c=120; nu=1e+05,R=0.65826; D=517.76; nu=95813,0.9996950604638892,3.5526960951796354,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S1,Many clusters,R=0.65; D=500; c=120; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.1964237955908175e-07,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S1,Clusters + singles,R=0.65; D=500; c=120; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.3338722055777907e-09,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S2,Random smooth,R=0.65; D=500; c=120; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.3445387594401837e-09,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S2,One central cluster,R=0.65; D=500; c=120; nu=1e+05,R=0.66274; D=527.93; nu=93252,0.9993395236706113,5.5855613590067374,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S2,Many clusters,R=0.65; D=500; c=120; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,9.9359522209852e-08,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S2,Clusters + singles,R=0.65; D=500; c=120; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.279142452403903e-09,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S3,Random smooth,R=0.65; D=500; c=120; nu=1e+05,D/(R)=769.23; nu/(R)=1.5385e+05,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S3,One central cluster,R=0.65; D=500; c=120; nu=1e+05,D/(R)=796.58; nu/(R)=1.4071e+05,0.9993395236706113,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S3,Many clusters,R=0.65; D=500; c=120; nu=1e+05,D/(R)=769.23; nu/(R)=1.5385e+05,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S3,Clusters + singles,R=0.65; D=500; c=120; nu=1e+05,D/(R)=769.23; nu/(R)=1.5385e+05,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S4,Random smooth,R=0.65; D=500; c=120; nu=1e+05,shape coefficients=[ 1.1084e+05 -6.4255e+03  1.0486e+01],0.9586905040281695,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S4,One central cluster,R=0.65; D=500; c=120; nu=1e+05,shape coefficients=[ 3.4567e+05 -9.2135e+03 -1.7455e+01],0.7843637737556776,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S4,Many clusters,R=0.65; D=500; c=120; nu=1e+05,shape coefficients=[ 2.4756e+05 -8.8632e+03  7.5207e+00],0.9722716905585473,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S4,Clusters + singles,R=0.65; D=500; c=120; nu=1e+05,shape coefficients=[ 1.1943e+05 -6.4614e+03  8.0927e+00],0.9635354594509524,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S5,Random smooth,R=0.65; D=500; c=120; nu=1e+05,median accepted-segment metric=-778.55,0.9390788114052255,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S5,One central cluster,R=0.65; D=500; c=120; nu=1e+05,median accepted-segment metric=-408.62,0.9501172590310986,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S5,Many clusters,R=0.65; D=500; c=120; nu=1e+05,median accepted-segment metric=-793.66,0.8492981594166702,,7.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+Hyper,Diff + Adv + Hyper,S5,Clusters + singles,R=0.65; D=500; c=120; nu=1e+05,median accepted-segment metric=-962.68,0.8744737933517396,,7.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+SH,Diff + Adv + SH,S1,Random smooth,R=1.25; D=300; c=120; ell=22,c0=0.25; c2=668; c4=-2.3426e+05,1.0,1.7529557313362952e-12,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S1,One central cluster,R=1.25; D=300; c=120; ell=22,c0=0.24978; c2=668.48; c4=-2.3437e+05,0.9999997301539174,0.07212444385720165,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S1,Many clusters,R=1.25; D=300; c=120; ell=22,c0=0.25; c2=668; c4=-2.3426e+05,1.0,4.3600263785254375e-09,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S1,Clusters + singles,R=1.25; D=300; c=120; ell=22,c0=0.25; c2=668; c4=-2.3426e+05,1.0,4.47599376059656e-12,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S2,Random smooth,R=1.25; D=300; c=120; ell=22,c0=0.25; c2=668; c4=-2.3426e+05,1.0,1.3785380023130088e-12,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S2,One central cluster,R=1.25; D=300; c=120; ell=22,c0=0.25111; c2=665.51; c4=-2.3363e+05,0.9999948069489781,0.37288997788275974,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S2,Many clusters,R=1.25; D=300; c=120; ell=22,c0=0.25; c2=668; c4=-2.3426e+05,1.0,3.3952540047585263e-09,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S2,Clusters + singles,R=1.25; D=300; c=120; ell=22,c0=0.25; c2=668; c4=-2.3426e+05,1.0,8.339303964609559e-13,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S3,Random smooth,R=1.25; D=300; c=120; ell=22,net_k2/c0=2672; net_k4/c0=-9.3702e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S3,One central cluster,R=1.25; D=300; c=120; ell=22,net_k2/c0=2650.3; net_k4/c0=-9.3042e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9999948069489781,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S3,Many clusters,R=1.25; D=300; c=120; ell=22,net_k2/c0=2672; net_k4/c0=-9.3702e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S3,Clusters + singles,R=1.25; D=300; c=120; ell=22,net_k2/c0=2672; net_k4/c0=-9.3702e+05; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+SH,Diff + Adv + SH,S4,Random smooth,R=1.25; D=300; c=120; ell=22,shape coefficients=[ 1.2520e+05 -6.8641e+03  1.2490e+01],0.9248537801267126,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+SH,Diff + Adv + SH,S4,One central cluster,R=1.25; D=300; c=120; ell=22,shape coefficients=[ 3.3820e+05 -9.2786e+03 -1.4105e+01],0.8468629633501104,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+SH,Diff + Adv + SH,S4,Many clusters,R=1.25; D=300; c=120; ell=22,shape coefficients=[ 2.3638e+05 -8.7699e+03  9.2349e+00],0.9481932018803066,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+SH,Diff + Adv + SH,S4,Clusters + singles,R=1.25; D=300; c=120; ell=22,shape coefficients=[ 1.3228e+05 -6.8932e+03  1.0606e+01],0.9303154360191839,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+SH,Diff + Adv + SH,S5,Random smooth,R=1.25; D=300; c=120; ell=22,median accepted-segment metric=-560.8,0.9590466223917931,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+SH,Diff + Adv + SH,S5,One central cluster,R=1.25; D=300; c=120; ell=22,median accepted-segment metric=-379.14,0.9539222978472041,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+SH,Diff + Adv + SH,S5,Many clusters,R=1.25; D=300; c=120; ell=22,median accepted-segment metric=-1028.9,0.8519700891385467,,6.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+SH,Diff + Adv + SH,S5,Clusters + singles,R=1.25; D=300; c=120; ell=22,median accepted-segment metric=-960.33,0.9037112332652965,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Hyper+SH,Diff + Hyper + SH,S1,Random smooth,R=1.25; D=300; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,3.0508237320324685e-10,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S1,One central cluster,R=1.25; D=300; nu=1e+05; ell=22,c0=0.31368; c2=530.41; c4=-3.0156e+05,0.9881780048391711,20.596799718613116,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S1,Many clusters,R=1.25; D=300; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,2.2388289386060954e-07,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S1,Clusters + singles,R=1.25; D=300; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,6.956851595129489e-10,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S2,Random smooth,R=1.25; D=300; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,6.269074580216441e-12,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S2,One central cluster,R=1.25; D=300; nu=1e+05; ell=22,c0=0.30131; c2=556.24; c4=-3.0746e+05,0.9940092465387473,16.73000400736698,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S2,Many clusters,R=1.25; D=300; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,3.515291818113761e-07,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S2,Clusters + singles,R=1.25; D=300; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,5.020771556325441e-10,,,,known-time PSD-symbol recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S3,Random smooth,R=1.25; D=300; nu=1e+05; ell=22,net_k2/c0=2672; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S3,One central cluster,R=1.25; D=300; nu=1e+05; ell=22,net_k2/c0=1846.1; net_k4/c0=-1.0204e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9940092465387473,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S3,Many clusters,R=1.25; D=300; nu=1e+05; ell=22,net_k2/c0=2672; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S3,Clusters + singles,R=1.25; D=300; nu=1e+05; ell=22,net_k2/c0=2672; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,,unknown-time ratio / shape recovery
+R+Diff+Hyper+SH,Diff + Hyper + SH,S4,Random smooth,R=1.25; D=300; nu=1e+05; ell=22,shape coefficients=[ 2.4101e+05 -9.1197e+03  1.3860e+01],0.9327415730058201,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper+SH,Diff + Hyper + SH,S4,One central cluster,R=1.25; D=300; nu=1e+05; ell=22,shape coefficients=[ 3.5369e+05 -9.4944e+03 -1.5197e+01],0.8189259901864494,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper+SH,Diff + Hyper + SH,S4,Many clusters,R=1.25; D=300; nu=1e+05; ell=22,shape coefficients=[ 3.0436e+05 -1.0013e+04  8.9006e+00],0.9508042886144665,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper+SH,Diff + Hyper + SH,S4,Clusters + singles,R=1.25; D=300; nu=1e+05; ell=22,shape coefficients=[ 2.4174e+05 -8.9967e+03  1.1385e+01],0.9420994991570265,,,,,single-snapshot shape diagnostic only
+R+Diff+Hyper+SH,Diff + Hyper + SH,S5,Random smooth,R=1.25; D=300; nu=1e+05; ell=22,median accepted-segment metric=-737.69,0.8942795324468686,,5.0,8.0,,segmented regional shape diagnostic
+R+Diff+Hyper+SH,Diff + Hyper + SH,S5,One central cluster,R=1.25; D=300; nu=1e+05; ell=22,median accepted-segment metric=-377.32,0.9531930851813695,,8.0,8.0,,segmented regional shape diagnostic
+R+Diff+Hyper+SH,Diff + Hyper + SH,S5,Many clusters,R=1.25; D=300; nu=1e+05; ell=22,median accepted-segment metric=-878.49,0.8491676891923878,,6.0,8.0,,segmented regional shape diagnostic
+R+Diff+Hyper+SH,Diff + Hyper + SH,S5,Clusters + singles,R=1.25; D=300; nu=1e+05; ell=22,median accepted-segment metric=-1056.6,0.9063684966178112,,6.0,8.0,,segmented regional shape diagnostic
+R+Adv+Hyper+SH,Adv + Hyper + SH,S1,Random smooth,R=1.25; c=120; nu=1e+05; ell=22,c0=0.25; c2=968; c4=-3.3426e+05,1.0,2.3465527042126945e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S1,One central cluster,R=1.25; c=120; nu=1e+05; ell=22,c0=0.25077; c2=966.58; c4=-3.3399e+05,0.9999892951979574,0.14691795825464196,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S1,Many clusters,R=1.25; c=120; nu=1e+05; ell=22,c0=0.25; c2=968; c4=-3.3426e+05,1.0,1.3974945131323227e-07,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S1,Clusters + singles,R=1.25; c=120; nu=1e+05; ell=22,c0=0.25; c2=968; c4=-3.3426e+05,1.0,1.4046431602794708e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S2,Random smooth,R=1.25; c=120; nu=1e+05; ell=22,c0=0.25; c2=968; c4=-3.3426e+05,1.0,3.8756876496005466e-13,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S2,One central cluster,R=1.25; c=120; nu=1e+05; ell=22,c0=0.253; c2=961.53; c4=-3.3273e+05,0.9999635496408865,0.6685400805142171,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S2,Many clusters,R=1.25; c=120; nu=1e+05; ell=22,c0=0.25; c2=968; c4=-3.3426e+05,1.0,7.240931967888263e-08,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S2,Clusters + singles,R=1.25; c=120; nu=1e+05; ell=22,c0=0.25; c2=968; c4=-3.3426e+05,1.0,1.3283038580903692e-11,,,c,known-time PSD-symbol recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S3,Random smooth,R=1.25; c=120; nu=1e+05; ell=22,net_k2/c0=3872; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S3,One central cluster,R=1.25; c=120; nu=1e+05; ell=22,net_k2/c0=3800.5; net_k4/c0=-1.3151e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9999635496408865,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S3,Many clusters,R=1.25; c=120; nu=1e+05; ell=22,net_k2/c0=3872; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S3,Clusters + singles,R=1.25; c=120; nu=1e+05; ell=22,net_k2/c0=3872; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Adv+Hyper+SH,Adv + Hyper + SH,S4,Random smooth,R=1.25; c=120; nu=1e+05; ell=22,shape coefficients=[ 2.0503e+05 -8.4445e+03  1.3620e+01],0.9228867738420867,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper+SH,Adv + Hyper + SH,S4,One central cluster,R=1.25; c=120; nu=1e+05; ell=22,shape coefficients=[ 3.4911e+05 -9.4849e+03 -1.3976e+01],0.8428487777135042,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper+SH,Adv + Hyper + SH,S4,Many clusters,R=1.25; c=120; nu=1e+05; ell=22,shape coefficients=[ 2.8085e+05 -9.6141e+03  9.5059e+00],0.9452095297778801,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper+SH,Adv + Hyper + SH,S4,Clusters + singles,R=1.25; c=120; nu=1e+05; ell=22,shape coefficients=[ 2.0874e+05 -8.4088e+03  1.1757e+01],0.9303117137071806,,,,c,single-snapshot shape diagnostic only
+R+Adv+Hyper+SH,Adv + Hyper + SH,S5,Random smooth,R=1.25; c=120; nu=1e+05; ell=22,median accepted-segment metric=-565.02,0.9590628558179377,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Hyper+SH,Adv + Hyper + SH,S5,One central cluster,R=1.25; c=120; nu=1e+05; ell=22,median accepted-segment metric=-374.6,0.9551258538341469,,8.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Hyper+SH,Adv + Hyper + SH,S5,Many clusters,R=1.25; c=120; nu=1e+05; ell=22,median accepted-segment metric=-881.82,0.8760700219518223,,5.0,8.0,c,segmented regional shape diagnostic
+R+Adv+Hyper+SH,Adv + Hyper + SH,S5,Clusters + singles,R=1.25; c=120; nu=1e+05; ell=22,median accepted-segment metric=-958.77,0.9055787738336106,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S1,Random smooth,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,2.6287528374971274e-10,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S1,One central cluster,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.32313; c2=503.33; c4=-2.9324e+05,0.9936561685368562,24.65184769406884,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S1,Many clusters,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,1.1388185830147412e-07,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S1,Clusters + singles,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,4.194840084075437e-10,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S2,Random smooth,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,3.602409122834501e-10,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S2,One central cluster,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.30235; c2=550.39; c4=-3.0502e+05,0.9963585649456205,17.606666461518135,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S2,Many clusters,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,6.077420254338854e-07,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S2,Clusters + singles,R=1.25; D=300; c=120; nu=1e+05; ell=22,c0=0.25; c2=668; c4=-3.3426e+05,1.0,2.3229216288358342e-10,,,c,known-time PSD-symbol recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S3,Random smooth,R=1.25; D=300; c=120; nu=1e+05; ell=22,net_k2/c0=2672; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S3,One central cluster,R=1.25; D=300; c=120; nu=1e+05; ell=22,net_k2/c0=1820.4; net_k4/c0=-1.0088e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,0.9963585649456205,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S3,Many clusters,R=1.25; D=300; c=120; nu=1e+05; ell=22,net_k2/c0=2672; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S3,Clusters + singles,R=1.25; D=300; c=120; nu=1e+05; ell=22,net_k2/c0=2672; net_k4/c0=-1.337e+06; note: SH shares spectral powers with other operators; primitive separation not claimed.,1.0,,,,c,unknown-time ratio / shape recovery
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S4,Random smooth,R=1.25; D=300; c=120; nu=1e+05; ell=22,shape coefficients=[ 2.4096e+05 -9.1204e+03  1.3866e+01],0.9330391504130995,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S4,One central cluster,R=1.25; D=300; c=120; nu=1e+05; ell=22,shape coefficients=[ 3.5392e+05 -9.4998e+03 -1.5190e+01],0.8191179141758176,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S4,Many clusters,R=1.25; D=300; c=120; nu=1e+05; ell=22,shape coefficients=[ 3.0426e+05 -1.0013e+04  8.9015e+00],0.9508468792921345,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S4,Clusters + singles,R=1.25; D=300; c=120; nu=1e+05; ell=22,shape coefficients=[ 2.4178e+05 -8.9946e+03  1.1377e+01],0.9418196933022793,,,,c,single-snapshot shape diagnostic only
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S5,Random smooth,R=1.25; D=300; c=120; nu=1e+05; ell=22,median accepted-segment metric=-695.02,0.958920255108753,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S5,One central cluster,R=1.25; D=300; c=120; nu=1e+05; ell=22,median accepted-segment metric=-377.7,0.954031258302626,,8.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S5,Many clusters,R=1.25; D=300; c=120; nu=1e+05; ell=22,median accepted-segment metric=-947.68,0.8586982017595408,,6.0,8.0,c,segmented regional shape diagnostic
+R+Diff+Adv+Hyper+SH,Diff + Adv + Hyper + SH,S5,Clusters + singles,R=1.25; D=300; c=120; nu=1e+05; ell=22,median accepted-segment metric=-935.6,0.8857299389379096,,7.0,8.0,c,segmented regional shape diagnostic
+R+KSlin,KSlin,S1,Random smooth,R=0.65; a2=450; a4=1.5e+05,R=0.65; a2=450; a4=1.5e+05,1.0,4.800110926023788e-13,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S1,One central cluster,R=0.65; a2=450; a4=1.5e+05,R=0.6499; a2=450.25; a4=1.5007e+05,0.9999998282842114,0.0465671570400591,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S1,Many clusters,R=0.65; a2=450; a4=1.5e+05,R=0.65; a2=450; a4=1.5e+05,1.0,3.9050549579163395e-09,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S1,Clusters + singles,R=0.65; a2=450; a4=1.5e+05,R=0.65; a2=450; a4=1.5e+05,1.0,8.731149137020111e-13,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S2,Random smooth,R=0.65; a2=450; a4=1.5e+05,R=0.65; a2=450; a4=1.5e+05,1.0,1.010549668636587e-12,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S2,One central cluster,R=0.65; a2=450; a4=1.5e+05,R=0.64989; a2=450.27; a4=1.5007e+05,0.99999990383555,0.04881009846415448,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S2,Many clusters,R=0.65; a2=450; a4=1.5e+05,R=0.65; a2=450; a4=1.5e+05,1.0,3.396669247498115e-09,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S2,Clusters + singles,R=0.65; a2=450; a4=1.5e+05,R=0.65; a2=450; a4=1.5e+05,1.0,2.9103830456733704e-13,,,,known-time PSD-symbol recovery
+R+KSlin,KSlin,S3,Random smooth,R=0.65; a2=450; a4=1.5e+05,a2/R=692.31; a4/R=2.3077e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+KSlin,KSlin,S3,One central cluster,R=0.65; a2=450; a4=1.5e+05,a2/R=692.84; a4/R=2.3092e+05,0.99999990383555,,,,,unknown-time ratio / shape recovery
+R+KSlin,KSlin,S3,Many clusters,R=0.65; a2=450; a4=1.5e+05,a2/R=692.31; a4/R=2.3077e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+KSlin,KSlin,S3,Clusters + singles,R=0.65; a2=450; a4=1.5e+05,a2/R=692.31; a4/R=2.3077e+05,1.0,,,,,unknown-time ratio / shape recovery
+R+KSlin,KSlin,S4,Random smooth,R=0.65; a2=450; a4=1.5e+05,shape coefficients=[ 1.1014e+04 -4.4897e+03  9.9288e+00],0.9309163642655769,,,,,single-snapshot shape diagnostic only
+R+KSlin,KSlin,S4,One central cluster,R=0.65; a2=450; a4=1.5e+05,shape coefficients=[ 3.1841e+05 -8.9120e+03 -1.4154e+01],0.850630839470846,,,,,single-snapshot shape diagnostic only
+R+KSlin,KSlin,S4,Many clusters,R=0.65; a2=450; a4=1.5e+05,shape coefficients=[ 1.7376e+05 -7.5439e+03  8.4793e+00],0.9484759455281248,,,,,single-snapshot shape diagnostic only
+R+KSlin,KSlin,S4,Clusters + singles,R=0.65; a2=450; a4=1.5e+05,shape coefficients=[ 1.7093e+04 -4.5015e+03  8.0248e+00],0.9370226567466697,,,,,single-snapshot shape diagnostic only
+R+KSlin,KSlin,S5,Random smooth,R=0.65; a2=450; a4=1.5e+05,median accepted-segment metric=-836.16,0.9475118738597248,,4.0,8.0,,segmented regional shape diagnostic
+R+KSlin,KSlin,S5,One central cluster,R=0.65; a2=450; a4=1.5e+05,median accepted-segment metric=-380.1,0.9522500794308522,,8.0,8.0,,segmented regional shape diagnostic
+R+KSlin,KSlin,S5,Many clusters,R=0.65; a2=450; a4=1.5e+05,median accepted-segment metric=-817.02,0.8583659211746311,,4.0,8.0,,segmented regional shape diagnostic
+R+KSlin,KSlin,S5,Clusters + singles,R=0.65; a2=450; a4=1.5e+05,median accepted-segment metric=-967.55,0.9276251153076462,,7.0,8.0,,segmented regional shape diagnostic
+CHlin,CHlin,S1,Random smooth,A2=450; A4=1.5e+05,A2=450; A4=1.5e+05,1.0,9.33020298058788e-12,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S1,One central cluster,A2=450; A4=1.5e+05,A2=450.6; A4=1.5019e+05,0.9999991880651442,0.12845371637344402,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S1,Many clusters,A2=450; A4=1.5e+05,A2=450; A4=1.5e+05,1.0,4.445096995671823e-09,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S1,Clusters + singles,A2=450; A4=1.5e+05,A2=450; A4=1.5e+05,1.0,6.4300770140511715e-12,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S2,Random smooth,A2=450; A4=1.5e+05,A2=450; A4=1.5e+05,1.0,8.194597790457515e-12,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S2,One central cluster,A2=450; A4=1.5e+05,A2=450.46; A4=1.5014e+05,0.999999535928095,0.09907009036491712,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S2,Many clusters,A2=450; A4=1.5e+05,A2=450; A4=1.5e+05,1.0,3.6360826622209667e-09,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S2,Clusters + singles,A2=450; A4=1.5e+05,A2=450; A4=1.5e+05,1.0,8.723165794637883e-12,,,,known-time PSD-symbol recovery
+CHlin,CHlin,S3,Random smooth,A2=450; A4=1.5e+05,A2/A4=0.003,1.0,,,,,unknown-time ratio / shape recovery
+CHlin,CHlin,S3,One central cluster,A2=450; A4=1.5e+05,A2/A4=0.003001,0.9999995704288053,,,,,unknown-time ratio / shape recovery
+CHlin,CHlin,S3,Many clusters,A2=450; A4=1.5e+05,A2/A4=0.003,1.0,,,,,unknown-time ratio / shape recovery
+CHlin,CHlin,S3,Clusters + singles,A2=450; A4=1.5e+05,A2/A4=0.003,1.0,,,,,unknown-time ratio / shape recovery
+CHlin,CHlin,S4,Random smooth,A2=450; A4=1.5e+05,shape coefficients=[ 1.0611e+04 -4.4877e+03  9.9292e+00],0.9309491093532808,,,,,single-snapshot shape diagnostic only
+CHlin,CHlin,S4,One central cluster,A2=450; A4=1.5e+05,shape coefficients=[ 3.1834e+05 -8.9066e+03 -1.4164e+01],0.8502050103730673,,,,,single-snapshot shape diagnostic only
+CHlin,CHlin,S4,Many clusters,A2=450; A4=1.5e+05,shape coefficients=[ 1.7341e+05 -7.5417e+03  8.4792e+00],0.9486651269206131,,,,,single-snapshot shape diagnostic only
+CHlin,CHlin,S4,Clusters + singles,A2=450; A4=1.5e+05,shape coefficients=[ 1.6890e+04 -4.4976e+03  8.0178e+00],0.937208291201868,,,,,single-snapshot shape diagnostic only
+CHlin,CHlin,S5,Random smooth,A2=450; A4=1.5e+05,median accepted-segment metric=-836.16,0.947511873859725,,4.0,8.0,,segmented regional shape diagnostic
+CHlin,CHlin,S5,One central cluster,A2=450; A4=1.5e+05,median accepted-segment metric=-380.1,0.952250079430847,,8.0,8.0,,segmented regional shape diagnostic
+CHlin,CHlin,S5,Many clusters,A2=450; A4=1.5e+05,median accepted-segment metric=-817.02,0.8583659211746312,,4.0,8.0,,segmented regional shape diagnostic
+CHlin,CHlin,S5,Clusters + singles,A2=450; A4=1.5e+05,median accepted-segment metric=-967.55,0.9276251153076469,,7.0,8.0,,segmented regional shape diagnostic
+R+Mixed,Diff + Adv + Disp + Hyper,S1,Random smooth,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.4076213119551539e-09,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S1,One central cluster,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.66407; D=531.38; nu=92272,0.9996634465763833,6.276555749526892,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S1,Many clusters,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,2.7533292268344666e-08,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S1,Clusters + singles,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.3228709576651453e-09,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S2,Random smooth,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.3301614671945572e-09,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S2,One central cluster,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.65318; D=506.85; nu=98388,0.9999509825419332,1.3693503880941307,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S2,Many clusters,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,7.123697969291243e-08,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S2,Clusters + singles,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,R=0.65; D=500; nu=1e+05,1.0,1.370572135783732e-09,,,c; beta3,known-time PSD-symbol recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S3,Random smooth,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,D/(R)=769.23; nu/(R)=1.5385e+05,1.0,,,,c; beta3,unknown-time ratio / shape recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S3,One central cluster,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,D/(R)=775.97; nu/(R)=1.5063e+05,0.9999509825419332,,,,c; beta3,unknown-time ratio / shape recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S3,Many clusters,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,D/(R)=769.23; nu/(R)=1.5385e+05,1.0,,,,c; beta3,unknown-time ratio / shape recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S3,Clusters + singles,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,D/(R)=769.23; nu/(R)=1.5385e+05,1.0,,,,c; beta3,unknown-time ratio / shape recovery
+R+Mixed,Diff + Adv + Disp + Hyper,S4,Random smooth,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,shape coefficients=[ 1.0961e+05 -6.3715e+03  1.0363e+01],0.9581249906622219,,,,c; beta3,single-snapshot shape diagnostic only
+R+Mixed,Diff + Adv + Disp + Hyper,S4,One central cluster,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,shape coefficients=[ 3.4545e+05 -9.2140e+03 -1.7459e+01],0.7844114674214441,,,,c; beta3,single-snapshot shape diagnostic only
+R+Mixed,Diff + Adv + Disp + Hyper,S4,Many clusters,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,shape coefficients=[ 2.4756e+05 -8.8640e+03  7.5188e+00],0.9720081431239188,,,,c; beta3,single-snapshot shape diagnostic only
+R+Mixed,Diff + Adv + Disp + Hyper,S4,Clusters + singles,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,shape coefficients=[ 1.1902e+05 -6.4520e+03  8.0750e+00],0.9638406223481405,,,,c; beta3,single-snapshot shape diagnostic only
+R+Mixed,Diff + Adv + Disp + Hyper,S5,Random smooth,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,median accepted-segment metric=-604.36,0.9432854482945578,,5.0,8.0,c; beta3,segmented regional shape diagnostic
+R+Mixed,Diff + Adv + Disp + Hyper,S5,One central cluster,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,median accepted-segment metric=-384.39,0.9516654339389955,,8.0,8.0,c; beta3,segmented regional shape diagnostic
+R+Mixed,Diff + Adv + Disp + Hyper,S5,Many clusters,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,median accepted-segment metric=-873.24,0.8419093125745755,,7.0,8.0,c; beta3,segmented regional shape diagnostic
+R+Mixed,Diff + Adv + Disp + Hyper,S5,Clusters + singles,R=0.65; D=500; c=120; beta3=80000; nu=1e+05,median accepted-segment metric=-853.35,0.8727843163593327,,5.0,8.0,c; beta3,segmented regional shape diagnostic

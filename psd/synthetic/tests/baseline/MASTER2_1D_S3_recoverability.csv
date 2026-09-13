@@ -1,0 +1,54 @@
+PDE,Recoverable in S3,PSD-invisible
+R+Diff,D/(R),
+R+Adv,nothing: constant-only real symbol,c
+R+Hyper,nu/(R),
+R+SH,ell; R; 2*dt (requires known fixed kappa_SH),
+R+FracDiff,alpha; Df/(R),
+R+Disp,nothing: constant-only real symbol,beta3
+R+Sixth,mu6/(R),
+R+Loss,nothing: constant-only real symbol,
+R+Nonlocal,sigma; chi/(R),
+R+Diff+Adv,D/(R),c
+R+Diff+Hyper,D/(R); nu/(R),
+R+Diff+SH,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,
+R+Diff+FracDiff,D/(R); alpha; Df/(R),
+R+Diff+Disp,D/(R),beta3
+R+Diff+Sixth,D/(R); mu6/(R),
+R+Diff+Loss,D/(R-eta),
+R+Diff+Nonlocal,D/(R); sigma; chi/(R),
+R+Adv+Hyper,nu/(R),c
+R+Adv+SH,ell; R; 2*dt (requires known fixed kappa_SH),c
+R+Adv+FracDiff,alpha; Df/(R),c
+R+Adv+Disp,nothing: constant-only real symbol,c; beta3
+R+Adv+Sixth,mu6/(R),c
+R+Adv+Loss,nothing: constant-only real symbol,c
+R+Adv+Nonlocal,sigma; chi/(R),c
+R+Hyper+SH,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,
+R+Hyper+FracDiff,nu/(R); alpha; Df/(R),
+R+Hyper+Disp,nu/(R),beta3
+R+Hyper+Sixth,nu/(R); mu6/(R),
+R+Hyper+Loss,nu/(R-eta),
+R+Hyper+Nonlocal,nu/(R); sigma; chi/(R),
+R+SH+FracDiff,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,
+R+SH+Disp,ell; R; 2*dt (requires known fixed kappa_SH),beta3
+R+SH+Sixth,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,
+R+SH+Loss,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,
+R+SH+Nonlocal,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,
+R+FracDiff+Disp,alpha; Df/(R),beta3
+R+FracDiff+Sixth,mu6/(R); alpha; Df/(R),
+R+FracDiff+Loss,alpha; Df/(R-eta),
+R+FracDiff+Nonlocal,alpha; Df/(R); sigma; chi/(R),
+R+Disp+Sixth,mu6/(R),beta3
+R+Disp+Loss,nothing: constant-only real symbol,beta3
+R+Disp+Nonlocal,sigma; chi/(R),beta3
+R+Sixth+Loss,mu6/(R-eta),
+R+Sixth+Nonlocal,mu6/(R); sigma; chi/(R),
+R+Loss+Nonlocal,sigma; chi/(R-eta),
+R+Diff+Adv+Hyper,D/(R); nu/(R),c
+R+Diff+Adv+SH,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,c
+R+Diff+Hyper+SH,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,
+R+Adv+Hyper+SH,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,c
+R+Diff+Adv+Hyper+SH,net polynomial coefficient ratios; primitive SH/Diff/Hyper separation not claimed,c
+R+KSlin,a2/R; a4/R,
+CHlin,A2/A4,
+R+Mixed,D/(R); nu/(R),c; beta3

@@ -1,0 +1,213 @@
+PDE,Initial condition,Accepted fraction
+R+Diff,Random smooth,1.0
+R+Diff,One central cluster,1.0
+R+Diff,Many clusters,1.0
+R+Diff,Clusters + singles,1.0
+R+Adv,Random smooth,0.0
+R+Adv,One central cluster,0.0
+R+Adv,Many clusters,0.0
+R+Adv,Clusters + singles,0.0
+R+Hyper,Random smooth,1.0
+R+Hyper,One central cluster,1.0
+R+Hyper,Many clusters,1.0
+R+Hyper,Clusters + singles,1.0
+R+SH,Random smooth,1.0
+R+SH,One central cluster,1.0
+R+SH,Many clusters,1.0
+R+SH,Clusters + singles,1.0
+R+FracDiff,Random smooth,1.0
+R+FracDiff,One central cluster,1.0
+R+FracDiff,Many clusters,1.0
+R+FracDiff,Clusters + singles,1.0
+R+Disp,Random smooth,0.0
+R+Disp,One central cluster,0.0
+R+Disp,Many clusters,0.0
+R+Disp,Clusters + singles,0.0
+R+Sixth,Random smooth,1.0
+R+Sixth,One central cluster,1.0
+R+Sixth,Many clusters,1.0
+R+Sixth,Clusters + singles,1.0
+R+Loss,Random smooth,0.0
+R+Loss,One central cluster,0.0
+R+Loss,Many clusters,0.0
+R+Loss,Clusters + singles,0.0
+R+Nonlocal,Random smooth,1.0
+R+Nonlocal,One central cluster,1.0
+R+Nonlocal,Many clusters,1.0
+R+Nonlocal,Clusters + singles,1.0
+R+Diff+Adv,Random smooth,1.0
+R+Diff+Adv,One central cluster,1.0
+R+Diff+Adv,Many clusters,1.0
+R+Diff+Adv,Clusters + singles,1.0
+R+Diff+Hyper,Random smooth,1.0
+R+Diff+Hyper,One central cluster,1.0
+R+Diff+Hyper,Many clusters,1.0
+R+Diff+Hyper,Clusters + singles,1.0
+R+Diff+SH,Random smooth,1.0
+R+Diff+SH,One central cluster,1.0
+R+Diff+SH,Many clusters,1.0
+R+Diff+SH,Clusters + singles,1.0
+R+Diff+FracDiff,Random smooth,1.0
+R+Diff+FracDiff,One central cluster,1.0
+R+Diff+FracDiff,Many clusters,1.0
+R+Diff+FracDiff,Clusters + singles,1.0
+R+Diff+Disp,Random smooth,1.0
+R+Diff+Disp,One central cluster,1.0
+R+Diff+Disp,Many clusters,0.875
+R+Diff+Disp,Clusters + singles,0.875
+R+Diff+Sixth,Random smooth,1.0
+R+Diff+Sixth,One central cluster,1.0
+R+Diff+Sixth,Many clusters,1.0
+R+Diff+Sixth,Clusters + singles,1.0
+R+Diff+Loss,Random smooth,1.0
+R+Diff+Loss,One central cluster,1.0
+R+Diff+Loss,Many clusters,1.0
+R+Diff+Loss,Clusters + singles,1.0
+R+Diff+Nonlocal,Random smooth,1.0
+R+Diff+Nonlocal,One central cluster,1.0
+R+Diff+Nonlocal,Many clusters,1.0
+R+Diff+Nonlocal,Clusters + singles,1.0
+R+Adv+Hyper,Random smooth,1.0
+R+Adv+Hyper,One central cluster,1.0
+R+Adv+Hyper,Many clusters,1.0
+R+Adv+Hyper,Clusters + singles,1.0
+R+Adv+SH,Random smooth,1.0
+R+Adv+SH,One central cluster,1.0
+R+Adv+SH,Many clusters,1.0
+R+Adv+SH,Clusters + singles,1.0
+R+Adv+FracDiff,Random smooth,1.0
+R+Adv+FracDiff,One central cluster,1.0
+R+Adv+FracDiff,Many clusters,1.0
+R+Adv+FracDiff,Clusters + singles,1.0
+R+Adv+Disp,Random smooth,0.0
+R+Adv+Disp,One central cluster,0.0
+R+Adv+Disp,Many clusters,0.0
+R+Adv+Disp,Clusters + singles,0.0
+R+Adv+Sixth,Random smooth,1.0
+R+Adv+Sixth,One central cluster,1.0
+R+Adv+Sixth,Many clusters,1.0
+R+Adv+Sixth,Clusters + singles,1.0
+R+Adv+Loss,Random smooth,0.0
+R+Adv+Loss,One central cluster,0.0
+R+Adv+Loss,Many clusters,0.0
+R+Adv+Loss,Clusters + singles,0.0
+R+Adv+Nonlocal,Random smooth,1.0
+R+Adv+Nonlocal,One central cluster,1.0
+R+Adv+Nonlocal,Many clusters,1.0
+R+Adv+Nonlocal,Clusters + singles,1.0
+R+Hyper+SH,Random smooth,1.0
+R+Hyper+SH,One central cluster,1.0
+R+Hyper+SH,Many clusters,1.0
+R+Hyper+SH,Clusters + singles,1.0
+R+Hyper+FracDiff,Random smooth,1.0
+R+Hyper+FracDiff,One central cluster,1.0
+R+Hyper+FracDiff,Many clusters,1.0
+R+Hyper+FracDiff,Clusters + singles,1.0
+R+Hyper+Disp,Random smooth,1.0
+R+Hyper+Disp,One central cluster,1.0
+R+Hyper+Disp,Many clusters,1.0
+R+Hyper+Disp,Clusters + singles,1.0
+R+Hyper+Sixth,Random smooth,1.0
+R+Hyper+Sixth,One central cluster,1.0
+R+Hyper+Sixth,Many clusters,1.0
+R+Hyper+Sixth,Clusters + singles,1.0
+R+Hyper+Loss,Random smooth,1.0
+R+Hyper+Loss,One central cluster,1.0
+R+Hyper+Loss,Many clusters,1.0
+R+Hyper+Loss,Clusters + singles,1.0
+R+Hyper+Nonlocal,Random smooth,1.0
+R+Hyper+Nonlocal,One central cluster,1.0
+R+Hyper+Nonlocal,Many clusters,1.0
+R+Hyper+Nonlocal,Clusters + singles,1.0
+R+SH+FracDiff,Random smooth,1.0
+R+SH+FracDiff,One central cluster,1.0
+R+SH+FracDiff,Many clusters,1.0
+R+SH+FracDiff,Clusters + singles,1.0
+R+SH+Disp,Random smooth,1.0
+R+SH+Disp,One central cluster,1.0
+R+SH+Disp,Many clusters,1.0
+R+SH+Disp,Clusters + singles,1.0
+R+SH+Sixth,Random smooth,1.0
+R+SH+Sixth,One central cluster,1.0
+R+SH+Sixth,Many clusters,1.0
+R+SH+Sixth,Clusters + singles,1.0
+R+SH+Loss,Random smooth,1.0
+R+SH+Loss,One central cluster,1.0
+R+SH+Loss,Many clusters,1.0
+R+SH+Loss,Clusters + singles,1.0
+R+SH+Nonlocal,Random smooth,1.0
+R+SH+Nonlocal,One central cluster,1.0
+R+SH+Nonlocal,Many clusters,1.0
+R+SH+Nonlocal,Clusters + singles,1.0
+R+FracDiff+Disp,Random smooth,1.0
+R+FracDiff+Disp,One central cluster,1.0
+R+FracDiff+Disp,Many clusters,1.0
+R+FracDiff+Disp,Clusters + singles,1.0
+R+FracDiff+Sixth,Random smooth,1.0
+R+FracDiff+Sixth,One central cluster,1.0
+R+FracDiff+Sixth,Many clusters,1.0
+R+FracDiff+Sixth,Clusters + singles,1.0
+R+FracDiff+Loss,Random smooth,1.0
+R+FracDiff+Loss,One central cluster,1.0
+R+FracDiff+Loss,Many clusters,1.0
+R+FracDiff+Loss,Clusters + singles,1.0
+R+FracDiff+Nonlocal,Random smooth,1.0
+R+FracDiff+Nonlocal,One central cluster,1.0
+R+FracDiff+Nonlocal,Many clusters,1.0
+R+FracDiff+Nonlocal,Clusters + singles,1.0
+R+Disp+Sixth,Random smooth,1.0
+R+Disp+Sixth,One central cluster,1.0
+R+Disp+Sixth,Many clusters,1.0
+R+Disp+Sixth,Clusters + singles,1.0
+R+Disp+Loss,Random smooth,0.0
+R+Disp+Loss,One central cluster,0.0
+R+Disp+Loss,Many clusters,0.0
+R+Disp+Loss,Clusters + singles,0.0
+R+Disp+Nonlocal,Random smooth,1.0
+R+Disp+Nonlocal,One central cluster,1.0
+R+Disp+Nonlocal,Many clusters,1.0
+R+Disp+Nonlocal,Clusters + singles,1.0
+R+Sixth+Loss,Random smooth,1.0
+R+Sixth+Loss,One central cluster,1.0
+R+Sixth+Loss,Many clusters,1.0
+R+Sixth+Loss,Clusters + singles,1.0
+R+Sixth+Nonlocal,Random smooth,1.0
+R+Sixth+Nonlocal,One central cluster,1.0
+R+Sixth+Nonlocal,Many clusters,1.0
+R+Sixth+Nonlocal,Clusters + singles,1.0
+R+Loss+Nonlocal,Random smooth,1.0
+R+Loss+Nonlocal,One central cluster,1.0
+R+Loss+Nonlocal,Many clusters,1.0
+R+Loss+Nonlocal,Clusters + singles,1.0
+R+Diff+Adv+Hyper,Random smooth,1.0
+R+Diff+Adv+Hyper,One central cluster,1.0
+R+Diff+Adv+Hyper,Many clusters,1.0
+R+Diff+Adv+Hyper,Clusters + singles,1.0
+R+Diff+Adv+SH,Random smooth,1.0
+R+Diff+Adv+SH,One central cluster,1.0
+R+Diff+Adv+SH,Many clusters,1.0
+R+Diff+Adv+SH,Clusters + singles,1.0
+R+Diff+Hyper+SH,Random smooth,1.0
+R+Diff+Hyper+SH,One central cluster,1.0
+R+Diff+Hyper+SH,Many clusters,1.0
+R+Diff+Hyper+SH,Clusters + singles,1.0
+R+Adv+Hyper+SH,Random smooth,1.0
+R+Adv+Hyper+SH,One central cluster,1.0
+R+Adv+Hyper+SH,Many clusters,1.0
+R+Adv+Hyper+SH,Clusters + singles,1.0
+R+Diff+Adv+Hyper+SH,Random smooth,1.0
+R+Diff+Adv+Hyper+SH,One central cluster,1.0
+R+Diff+Adv+Hyper+SH,Many clusters,1.0
+R+Diff+Adv+Hyper+SH,Clusters + singles,1.0
+R+KSlin,Random smooth,1.0
+R+KSlin,One central cluster,1.0
+R+KSlin,Many clusters,1.0
+R+KSlin,Clusters + singles,1.0
+CHlin,Random smooth,1.0
+CHlin,One central cluster,1.0
+CHlin,Many clusters,1.0
+CHlin,Clusters + singles,1.0
+R+Mixed,Random smooth,1.0
+R+Mixed,One central cluster,1.0
+R+Mixed,Many clusters,1.0
+R+Mixed,Clusters + singles,1.0
