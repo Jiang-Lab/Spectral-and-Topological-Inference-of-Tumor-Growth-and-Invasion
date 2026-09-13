@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tda-synth"
+version = "0.1.0"
+description = "Topological inference of tumour growth and invasion"
+requires-python = ">=3.10"
+dependencies = [
+  "gudhi>=3.10",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "PyYAML>=6.0",
+  "scipy>=1.12",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter>=1.0", "nbformat>=5.9"]
+test = ["pytest>=8.0"]
+
+[tool.setuptools]
+package-dir = {"" = "synthetic"}
+
+[tool.setuptools.packages.find]
+where = ["synthetic"]
+
+[tool.pytest.ini_options]
+pythonpath = ["synthetic"]
+testpaths = ["synthetic/tests"]

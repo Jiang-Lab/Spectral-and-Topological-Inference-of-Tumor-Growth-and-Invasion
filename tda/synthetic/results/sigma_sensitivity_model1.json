@@ -1,0 +1,172 @@
+{
+  "study": "observation-width misspecification",
+  "ic_name": "Many clusters",
+  "n_cases": 4,
+  "sigma_hat_assumed": 0.012,
+  "median_true_length_scale_ratio": 0.01200848684949638,
+  "length_scale_to_sigma_ratio": 1.0007072374580317,
+  "dhat_bias_per_unit_sigma_error": 1.4933637296985154,
+  "by_sigma_factor": {
+    "0.8": {
+      "rhat": {
+        "median_absolute": 0.0001703243820159799,
+        "p90_absolute": 0.0003302564264511415,
+        "max_absolute": 0.00037219730941716366,
+        "median_signed": -8.481311949513315e-05,
+        "fraction_overestimated": 0.25
+      },
+      "dhat": {
+        "median_absolute": 0.2682467584243094,
+        "p90_absolute": 0.2852158368782313,
+        "max_absolute": 0.29190988871799517,
+        "median_signed": -0.2682467584243094,
+        "fraction_overestimated": 0.0
+      },
+      "alpha": {
+        "median_absolute": 0.2683435981394433,
+        "p90_absolute": 0.2851616918662219,
+        "max_absolute": 0.29186642925697476,
+        "median_signed": -0.2683435981394433,
+        "fraction_overestimated": 0.0
+      }
+    },
+    "0.9": {
+      "rhat": {
+        "median_absolute": 0.00020234559337191902,
+        "p90_absolute": 0.00021493755042669078,
+        "max_absolute": 0.000219483568075174,
+        "median_signed": 2.9295132799851434e-05,
+        "fraction_overestimated": 0.5
+      },
+      "dhat": {
+        "median_absolute": 0.14224481964964916,
+        "p90_absolute": 0.15155233376569344,
+        "max_absolute": 0.15457160951777807,
+        "median_signed": -0.14224481964964916,
+        "fraction_overestimated": 0.0
+      },
+      "alpha": {
+        "median_absolute": 0.14226952468835935,
+        "p90_absolute": 0.15148616655817418,
+        "max_absolute": 0.15440218468474565,
+        "median_signed": -0.14226952468835935,
+        "fraction_overestimated": 0.0
+      }
+    },
+    "0.95": {
+      "rhat": {
+        "median_absolute": 9.523991118805874e-05,
+        "p90_absolute": 0.00017841849302102105,
+        "max_absolute": 0.0001995515695068638,
+        "median_signed": 6.252422065104789e-05,
+        "fraction_overestimated": 0.5
+      },
+      "dhat": {
+        "median_absolute": 0.07347796936147474,
+        "p90_absolute": 0.07834748194024485,
+        "max_absolute": 0.08003437980638753,
+        "median_signed": -0.07347796936147474,
+        "fraction_overestimated": 0.0
+      },
+      "alpha": {
+        "median_absolute": 0.07356860975471587,
+        "p90_absolute": 0.07830683028206817,
+        "max_absolute": 0.07997791635721084,
+        "median_signed": -0.07356860975471587,
+        "fraction_overestimated": 0.0
+      }
+    },
+    "1.0": {
+      "rhat": {
+        "median_absolute": 3.927451104237409e-05,
+        "p90_absolute": 0.00016711750648292875,
+        "max_absolute": 0.00021660649819496206,
+        "median_signed": 1.1423144838969229e-05,
+        "fraction_overestimated": 0.5
+      },
+      "dhat": {
+        "median_absolute": 0.000972138808137142,
+        "p90_absolute": 0.0013583358819616118,
+        "max_absolute": 0.001467685778446261,
+        "median_signed": -0.00023507573824589446,
+        "fraction_overestimated": 0.5
+      },
+      "alpha": {
+        "median_absolute": 0.0009483696151835727,
+        "p90_absolute": 0.0013783610246310585,
+        "max_absolute": 0.001494551395897636,
+        "median_signed": -0.000317594488169081,
+        "fraction_overestimated": 0.5
+      }
+    },
+    "1.05": {
+      "rhat": {
+        "median_absolute": 0.00012559738099752403,
+        "p90_absolute": 0.0002114900195885326,
+        "max_absolute": 0.00021660649819496206,
+        "median_signed": 9.774601479411917e-05,
+        "fraction_overestimated": 0.5
+      },
+      "dhat": {
+        "median_absolute": 0.07538557976105587,
+        "p90_absolute": 0.0800367287624454,
+        "max_absolute": 0.08165023070659538,
+        "median_signed": 0.07538557976105587,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.07528057673598942,
+        "p90_absolute": 0.07987407030705282,
+        "max_absolute": 0.0814159889761312,
+        "median_signed": 0.07528057673598942,
+        "fraction_overestimated": 1.0
+      }
+    },
+    "1.1": {
+      "rhat": {
+        "median_absolute": 8.481311949513315e-05,
+        "p90_absolute": 0.00012285190620496588,
+        "max_absolute": 0.00012910798122072123,
+        "median_signed": -1.7233005779416146e-05,
+        "fraction_overestimated": 0.5
+      },
+      "dhat": {
+        "median_absolute": 0.15742340154556053,
+        "p90_absolute": 0.16757208890873196,
+        "max_absolute": 0.17166923007328316,
+        "median_signed": 0.15742340154556053,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.15747052590250069,
+        "p90_absolute": 0.167660039288809,
+        "max_absolute": 0.17174114198452417,
+        "median_signed": 0.15747052590250069,
+        "fraction_overestimated": 1.0
+      }
+    },
+    "1.2": {
+      "rhat": {
+        "median_absolute": 0.00012293761415558955,
+        "p90_absolute": 0.00019534652183063157,
+        "max_absolute": 0.00021660649819496206,
+        "median_signed": 6.943385618179358e-05,
+        "fraction_overestimated": 0.75
+      },
+      "dhat": {
+        "median_absolute": 0.3287192017891735,
+        "p90_absolute": 0.3485943574135515,
+        "max_absolute": 0.35670134805030307,
+        "median_signed": 0.3287192017891735,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.32874940252859197,
+        "p90_absolute": 0.3483487524114374,
+        "max_absolute": 0.3564075413626432,
+        "median_signed": 0.32874940252859197,
+        "fraction_overestimated": 1.0
+      }
+    }
+  }
+}

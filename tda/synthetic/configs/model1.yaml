@@ -1,0 +1,47 @@
+# Model 1, linear:  d(rho)/d(t_hat) = D_hat lap_hat(rho) + R_hat rho
+# Every setting below is dimensionless; see tda_synth/scaling.py.
+
+# --- spatial discretization -------------------------------------------------
+pde_grid_size: 125
+
+# Equal to the PDE grid, so the observation operator smooths without resampling.
+observation_grid_size: 125
+
+# Gaussian smoothing width as a fraction of the domain side: 30 um over 2500 um.
+observation_sigma_hat: 0.012
+
+# --- density convention -----------------------------------------------------
+# No carrying capacity: rho is unbounded above. These two are the shared
+# (never per-image) filtration reference.
+rho_ref: 1.0
+filtration_reference: 1.0
+persistence_cutoff: 0.02
+homology_dimensions: [0, 1]
+
+# --- model ------------------------------------------------------------------
+model: linear
+
+# --- substeps of t_hat, numerical accuracy only -----------------------------
+# The linear propagator is exact in Fourier space, so these do not enter the
+# main benchmark; they are kept equal for the studies that do march in time.
+candidate_solver_step: 0.02
+target_solver_step: 0.02
+
+# --- candidate library, 15 x 13 ---------------------------------------------
+rhat_grid: [0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95, 1.00, 1.05]
+dhat_grid: [0.000072, 0.000080, 0.000088, 0.000096, 0.000104, 0.000112, 0.000120, 0.000128, 0.000136, 0.000144, 0.000152, 0.000160, 0.000168]
+rhat_bounds: [0.28, 1.05]
+dhat_bounds: [0.0000576, 0.000168]
+
+# --- Nelder-Mead refinement -------------------------------------------------
+refinement_n_starts: 2
+refinement_maxfev_stage1: 120
+refinement_maxfev_stage2: 80
+refinement_xatol_normalized: 0.003
+refinement_fatol: 0.0001
+
+# --- synthetic benchmark ----------------------------------------------------
+# Truths drawn off the coarse grid along both axes.
+holdout_seed: 20260822
+scale_estimation_seed: 12017
+n_holdouts: 16

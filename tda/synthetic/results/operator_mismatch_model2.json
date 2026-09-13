@@ -1,0 +1,226 @@
+{
+  "study": "forward-operator mismatch",
+  "model": "logistic",
+  "reaction_term_used_for_the_mismatched_targets": "R_hat*rho*(1-rho)",
+  "arms": {
+    "inverse_crime": "the shipped solver, 125 grid, substep 0.02 -- no mismatch at all",
+    "substep_only": "the shipped solver and grid, substep 0.002 -- time step alone",
+    "grid_only": "the shipped solver and substep, 250 grid, area-averaged back to 125 -- spatial grid alone",
+    "operator_only": "five-point Laplacian with Crank-Nicolson diffusion, 125 grid, substep 0.02 -- the spatial stencil and the diffusion integrator together, on the shipped grid and substep",
+    "full_mismatch": "five-point Laplacian, Crank-Nicolson diffusion with explicit reaction, 250 grid, substep 0.002, area-averaged to 125 -- all of them at once"
+  },
+  "candidate_solver": "spectral backward-Euler diffusion with explicit reaction, 125 grid, substep 0.02 of t_hat",
+  "initial_condition": "piecewise-constant lift of the sealed 125-point IC, so the fine run starts from the identical field",
+  "n_recoveries": 320,
+  "by_arm": {
+    "full_mismatch": {
+      "rhat": {
+        "median_absolute": 0.003773075066284581,
+        "p90_absolute": 0.019249762333482082,
+        "max_absolute": 0.030083032490974854,
+        "median_signed": 0.0014978127773962813,
+        "fraction_overestimated": 0.59375
+      },
+      "dhat": {
+        "median_absolute": 0.02570515556062705,
+        "p90_absolute": 0.044057273358665244,
+        "max_absolute": 0.103374649416448,
+        "median_signed": 0.02570515556062705,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.03106635501609837,
+        "p90_absolute": 0.04369308647716094,
+        "max_absolute": 0.1375970174541575,
+        "median_signed": 0.03106635501609837,
+        "fraction_overestimated": 1.0
+      }
+    },
+    "grid_only": {
+      "rhat": {
+        "median_absolute": 0.004061733277427203,
+        "p90_absolute": 0.025699581256986816,
+        "max_absolute": 0.03309936305732481,
+        "median_signed": -0.004061733277427203,
+        "fraction_overestimated": 0.28125
+      },
+      "dhat": {
+        "median_absolute": 0.02513479112231607,
+        "p90_absolute": 0.04200185829611246,
+        "max_absolute": 0.103374649416448,
+        "median_signed": 0.02513479112231607,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.03157444586754389,
+        "p90_absolute": 0.0474165098014869,
+        "max_absolute": 0.1375970174541575,
+        "median_signed": 0.03157444586754389,
+        "fraction_overestimated": 1.0
+      }
+    },
+    "inverse_crime": {
+      "rhat": {
+        "median_absolute": 0.00017769784406368908,
+        "p90_absolute": 0.00047370151639697063,
+        "max_absolute": 0.0006406249999998601,
+        "median_signed": -1.900623278171796e-05,
+        "fraction_overestimated": 0.453125
+      },
+      "dhat": {
+        "median_absolute": 0.0006424625589201571,
+        "p90_absolute": 0.0012748691786557788,
+        "max_absolute": 0.00254274768742015,
+        "median_signed": 8.682202021747528e-05,
+        "fraction_overestimated": 0.53125
+      },
+      "alpha": {
+        "median_absolute": 0.0007521257046254595,
+        "p90_absolute": 0.0013137883343764091,
+        "max_absolute": 0.002797054462687889,
+        "median_signed": 0.0001076586186168846,
+        "fraction_overestimated": 0.546875
+      }
+    },
+    "operator_only": {
+      "rhat": {
+        "median_absolute": 0.011636550781870796,
+        "p90_absolute": 0.027346702955776195,
+        "max_absolute": 0.042592057761732756,
+        "median_signed": -0.011636550781870796,
+        "fraction_overestimated": 0.0
+      },
+      "dhat": {
+        "median_absolute": 0.02945944263099213,
+        "p90_absolute": 0.03804683399798932,
+        "max_absolute": 0.07564019192868374,
+        "median_signed": -0.028941481706757713,
+        "fraction_overestimated": 0.03125
+      },
+      "alpha": {
+        "median_absolute": 0.016457486178666728,
+        "p90_absolute": 0.02794064436494855,
+        "max_absolute": 0.10766735506216081,
+        "median_signed": -0.016036999216735435,
+        "fraction_overestimated": 0.109375
+      }
+    },
+    "substep_only": {
+      "rhat": {
+        "median_absolute": 0.010805900499748496,
+        "p90_absolute": 0.019138797028077033,
+        "max_absolute": 0.031088042049934386,
+        "median_signed": 0.010805900499748496,
+        "fraction_overestimated": 1.0
+      },
+      "dhat": {
+        "median_absolute": 0.015427323818388582,
+        "p90_absolute": 0.02624259256378393,
+        "max_absolute": 0.03288083447476545,
+        "median_signed": 0.01506521601047766,
+        "fraction_overestimated": 0.984375
+      },
+      "alpha": {
+        "median_absolute": 0.008634154239393427,
+        "p90_absolute": 0.018768912382511164,
+        "max_absolute": 0.053153666169554664,
+        "median_signed": 0.0014756746857447411,
+        "fraction_overestimated": 0.640625
+      }
+    }
+  },
+  "by_ic_full_mismatch": {
+    "Clusters + singles": {
+      "rhat": {
+        "median_absolute": 0.0021829012563132594,
+        "p90_absolute": 0.005469844115621141,
+        "max_absolute": 0.0099865470852017,
+        "median_signed": -0.0021829012563132594,
+        "fraction_overestimated": 0.3125
+      },
+      "dhat": {
+        "median_absolute": 0.021402438456329997,
+        "p90_absolute": 0.02648124834508825,
+        "max_absolute": 0.0295865375916041,
+        "median_signed": 0.021402438456329997,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.02426936025944697,
+        "p90_absolute": 0.03322425013901691,
+        "max_absolute": 0.037781809478744065,
+        "median_signed": 0.02426936025944697,
+        "fraction_overestimated": 1.0
+      }
+    },
+    "Many clusters": {
+      "rhat": {
+        "median_absolute": 0.0036682714004171385,
+        "p90_absolute": 0.004227791543930338,
+        "max_absolute": 0.030083032490974854,
+        "median_signed": 0.003508230555735666,
+        "fraction_overestimated": 0.9375
+      },
+      "dhat": {
+        "median_absolute": 0.01577703900123737,
+        "p90_absolute": 0.03824985475117168,
+        "max_absolute": 0.103374649416448,
+        "median_signed": 0.01577703900123737,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.01269890282601411,
+        "p90_absolute": 0.03507001195817599,
+        "max_absolute": 0.1375970174541575,
+        "median_signed": 0.01269890282601411,
+        "fraction_overestimated": 1.0
+      }
+    },
+    "One central cluster": {
+      "rhat": {
+        "median_absolute": 0.006238262466907867,
+        "p90_absolute": 0.02378322252177731,
+        "max_absolute": 0.025473061760840833,
+        "median_signed": -0.006238262466907867,
+        "fraction_overestimated": 0.125
+      },
+      "dhat": {
+        "median_absolute": 0.036645857476377816,
+        "p90_absolute": 0.04437578693873287,
+        "max_absolute": 0.044818601284718984,
+        "median_signed": 0.036645857476377816,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.04184401526498244,
+        "p90_absolute": 0.04584238784623744,
+        "max_absolute": 0.059959026713950286,
+        "median_signed": 0.04184401526498244,
+        "fraction_overestimated": 1.0
+      }
+    },
+    "Random spaced": {
+      "rhat": {
+        "median_absolute": 0.005808171132273717,
+        "p90_absolute": 0.006224025831112498,
+        "max_absolute": 0.0064766050054406495,
+        "median_signed": 0.005808171132273717,
+        "fraction_overestimated": 1.0
+      },
+      "dhat": {
+        "median_absolute": 0.03936504905320616,
+        "p90_absolute": 0.046000168660791894,
+        "max_absolute": 0.049812720528363316,
+        "median_signed": 0.03936504905320616,
+        "fraction_overestimated": 1.0
+      },
+      "alpha": {
+        "median_absolute": 0.03358424873877784,
+        "p90_absolute": 0.039959892488013286,
+        "max_absolute": 0.04421654916649453,
+        "median_signed": 0.03358424873877784,
+        "fraction_overestimated": 1.0
+      }
+    }
+  }
+}

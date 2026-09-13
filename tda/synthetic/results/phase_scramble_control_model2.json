@@ -1,0 +1,25 @@
+{
+  "control": "Fourier phase scramble",
+  "single_spatial_snapshot": true,
+  "fourier_power_relative_l2_error": 4.498512178153403e-17,
+  "tda_wasserstein": {
+    "H0": 0.6407539148476555,
+    "H1": 0.9947584458397314
+  },
+  "library_median_diagram_scale": {
+    "H0": 0.18330430418026142,
+    "H1": 0.07018926859479419
+  },
+  "tda_wasserstein_in_units_of_library_scale": {
+    "H0": 3.4955748459541804,
+    "H1": 14.172514769779363
+  },
+  "scrambled_field_range": [
+    -0.48542714557816097,
+    1.0037650433921912
+  ],
+  "original_field_range": [
+    3.5438124705968245e-06,
+    0.9069720366026244
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "study": "measurement noise",
+  "noise_model": "additive Gaussian, standard deviation eta * (p99 - p01) of the 125-point density field, clipped at zero",
+  "applied_after_smoothing": false,
+  "ic_name": "Many clusters",
+  "n_cases": 4,
+  "reps_per_case": 8,
+  "by_eta": {
+    "0.0": {
+      "rhat": {
+        "median_absolute": 0.0003225571289714209,
+        "p90_absolute": 0.0005052061020529501,
+        "max_absolute": 0.0005448430493274635,
+        "median_signed": 0.0001756740252951779,
+        "fraction_overestimated": 0.5
+      },
+      "dhat": {
+        "median_absolute": 0.0006124355673720918,
+        "p90_absolute": 0.0006579839884423076,
+        "max_absolute": 0.000671624878963245,
+        "median_signed": -0.0001900341043496698,
+        "fraction_overestimated": 0.5
+      },
+      "alpha": {
+        "median_absolute": 0.0009348749976889215,
+        "p90_absolute": 0.0011625978180060171,
+        "max_absolute": 0.0012158055051119125,
+        "median_signed": -0.00036548440063365425,
+        "fraction_overestimated": 0.5
+      }
+    },
+    "0.02": {
+      "rhat": {
+        "median_absolute": 0.007494025043359007,
+        "p90_absolute": 0.020872008525279158,
+        "max_absolute": 0.041619133574007205,
+        "median_signed": -0.0011547177166488225,
+        "fraction_overestimated": 0.40625
+      },
+      "dhat": {
+        "median_absolute": 0.02517892828447222,
+        "p90_absolute": 0.06659947525558674,
+        "max_absolute": 0.1162614480101088,
+        "median_signed": -0.0005513012033501051,
+        "fraction_overestimated": 0.5
+      },
+      "alpha": {
+        "median_absolute": 0.032325149778790085,
+        "p90_absolute": 0.10423030442602818,
+        "max_absolute": 0.12996426336573802,
+        "median_signed": -0.0014361708540456858,
+        "fraction_overestimated": 0.5
+      }
+    },
+    "0.05": {
+      "rhat": {
+        "median_absolute": 0.0142793436773728,
+        "p90_absolute": 0.024558703922552775,
+        "max_absolute": 0.03916367713004474,
+        "median_signed": 0.008231836744601031,
+        "fraction_overestimated": 0.65625
+      },
+      "dhat": {
+        "median_absolute": 0.05425534791670435,
+        "p90_absolute": 0.11507577582446528,
+        "max_absolute": 0.22220400090648754,
+        "median_signed": -0.010082697598406862,
+        "fraction_overestimated": 0.40625
+      },
+      "alpha": {
+        "median_absolute": 0.04939035569960583,
+        "p90_absolute": 0.11956046407406482,
+        "max_absolute": 0.24096376857246454,
+        "median_signed": -0.012138836336922707,
+        "fraction_overestimated": 0.4375
+      }
+    },
+    "0.1": {
+      "rhat": {
+        "median_absolute": 0.03874001235936933,
+        "p90_absolute": 0.0828222540928931,
+        "max_absolute": 0.0970538116591928,
+        "median_signed": 0.013243469237911,
+        "fraction_overestimated": 0.5625
+      },
+      "dhat": {
+        "median_absolute": 0.09470150663249698,
+        "p90_absolute": 0.24436530955370891,
+        "max_absolute": 0.30858008124562697,
+        "median_signed": -0.06622832837086284,
+        "fraction_overestimated": 0.3125
+      },
+      "alpha": {
+        "median_absolute": 0.1092917290804589,
+        "p90_absolute": 0.21921230977189796,
+        "max_absolute": 0.28311722118511085,
+        "median_signed": -0.07729591431264135,
+        "fraction_overestimated": 0.34375
+      }
+    },
+    "0.15": {
+      "rhat": {
+        "median_absolute": 0.07729398745122792,
+        "p90_absolute": 0.18077573699632524,
+        "max_absolute": 0.2403497757847534,
+        "median_signed": 0.07729398745122792,
+        "fraction_overestimated": 0.96875
+      },
+      "dhat": {
+        "median_absolute": 0.18586744612525755,
+        "p90_absolute": 0.34168685972075746,
+        "max_absolute": 0.40901474712747654,
+        "median_signed": -0.013481808541902524,
+        "fraction_overestimated": 0.4375
+      },
+      "alpha": {
+        "median_absolute": 0.1826004737433184,
+        "p90_absolute": 0.3220773713690952,
+        "max_absolute": 0.40077642942968417,
+        "median_signed": -0.09475181620018622,
+        "fraction_overestimated": 0.28125
+      }
+    }
+  }
+}

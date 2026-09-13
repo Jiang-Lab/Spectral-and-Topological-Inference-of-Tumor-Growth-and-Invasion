@@ -1,0 +1,192 @@
+{
+  "analysis": "dimensionless linear recovery from one spatial snapshot",
+  "model": "linear",
+  "equation": "d(rho)/d(t_hat) = D_hat*lap_hat(rho) + R_hat*rho",
+  "one_snapshot_per_recovery": true,
+  "density_symbol": "rho",
+  "carrying_capacity_definition": "none: the linear model has no carrying capacity and rho is not bounded above",
+  "K": null,
+  "parameters": [
+    "R_hat",
+    "D_hat",
+    "tau",
+    "alpha",
+    "length_scale_ratio"
+  ],
+  "parameter_definition": {
+    "equation": "d(rho)/d(t_hat) = D_hat*lap_hat(rho) + R_hat*rho",
+    "R_hat": "R * T",
+    "D_hat": "D * T / L0**2",
+    "tau": "R_hat, written as tau in the (tau, alpha) pair",
+    "alpha": "D_hat / R_hat, the ratio; equals D / (R * L0**2)",
+    "T": "the reference time; not measured from one snapshot",
+    "reference": "tda_synth/scaling.py"
+  },
+  "units": {
+    "all": "dimensionless"
+  },
+  "four_ICs_are_separate_benchmarks": [
+    "Random spaced",
+    "One central cluster",
+    "Many clusters",
+    "Clusters + singles"
+  ],
+  "target_and_candidate_solver": "exact Fourier propagator",
+  "target_solver_step": 0.02,
+  "candidate_solver_step": 0.02,
+  "truths_are_strictly_off_grid": true,
+  "feature_sets": {
+    "h0": [
+      0
+    ],
+    "h0h1": [
+      0,
+      1
+    ]
+  },
+  "metrics": {
+    "h0": {
+      "n_single_snapshot_recoveries": 64,
+      "median_relative_error": {
+        "R_hat": 3.906249999990896e-05,
+        "D_hat": 0.0005396098958443895,
+        "alpha": 0.00048274206712550067
+      },
+      "p90_relative_error": {
+        "R_hat": 0.00012800674422517805,
+        "D_hat": 0.0010408432610406009,
+        "alpha": 0.0009469688936257251
+      },
+      "maximum_relative_error": {
+        "R_hat": 0.00037219730941716366,
+        "D_hat": 0.0022851727476874396,
+        "alpha": 0.001912263698866656
+      },
+      "both_parameters_under_10_percent": 1.0,
+      "median_signed_relative_error": {
+        "R_hat": 1.1623259009507161e-05,
+        "D_hat": -8.504350553981587e-06
+      },
+      "fraction_overestimated": {
+        "R_hat": 0.5625,
+        "D_hat": 0.5
+      },
+      "formal_optimizer_success_fraction": 1.0,
+      "median_loss_at_true_parameters": 0.0,
+      "estimate_loss_not_above_truth_fraction": 0.0
+    },
+    "h0h1": {
+      "n_single_snapshot_recoveries": 64,
+      "median_relative_error": {
+        "R_hat": 8.203414709524411e-05,
+        "D_hat": 0.0005697401260644401,
+        "alpha": 0.0006538763060277224
+      },
+      "p90_relative_error": {
+        "R_hat": 0.0002199662096894732,
+        "D_hat": 0.0011727774934993185,
+        "alpha": 0.001199985022681843
+      },
+      "maximum_relative_error": {
+        "R_hat": 0.00044148148148134733,
+        "D_hat": 0.0023786516760496033,
+        "alpha": 0.0022972150273285765
+      },
+      "both_parameters_under_10_percent": 1.0,
+      "median_signed_relative_error": {
+        "R_hat": 2.6905829596563928e-05,
+        "D_hat": -0.00010850071975074992
+      },
+      "fraction_overestimated": {
+        "R_hat": 0.59375,
+        "D_hat": 0.46875
+      },
+      "formal_optimizer_success_fraction": 1.0,
+      "median_loss_at_true_parameters": 0.0,
+      "estimate_loss_not_above_truth_fraction": 0.0
+    }
+  },
+  "config": {
+    "pde_grid_size": 125,
+    "observation_grid_size": 125,
+    "observation_sigma_hat": 0.012,
+    "rho_ref": 1.0,
+    "filtration_reference": 1.0,
+    "persistence_cutoff": 0.02,
+    "homology_dimensions": [
+      0,
+      1
+    ],
+    "model": "linear",
+    "candidate_solver_step": 0.02,
+    "target_solver_step": 0.02,
+    "rhat_grid": [
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0,
+      1.05
+    ],
+    "dhat_grid": [
+      7.2e-05,
+      8e-05,
+      8.8e-05,
+      9.6e-05,
+      0.000104,
+      0.000112,
+      0.00012,
+      0.000128,
+      0.000136,
+      0.000144,
+      0.000152,
+      0.00016,
+      0.000168
+    ],
+    "rhat_bounds": [
+      0.28,
+      1.05
+    ],
+    "dhat_bounds": [
+      5.76e-05,
+      0.000168
+    ],
+    "refinement_n_starts": 2,
+    "refinement_maxfev_stage1": 120,
+    "refinement_maxfev_stage2": 80,
+    "refinement_xatol_normalized": 0.003,
+    "refinement_fatol": 0.0001,
+    "holdout_seed": 20260822,
+    "scale_estimation_seed": 12017,
+    "n_holdouts": 16
+  },
+  "config_sha256": "25ad585c9fe7fdfc83c7f3a17220a8a8acfb4e1c098a663a29150d8921c2045d",
+  "method_sha256": "e6221f2af36f46e540c5a9dd314659bc836fa4813987301ffea2df42924c788c",
+  "distance_scales": {
+    "Random spaced|H0": 0.6571092346644484,
+    "Random spaced|H1": 0.6643213804146048,
+    "One central cluster|H0": 0.41120017227800265,
+    "One central cluster|H1": 0.05534310648473783,
+    "Many clusters|H0": 0.9375792579145488,
+    "Many clusters|H1": 0.11222320070763911,
+    "Clusters + singles|H0": 0.8382001744231092,
+    "Clusters + singles|H1": 0.23838409496693996
+  },
+  "provenance": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+    "platform": "macOS-26.0-arm64-arm-64bit-Mach-O",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "gudhi": "3.12.0",
+    "matplotlib": "3.10.6"
+  }
+}

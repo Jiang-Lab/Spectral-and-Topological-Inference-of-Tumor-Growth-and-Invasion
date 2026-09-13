@@ -1,0 +1,170 @@
+{
+  "study": "observation modes",
+  "noise_level": 0.03,
+  "n_cases": 16,
+  "initial_conditions": [
+    "Random spaced",
+    "One central cluster",
+    "Many clusters",
+    "Clusters + singles"
+  ],
+  "declared": [
+    {
+      "name": "single_snapshot",
+      "frames": [
+        1.0
+      ],
+      "note": "one spatial field at an unmeasured elapsed time, the mode a biopsy slice supplies; it fixes D_hat/R_hat, not a rate",
+      "n_frames": 1
+    },
+    {
+      "name": "multi_frame",
+      "frames": [
+        0.3,
+        0.6,
+        1.0
+      ],
+      "note": "three fields of one trajectory at known intervals, written as fractions of the last, the mode a time-lapse movie supplies",
+      "n_frames": 3
+    }
+  ],
+  "units": {
+    "search": "dimensionless",
+    "single_snapshot": "dimensionless; ratio = D_hat/R_hat",
+    "multi_frame": "dimensionless"
+  },
+  "overall": {
+    "multi_frame": {
+      "n": 64,
+      "n_frames": 3,
+      "median_relative_error": {
+        "R_hat": 0.006713837585625644,
+        "D_hat": 0.025460508847757468,
+        "alpha": 0.022634644131173973
+      },
+      "p90_relative_error": {
+        "R_hat": 0.02436304884927795,
+        "D_hat": 0.06250173596435353
+      }
+    },
+    "single_snapshot": {
+      "n": 64,
+      "n_frames": 1,
+      "median_relative_error": {
+        "R_hat": 0.007264879438326072,
+        "D_hat": 0.019562153912535157,
+        "alpha": 0.01877121491063389
+      },
+      "p90_relative_error": {
+        "R_hat": 0.03967186354150685,
+        "D_hat": 0.09275352466861485
+      }
+    }
+  },
+  "by_ic": {
+    "multi_frame|Clusters + singles": {
+      "n": 16,
+      "n_frames": 3,
+      "median_relative_error": {
+        "R_hat": 0.010224226736116726,
+        "D_hat": 0.027791059508604443,
+        "alpha": 0.020525307559713317
+      },
+      "p90_relative_error": {
+        "R_hat": 0.023116256183981807,
+        "D_hat": 0.06564456445496678
+      }
+    },
+    "multi_frame|Many clusters": {
+      "n": 16,
+      "n_frames": 3,
+      "median_relative_error": {
+        "R_hat": 0.008218218164136419,
+        "D_hat": 0.03213780153581578,
+        "alpha": 0.038727713955497595
+      },
+      "p90_relative_error": {
+        "R_hat": 0.01506800589450153,
+        "D_hat": 0.08099243363656529
+      }
+    },
+    "multi_frame|One central cluster": {
+      "n": 16,
+      "n_frames": 3,
+      "median_relative_error": {
+        "R_hat": 0.012078910439532797,
+        "D_hat": 0.02807827135376814,
+        "alpha": 0.020099671498218424
+      },
+      "p90_relative_error": {
+        "R_hat": 0.028862449926958314,
+        "D_hat": 0.055693800222017406
+      }
+    },
+    "multi_frame|Random spaced": {
+      "n": 16,
+      "n_frames": 3,
+      "median_relative_error": {
+        "R_hat": 0.001246760648124626,
+        "D_hat": 0.011889333895467327,
+        "alpha": 0.011003502606601979
+      },
+      "p90_relative_error": {
+        "R_hat": 0.0027257902675761466,
+        "D_hat": 0.02605677184819042
+      }
+    },
+    "single_snapshot|Clusters + singles": {
+      "n": 16,
+      "n_frames": 1,
+      "median_relative_error": {
+        "R_hat": 0.00888478612415234,
+        "D_hat": 0.018511763995303694,
+        "alpha": 0.02021112283097269
+      },
+      "p90_relative_error": {
+        "R_hat": 0.017568828251014856,
+        "D_hat": 0.04735791447604421
+      }
+    },
+    "single_snapshot|Many clusters": {
+      "n": 16,
+      "n_frames": 1,
+      "median_relative_error": {
+        "R_hat": 0.00630386576750596,
+        "D_hat": 0.06990085669221927,
+        "alpha": 0.06881494978424706
+      },
+      "p90_relative_error": {
+        "R_hat": 0.01804312630045777,
+        "D_hat": 0.11570664580684185
+      }
+    },
+    "single_snapshot|One central cluster": {
+      "n": 16,
+      "n_frames": 1,
+      "median_relative_error": {
+        "R_hat": 0.03916257900280895,
+        "D_hat": 0.03052597798013332,
+        "alpha": 0.032904225272327475
+      },
+      "p90_relative_error": {
+        "R_hat": 0.07712911015157711,
+        "D_hat": 0.21708363361451416
+      }
+    },
+    "single_snapshot|Random spaced": {
+      "n": 16,
+      "n_frames": 1,
+      "median_relative_error": {
+        "R_hat": 0.000929765090268558,
+        "D_hat": 0.006659694547692113,
+        "alpha": 0.008010836806939394
+      },
+      "p90_relative_error": {
+        "R_hat": 0.002087336090351268,
+        "D_hat": 0.014713111895251426
+      }
+    }
+  }
+}
