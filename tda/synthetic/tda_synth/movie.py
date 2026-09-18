@@ -22,8 +22,8 @@ from .recovery import (
 
 #: Diagrams for one candidate at every observed frame.
 Frames = tuple[Diagram, ...]
-MovieLibrary = dict[tuple[float, float], Frames]
-MovieScales = dict[tuple[int, int], float]
+MovieLibrary = dict[str, dict[tuple[float, float], Frames]]
+MovieScales = dict[tuple[str, int, int], float]
 
 
 def validate_frames(frames) -> tuple[float, ...]:
@@ -115,14 +115,17 @@ def describe_movie(
 
 
 def build_movie_library(
-    initial: np.ndarray, config: RecoveryConfig, frames
+    initial_conditions: dict[str, np.ndarray], config: RecoveryConfig, frames
 ) -> MovieLibrary:
-    """The coarse ``rhat_grid`` x ``dhat_grid``, one diagram set per frame."""
+    """The coarse ``rhat_grid`` x ``dhat_grid`` per IC, one diagram set per frame."""
     frames = validate_frames(frames)
     return {
-        (rhat, dhat): describe_movie(initial, rhat, dhat, frames, config)
-        for rhat in config.rhat_grid
-        for dhat in config.dhat_grid
+        ic_name: {
+            (rhat, dhat): describe_movie(initial, rhat, dhat, frames, config)
+            for rhat in config.rhat_grid
+            for dhat in config.dhat_grid
+        }
+        for ic_name, initial in initial_conditions.items()
     }
 
 
@@ -136,17 +139,19 @@ def estimate_movie_scales(
     """Median pairwise diagram distance per (frame, homology dimension)."""
     frames = validate_frames(frames)
     rng = np.random.default_rng(config.scale_estimation_seed)
-    points = list(library)
+    points = list(next(iter(library.values())))
     chosen = rng.choice(len(points), min(sample_size, len(points)), replace=False)
-    subset = [library[points[int(index)]] for index in chosen]
+    selected_points = [points[int(index)] for index in chosen]
     scales: MovieScales = {}
-    for slot in range(len(frames)):
-        for dimension in config.homology_dimensions:
-            distances = [
-                wasserstein2(a[slot][dimension], b[slot][dimension])
-                for a, b in combinations(subset, 2)
-            ]
-            scales[(slot, dimension)] = float(np.median(distances))
+    for ic_name, frames_by_parameter in library.items():
+        subset = [frames_by_parameter[point] for point in selected_points]
+        for slot in range(len(frames)):
+            for dimension in config.homology_dimensions:
+                distances = [
+                    wasserstein2(a[slot][dimension], b[slot][dimension])
+                    for a, b in combinations(subset, 2)
+                ]
+                scales[(ic_name, slot, dimension)] = float(np.median(distances))
     return scales
 
 
@@ -154,13 +159,14 @@ def movie_loss(
     target: Frames,
     candidate: Frames,
     scales: MovieScales,
+    ic_name: str,
     dimensions: tuple[int, ...],
 ) -> float:
     """Equal-weight standardized loss over frames and homology dimensions."""
     parts = []
     for slot in range(len(target)):
         for dimension in dimensions:
-            scale = scales[(slot, dimension)]
+            scale = scales[(ic_name, slot, dimension)]
             if scale <= 1e-12:
                 continue
             parts.append(
@@ -177,45 +183,56 @@ def score_movie_library(
 ) -> pd.DataFrame:
     rows = [
         {
+            "ic_name": ic_name,
             "rhat": rhat,
             "dhat": dhat,
             "tau": rhat,
             "alpha": dhat / rhat,
-            "loss": movie_loss(target, diagrams, scales, dimensions),
+            "loss": movie_loss(target, diagrams, scales, ic_name, dimensions),
         }
-        for (rhat, dhat), diagrams in library.items()
+        for ic_name, frames_by_parameter in library.items()
+        for (rhat, dhat), diagrams in frames_by_parameter.items()
     ]
     return pd.DataFrame(rows).sort_values("loss", ignore_index=True)
 
 
 def recover_movie(
     target: Frames,
-    initial: np.ndarray,
+    initial_conditions: dict[str, np.ndarray],
     library: MovieLibrary,
     scales: MovieScales,
     config: RecoveryConfig,
     frames,
     dimensions: tuple[int, ...] = FEATURE_SETS[PRIMARY_FEATURE_SET],
 ) -> tuple[dict, pd.DataFrame]:
-    """Coarse search, then bounded multi-start Nelder-Mead refinement."""
+    """Coarse search, then bounded multi-start Nelder-Mead refinement.
+
+    The initial condition is unknown: every IC in ``library`` is a candidate,
+    and each refinement start marches its own IC.
+    """
     frames = validate_frames(frames)
     surface = score_movie_library(target, library, scales, dimensions)
     quantum = min(config.refinement_xatol_normalized / 20.0, 1e-4)
-    cache: dict[tuple[int, int], Frames] = {}
+    caches: dict[str, dict[tuple[int, int], Frames]] = {}
 
-    def diagrams_at(z: np.ndarray) -> Frames:
+    def diagrams_at(ic_name: str, z: np.ndarray) -> Frames:
         z = np.clip(np.asarray(z, dtype=float), 0.0, 1.0)
         key = (int(round(z[0] / quantum)), int(round(z[1] / quantum)))
+        cache = caches.setdefault(ic_name, {})
         if key not in cache:
             rhat, dhat = unit_to_parameter(np.array(key, dtype=float) * quantum, config)
-            cache[key] = describe_movie(initial, rhat, dhat, frames, config)
+            cache[key] = describe_movie(
+                initial_conditions[ic_name], rhat, dhat, frames, config
+            )
         return cache[key]
-
-    def objective(z: np.ndarray) -> float:
-        return movie_loss(target, diagrams_at(z), scales, dimensions)
 
     runs = []
     for _, row in surface.head(config.refinement_n_starts).iterrows():
+        start_ic = str(row["ic_name"])
+
+        def objective(z: np.ndarray, ic_name: str = start_ic) -> float:
+            return movie_loss(target, diagrams_at(ic_name, z), scales, ic_name, dimensions)
+
         current = parameter_to_unit(float(row["rhat"]), float(row["dhat"]), config)
         stages = []
         for stage_index, budget in enumerate(
@@ -240,6 +257,7 @@ def recover_movie(
             stages.append(
                 {
                     "stage": stage_index,
+                    "ic_name": start_ic,
                     "rhat": rhat,
                     "dhat": dhat,
                     "tau": rhat,
@@ -257,6 +275,7 @@ def recover_movie(
     best = dict(min(runs, key=lambda row: row["loss"]))
     best["n_frames"] = len(frames)
     best["frames"] = list(frames)
+    best["coarse_ic_name"] = str(surface.iloc[0]["ic_name"])
     best["coarse_rhat"] = float(surface.iloc[0]["rhat"])
     best["coarse_dhat"] = float(surface.iloc[0]["dhat"])
     best["coarse_loss"] = float(surface.iloc[0]["loss"])

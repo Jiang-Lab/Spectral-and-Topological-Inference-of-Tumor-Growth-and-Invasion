@@ -26,7 +26,8 @@
   "units": {
     "all": "dimensionless"
   },
-  "four_ICs_are_separate_benchmarks": [
+  "initial_condition_is_recovered": true,
+  "candidate_initial_conditions": [
     "Random spaced",
     "One central cluster",
     "Many clusters",
@@ -171,7 +172,7 @@
     "n_holdouts": 16
   },
   "config_sha256": "81ebaaea8007570612c8b785fbc860388a55dd628a37b5abfd33714bf494f92d",
-  "method_sha256": "e6221f2af36f46e540c5a9dd314659bc836fa4813987301ffea2df42924c788c",
+  "method_sha256": "5bb560475d57f42a7258dc0e84e332444b9003fc675b9fc5c36293f7c5d1b14b",
   "distance_scales": {
     "Random spaced|H0": 0.3063469855681908,
     "Random spaced|H1": 0.35565725953201255,

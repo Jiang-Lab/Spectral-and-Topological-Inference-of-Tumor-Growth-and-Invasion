@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from collections.abc import Callable
 from dataclasses import dataclass
-from functools import lru_cache
 from itertools import combinations
 
 import numpy as np
@@ -136,26 +135,30 @@ def score_library(
     target: Diagram,
     library: Library,
     scales: dict[tuple[str, int], float],
-    ic_name: str,
     dimensions: tuple[int, ...],
 ) -> pd.DataFrame:
-    """Score one snapshot against the library built from the same IC."""
+    """Score one snapshot against every candidate the library holds.
+
+    The initial condition is not supplied; each candidate is judged on its own
+    diagram, so the surface ranks ``(ic_name, rhat, dhat)`` jointly.
+    """
     rows: list[dict[str, float | str]] = []
-    for candidate in library[ic_name].values():
-        loss, components, distances = diagram_loss(
-            target, candidate.diagram, scales, ic_name, dimensions
-        )
-        row: dict[str, float | str] = {
-            "ic_name": ic_name,
-            "rhat": candidate.rhat,
-            "dhat": candidate.dhat,
-            "tau": candidate.rhat,
-            "alpha": candidate.dhat / candidate.rhat,
-            "loss": loss,
-        }
-        row.update({f"h{q}_loss": value for q, value in components.items()})
-        row.update({f"h{q}_distance": value for q, value in distances.items()})
-        rows.append(row)
+    for ic_name, candidates_by_parameter in library.items():
+        for candidate in candidates_by_parameter.values():
+            loss, components, distances = diagram_loss(
+                target, candidate.diagram, scales, ic_name, dimensions
+            )
+            row: dict[str, float | str] = {
+                "ic_name": ic_name,
+                "rhat": candidate.rhat,
+                "dhat": candidate.dhat,
+                "tau": candidate.rhat,
+                "alpha": candidate.dhat / candidate.rhat,
+                "loss": loss,
+            }
+            row.update({f"h{q}_loss": value for q, value in components.items()})
+            row.update({f"h{q}_distance": value for q, value in distances.items()})
+            rows.append(row)
     return pd.DataFrame(rows).sort_values("loss", ignore_index=True)
 
 
@@ -195,59 +198,64 @@ def _snap(z: np.ndarray, quantum: float) -> np.ndarray:
 
 def recover_continuous(
     target_field: np.ndarray | None,
-    rho_initial: np.ndarray,
+    initial_conditions: dict[str, np.ndarray],
     library: Library,
     scales: dict[tuple[str, int], float],
     config: RecoveryConfig,
-    ic_name: str,
     dimensions: tuple[int, ...] = FEATURE_SETS[PRIMARY_FEATURE_SET],
     *,
     target_diagram: Diagram | None = None,
     descriptor: Descriptor = persistence_descriptor,
 ) -> tuple[dict, pd.DataFrame]:
-    """Coarse grid search, then bounded multi-start Nelder-Mead."""
+    """Coarse grid search, then bounded multi-start Nelder-Mead.
+
+    The initial condition is treated as unknown: every IC in ``library`` is a
+    candidate, and each refinement start marches its own IC. The reported
+    estimate carries the ``ic_name`` it was found under.
+    """
     if target_diagram is None:
         if target_field is None:
             raise ValueError("pass either target_field or target_diagram")
         target_diagram = descriptor(target_field, config)
     target = target_diagram
-    used = usable_dimensions(scales, ic_name, dimensions)
-    if not used:
-        raise ValueError(f"no usable homology dimension for {ic_name}")
-    surface = score_library(target, library, scales, ic_name, dimensions)
+    surface = score_library(target, library, scales, dimensions)
     starts = surface.head(config.refinement_n_starts)
 
     # Cache on the normalized coordinates, quantized below the Nelder-Mead
     # tolerance. Raw parameters never hit: D_hat ~ 1e-4 keeps eleven digits.
     cache_quantum = min(config.refinement_xatol_normalized / 20.0, 1e-4)
+    caches: dict[str, dict[tuple[int, int], Diagram]] = {}
 
-    @lru_cache(maxsize=4096)
-    def candidate_diagram_quantized(z0_key: int, z1_key: int) -> Diagram:
-        rhat_key, dhat_key = unit_to_parameter(
-            np.array([z0_key * cache_quantum, z1_key * cache_quantum]), config
-        )
-        rho = simulate_snapshot(
-            rho_initial,
-            rhat_key,
-            dhat_key,
-            model=config.model,
-            solver_step=config.candidate_solver_step,
-        )
-        return descriptor(rho, config)
-
-    def candidate_diagram(z: np.ndarray) -> Diagram:
+    def candidate_diagram(ic_name: str, z: np.ndarray) -> Diagram:
         z = np.clip(np.asarray(z, dtype=float), 0.0, 1.0)
-        return candidate_diagram_quantized(
-            int(round(z[0] / cache_quantum)), int(round(z[1] / cache_quantum))
-        )
+        key = (int(round(z[0] / cache_quantum)), int(round(z[1] / cache_quantum)))
+        cache = caches.setdefault(ic_name, {})
+        cached = cache.get(key)
+        if cached is None:
+            rhat_key, dhat_key = unit_to_parameter(
+                np.array([key[0] * cache_quantum, key[1] * cache_quantum]), config
+            )
+            rho = simulate_snapshot(
+                initial_conditions[ic_name],
+                rhat_key,
+                dhat_key,
+                model=config.model,
+                solver_step=config.candidate_solver_step,
+            )
+            cached = descriptor(rho, config)
+            cache[key] = cached
+        return cached
 
     runs: list[dict] = []
     for _, coarse in starts.iterrows():
+        start_ic = str(coarse["ic_name"])
+        if not usable_dimensions(scales, start_ic, dimensions):
+            continue
         coarse_parameter = (float(coarse["rhat"]), float(coarse["dhat"]))
 
-        def objective(z: np.ndarray) -> float:
+        def objective(z: np.ndarray, ic_name: str = start_ic) -> float:
             value, _, _ = diagram_loss(
-                target, candidate_diagram(z), scales, ic_name, dimensions
+                target, candidate_diagram(ic_name, z), scales, ic_name, dimensions
             )
             return value
 
@@ -276,6 +284,7 @@ def recover_continuous(
             stages.append(
                 {
                     "stage": stage_index,
+                    "ic_name": start_ic,
                     "rhat": rhat,
                     "dhat": dhat,
                     "tau": rhat,
@@ -294,6 +303,7 @@ def recover_continuous(
         best_stage = min(stages, key=lambda row: row["loss"])
         runs.append(
             {
+                "ic_name": start_ic,
                 "coarse_rhat": coarse_parameter[0],
                 "coarse_dhat": coarse_parameter[1],
                 "coarse_loss": float(coarse["loss"]),
@@ -302,15 +312,22 @@ def recover_continuous(
             }
         )
 
+    if not runs:
+        raise ValueError("no usable homology dimension for any candidate")
+
     winner = min(runs, key=lambda row: row["best"]["loss"])
     best = dict(winner["best"])
+    best["ic_name"] = winner["ic_name"]
     # Success of the run that produced the reported estimate.
     best["success"] = bool(winner["best"]["success"])
     best["any_start_succeeded"] = any(
         stage["success"] for run in runs for stage in run["stages"]
     )
-    best["dimensions_used"] = list(used)
+    best["dimensions_used"] = list(
+        usable_dimensions(scales, winner["ic_name"], dimensions)
+    )
     best["dimensions_requested"] = list(dimensions)
+    best["coarse_ic_name"] = str(surface.iloc[0]["ic_name"])
     best["coarse_rhat"] = float(surface.iloc[0]["rhat"])
     best["coarse_dhat"] = float(surface.iloc[0]["dhat"])
     best["coarse_loss"] = float(surface.iloc[0]["loss"])

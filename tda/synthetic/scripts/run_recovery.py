@@ -254,11 +254,10 @@ def run(args: argparse.Namespace) -> dict:
                 print(f"[{sequence}/{total}] {record_id}", flush=True)
                 estimate, surface = recover_continuous(
                     target_field,
-                    rho_initial,
+                    initials,
                     library,
                     scales,
                     config,
-                    ic_name,
                     dimensions,
                 )
                 candidate_at_truth = simulate_snapshot(
@@ -286,6 +285,8 @@ def run(args: argparse.Namespace) -> dict:
                     "record_id": record_id,
                     "case_id": str(truth["case_id"]),
                     "ic_name": ic_name,
+                    "recovered_ic_name": str(estimate["ic_name"]),
+                    "ic_correct": bool(estimate["ic_name"] == ic_name),
                     "feature_set": feature_name,
                     "single_snapshot": True,
                     # Absent from Model 1's CSV rather than present and blank.
@@ -386,7 +387,8 @@ def run(args: argparse.Namespace) -> dict:
         "units": {
             "all": "dimensionless",
         },
-        "four_ICs_are_separate_benchmarks": list(initials),
+        "initial_condition_is_recovered": True,
+        "candidate_initial_conditions": list(initials),
         "target_and_candidate_solver": (
             "exact Fourier propagator"
             if config.model == "linear"
@@ -448,11 +450,10 @@ def run(args: argparse.Namespace) -> dict:
         )
         estimate, showcase_surface = recover_continuous(
             target_field,
-            rho_initial,
+            initials,
             library,
             scales,
             config,
-            ic_name,
             FEATURE_SETS[PRIMARY_FEATURE_SET],
         )
         showcase = {
@@ -465,8 +466,11 @@ def run(args: argparse.Namespace) -> dict:
 
     assert showcase_surface is not None
     showcase_surface.to_csv(result_dir / f"recovery_surface_{tag}.csv", index=False)
+    loss_map_surface = showcase_surface[
+        showcase_surface["ic_name"] == showcase["estimate"]["ic_name"]
+    ]
     best_field = simulate_snapshot(
-        initials[str(showcase["ic_name"])],
+        initials[str(showcase["estimate"]["ic_name"])],
         float(showcase["estimate"]["rhat"]),
         float(showcase["estimate"]["dhat"]),
         model=config.model,
@@ -495,7 +499,7 @@ def run(args: argparse.Namespace) -> dict:
         result_dir / f"recovery_target_persistence_{tag}.csv",
     )
     figure, _ = plot_loss_map(
-        showcase_surface, result_dir / f"recovery_loss_map_{tag}.png"
+        loss_map_surface, result_dir / f"recovery_loss_map_{tag}.png"
     )
     plt.close(figure)
     figure, _ = plot_diagram(

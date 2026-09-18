@@ -17,6 +17,7 @@ MAIN = (("run_recovery.py", ["--resume"]),)
 CONTROLS = (("run_phase_control.py", []),)
 STUDIES = (
     ("run_operator_mismatch.py", []),
+    ("run_ic_mismatch.py", []),
     ("run_robustness.py", []),
     ("run_scenarios.py", []),
 )

@@ -89,11 +89,12 @@ def save_frame_figure(config, initials, truth, args) -> None:
     ic_name = SHOWCASE_IC if SHOWCASE_IC in args.ics else args.ics[0]
     initial = initials[ic_name]
     frames = movie.frames_for("multi_frame")
+    selected = {name: initials[name] for name in args.ics}
     truth_fields = simulate_movie(
         initial, float(truth["rhat"]), float(truth["dhat"]), frames,
         model=config.model, solver_step=config.target_solver_step,
     )
-    library = build_movie_library(initial, config, frames)
+    library = build_movie_library(selected, config, frames)
     scales = estimate_movie_scales(library, config, frames)
     target = tuple(
         noisy_diagram(field, config, args.noise,
@@ -101,10 +102,10 @@ def save_frame_figure(config, initials, truth, args) -> None:
         for frame, field in zip(frames, truth_fields)
     )
     estimate, _ = recover_movie(
-        target, initial, library, scales, config, frames, DIMENSIONS
+        target, selected, library, scales, config, frames, DIMENSIONS
     )
     found = simulate_movie(
-        initial, estimate["rhat"], estimate["dhat"], frames,
+        selected[str(estimate["ic_name"])], estimate["rhat"], estimate["dhat"], frames,
         model=config.model, solver_step=config.candidate_solver_step,
     )
     gaps = [np.abs(a - b) for a, b in zip(truth_fields, found)]
@@ -144,14 +145,15 @@ def main() -> None:
     initials = load_initial_conditions(IC_PATH)
     cases = truths(config, args.cases)
 
+    selected = {name: initials[name] for name in args.ics}
     rows = []
     for mode in args.modes:
         frames = movie.frames_for(mode)
         print(f"[{mode}] {len(frames)} field(s) at {list(frames)}", flush=True)
+        library = build_movie_library(selected, config, frames)
+        scales = estimate_movie_scales(library, config, frames)
         for ic_name in args.ics:
             initial = initials[ic_name]
-            library = build_movie_library(initial, config, frames)
-            scales = estimate_movie_scales(library, config, frames)
             for case_index, truth in enumerate(cases):
                 fields = simulate_movie(
                     initial,
@@ -175,7 +177,7 @@ def main() -> None:
                     for frame, field in zip(frames, fields)
                 )
                 estimate, _ = recover_movie(
-                    target, initial, library, scales, config, frames, DIMENSIONS
+                    target, selected, library, scales, config, frames, DIMENSIONS
                 )
                 pair = canonical(estimate["rhat"], estimate["dhat"])
                 found = report(estimate["rhat"], estimate["dhat"])
@@ -186,6 +188,8 @@ def main() -> None:
                         "mode": mode,
                         "n_frames": len(frames),
                         "ic_name": ic_name,
+                        "recovered_ic_name": str(estimate["ic_name"]),
+                        "ic_correct": bool(estimate["ic_name"] == ic_name),
                         "case_id": truth["case_id"],
                         "true_rhat": true_values.rhat,
                         "true_dhat": true_values.dhat,

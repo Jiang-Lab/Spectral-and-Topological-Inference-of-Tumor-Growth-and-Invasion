@@ -76,7 +76,13 @@ def recover(target, rho_initial, library, scales, config, ic_name, *, diagram=Fa
     kwargs = {"target_diagram": target} if diagram else {}
     field = None if diagram else target
     estimate, _ = recover_continuous(
-        field, rho_initial, library, scales, config, ic_name, DIMENSIONS, **kwargs
+        field,
+        {ic_name: rho_initial},
+        {ic_name: library[ic_name]},
+        scales,
+        config,
+        DIMENSIONS,
+        **kwargs,
     )
     return estimate
 

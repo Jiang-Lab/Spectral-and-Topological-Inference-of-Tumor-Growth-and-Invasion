@@ -1,0 +1,27 @@
+{
+  "n_recoveries": 64,
+  "ic_recovered_correctly_fraction": 0.0,
+  "errors": {
+    "rhat": {
+      "median_absolute": 0.2568968609865471,
+      "p90_absolute": 0.631376891284515,
+      "max_absolute": 0.6840935799782372,
+      "median_signed": -0.23770627802690578,
+      "fraction_overestimated": 0.25
+    },
+    "dhat": {
+      "median_absolute": 0.4207219845383785,
+      "p90_absolute": 0.7305671727888914,
+      "max_absolute": 0.8999366687777072,
+      "median_signed": 0.2979888898331929,
+      "fraction_overestimated": 0.75
+    },
+    "alpha": {
+      "median_absolute": 1.2327900938795708,
+      "p90_absolute": 2.87577708922921,
+      "max_absolute": 4.128410914927769,
+      "median_signed": 1.2327900938795708,
+      "fraction_overestimated": 0.75
+    }
+  }
+}

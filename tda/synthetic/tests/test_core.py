@@ -517,10 +517,12 @@ def test_single_frame_movie_recovery_matches_the_single_frame_pipeline(cfg):
 
     library = build_library({name: initial}, cfg)
     scales = estimate_scales(library, cfg.homology_dimensions, config=cfg)
-    single, _ = recover_continuous(target_field, initial, library, scales, cfg, name)
+    single, _ = recover_continuous(
+        target_field, {name: initial}, library, scales, cfg
+    )
 
     frames = (1.0,)
-    movie_library = build_movie_library(initial, cfg, frames)
+    movie_library = build_movie_library({name: initial}, cfg, frames)
     movie_scales = estimate_movie_scales(movie_library, cfg, frames)
     movie_target = describe_movie(
         initial,
@@ -531,7 +533,7 @@ def test_single_frame_movie_recovery_matches_the_single_frame_pipeline(cfg):
         solver_step=cfg.target_solver_step,
     )
     multi, _ = recover_movie(
-        movie_target, initial, movie_library, movie_scales, cfg, frames
+        movie_target, {name: initial}, movie_library, movie_scales, cfg, frames
     )
 
     assert multi["rhat"] == pytest.approx(single["rhat"], rel=1e-9)
